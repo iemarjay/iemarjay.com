@@ -45,10 +45,11 @@ export default function Home() {
             </p>
 
             <a
-              href="https://screen3.com"
+              href="https://screen3.io"
+              target="_blank"
               className="text-white opacity-70 hover:opacity-100 transition spread-on-hover"
             >
-              screen3.com
+              screen3.io
               <span className={"pl-1 child"}>→</span>
             </a>
           </div>

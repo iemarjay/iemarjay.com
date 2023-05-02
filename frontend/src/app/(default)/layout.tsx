@@ -73,7 +73,7 @@ export default function Default({ children }: { children: JSX.Element }) {
         </h1>
         <div className="max-w-xl text-justify">
           <p className="mb-3">
-            Full-stack software engineer, blockchain engineer and serial maker
+            Full-stack software engineer, blockchain engineer and serial builder
           </p>
           <p className="mb-3">
             I have a wide range of technical experience, including building
