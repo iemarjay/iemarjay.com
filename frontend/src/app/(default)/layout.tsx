@@ -63,15 +63,15 @@ export default function Default({ children }: { children: JSX.Element }) {
           <Image
             src={"/media/emar.png"}
             fill={true}
-            className={"object-contain object-left-top"}
+            className={"object-contain object-center"}
             alt={"Emmanuel Joseph"}
           />
         </div>
-        <h1 className="font-gilroy font-medium text-xl md:text-2xl text-[#E7D9EF] mt-5 mb-3">
+        <h1 className="font-gilroy font-medium text-xl md:text-2xl text-[#E7D9EF] text-center mt-5 mb-3">
           Hi, I&#39;m{" "}
           <span className="text-[#E6BAFF] font-semibold">Emmanuel Joseph</span>
         </h1>
-        <div className="max-w-xl text-justify">
+        <div className="max-w-xl mx-auto text-justify">
           <p className="mb-3">
             Full-stack software engineer, blockchain engineer and serial builder
           </p>
@@ -81,13 +81,15 @@ export default function Default({ children }: { children: JSX.Element }) {
             software solutions for various industries
           </p>
 
-          <a
-            href="mailto:emarjay921@gmail.com"
-            className="text-[#B54FED] font-medium transition hover:opacity-60 inline-block font-gilroy spread-on-hover"
-          >
-            <span className="underline">Hire Me</span>{" "}
-            <span className={"transition child"}>↗</span>
-          </a>
+          <div className="text-center">
+            <a
+              href="mailto:emarjay921@gmail.com"
+              className="text-[#B54FED] font-medium transition hover:opacity-60 inline-block font-gilroy spread-on-hover"
+            >
+              <span className="underline">Hire Me</span>{" "}
+              <span className={"transition child"}>↗</span>
+            </a>
+          </div>
         </div>
 
         <nav className="flex mt-8 border-b border-[#252525]">
