@@ -1,3 +1,5 @@
+@import "../fonts/gilroy/stylesheet.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +26,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.font-gilroy {
+  font-family: Gilroy, sans-serif;
+}
+
+.spread-on-hover .child {
+  transition: all .3s cubic-bezier(.05,.03,.35,1);
+}
+.spread-on-hover:hover .child {
+  @apply ml-1
 }
