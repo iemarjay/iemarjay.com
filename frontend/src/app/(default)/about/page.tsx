@@ -4,7 +4,7 @@ export default function About() {
       <p className="mb-6">
         I&#39;m a Fullstack Software/Blockchain Engineer with a passion for
         developing innovative solutions that solve real-world problems. With
-        over 5 years of experience in software development, I&#39;ve worked on a
+        over 8 years of experience in software development, I&#39;ve worked on a
         range of projects spanning Fintech, blockchain, e-commerce, and
         enterprise software.
       </p>
@@ -48,7 +48,10 @@ export default function About() {
       <p className="mb-6">
         If you&#39;re looking for a talented Fullstack Software Engineer who can
         deliver innovative solutions that meet your business needs, feel free to
-        contact me. Thank you for visiting my portfolio website!
+        contact me.
+      </p>
+      <p className="mb-6 font-medium text-[#E6BAFF]">
+        Thank you for visiting my portfolio website!
       </p>
     </div>
   );
