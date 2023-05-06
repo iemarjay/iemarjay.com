@@ -1,14 +1,21 @@
 "use client";
 
-export function ProductVideo(props: { src: string; poster: string }) {
+export function ProductVideo(props: {
+  src: string;
+  poster: string;
+  color?: string;
+}) {
   return (
     <video
       preload={"none"}
       src={props.src}
       loop
-      style={{ backgroundImage: `url(${props.poster})` }}
+      style={{
+        backgroundImage: `url(${props.poster})`,
+        backgroundColor: props.color,
+      }}
       className={
-        "object-cover object-center rounded-t-xl w-full h-60 bg-cover bg-center"
+        "object-cover object-center rounded-t-xl w-full h-60 bg-cover] bg-center"
       }
       controls={false}
       muted={true}

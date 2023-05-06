@@ -9,9 +9,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "iemarjay.com",
+  title: "Emmanuel Joseph (iemarjay)",
   description:
-    "Emmanuel Joseph (iemarjay), Fullstack software engineer, blockchain engineer and serial maker",
+    "Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Full-stack software engineer, blockchain engineer and serial builder\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries"
+          content="Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries"
         />
         <meta property="og:url" content="https://iemarjay.com" />
         <meta

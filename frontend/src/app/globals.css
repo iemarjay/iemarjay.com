@@ -38,3 +38,10 @@ body {
 .spread-on-hover:hover .child {
   @apply ml-1
 }
+
+.project:hover {
+  transition: 1.5s;
+}
+.project:hover .description {
+  bottom: 0
+}

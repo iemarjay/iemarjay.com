@@ -1,6 +1,7 @@
 import Icon from "@/components/icon";
 import Image from "next/image";
 import Link from "next/link";
+import NavLink from "@/components/NavLink";
 
 export default function Default({ children }: { children: JSX.Element }) {
   return (
@@ -14,7 +15,7 @@ export default function Default({ children }: { children: JSX.Element }) {
           >
             <Icon
               name={"linked-in"}
-              className={"text-[#E7D9EF] text-opacity-60 hover:text-opacity-90"}
+              className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
             />
           </a>
           <a
@@ -24,7 +25,7 @@ export default function Default({ children }: { children: JSX.Element }) {
           >
             <Icon
               name={"github"}
-              className={"text-[#E7D9EF] text-opacity-60 hover:text-opacity-90"}
+              className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
             />
           </a>
           <a
@@ -34,7 +35,7 @@ export default function Default({ children }: { children: JSX.Element }) {
           >
             <Icon
               name={"twitter"}
-              className={"text-[#E7D9EF] text-opacity-60 hover:text-opacity-90"}
+              className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
             />
           </a>
           <a
@@ -44,7 +45,7 @@ export default function Default({ children }: { children: JSX.Element }) {
           >
             <Icon
               name={"youtube"}
-              className={"text-[#E7D9EF] text-opacity-60 hover:text-opacity-90"}
+              className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
             />
           </a>
           <a
@@ -54,7 +55,7 @@ export default function Default({ children }: { children: JSX.Element }) {
           >
             <Icon
               name={"instagram"}
-              className={"text-[#E7D9EF] text-opacity-60 hover:text-opacity-90"}
+              className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
             />
           </a>
         </div>
@@ -63,15 +64,15 @@ export default function Default({ children }: { children: JSX.Element }) {
           <Image
             src={"/media/emar.png"}
             fill={true}
-            className={"object-contain object-center"}
+            className={"object-contain object-left"}
             alt={"Emmanuel Joseph"}
           />
         </div>
-        <h1 className="font-gilroy font-medium text-xl md:text-2xl text-[#E7D9EF] text-center mt-5 mb-3">
+        <h1 className="font-gilroy font-medium text-xl md:text-2xl text-[#E7D9EF] mt-5 mb-3">
           Hi, I&#39;m{" "}
           <span className="text-[#E6BAFF] font-semibold">Emmanuel Joseph</span>
         </h1>
-        <div className="max-w-xl mx-auto text-justify">
+        <div className="max-w-xl text-justify">
           <p className="mb-3">
             Full-stack software engineer, blockchain engineer and serial builder
           </p>
@@ -81,7 +82,7 @@ export default function Default({ children }: { children: JSX.Element }) {
             software solutions for various industries
           </p>
 
-          <div className="text-center">
+          <div className="">
             <a
               href="mailto:emarjay921@gmail.com"
               className="text-[#B54FED] font-medium transition hover:opacity-60 inline-block font-gilroy spread-on-hover"
@@ -92,13 +93,19 @@ export default function Default({ children }: { children: JSX.Element }) {
           </div>
         </div>
 
-        <nav className="flex mt-8 border-b border-[#252525]">
-          <Link href={"/"} className="mr-8 pt-2 pb-4 transition">
-            Products
-          </Link>
-          <Link href={"/projects"} className={`mr-8 pt-2 pb-4 transition`}>
-            Projects
-          </Link>
+        <nav className="flex font-gilroy font-medium mt-16 mb-8 border-b border-[#252525]">
+          <NavLink href={"/"}>Products</NavLink>
+          {/*<NavLink href={"/projects"}>Projects</NavLink>*/}
+          <NavLink href={"/about"}>About</NavLink>
+          <a
+            href={
+              "https://docs.google.com/document/d/129OPS9dKhkD2wrwwEcE-auKGZPgWHKJPDmE4jM-TdHI/edit?usp=sharing"
+            }
+            target={"_blank"}
+            className={`mr-8 pt-2 pb-4 transition hover:opacity-90 opacity-50`}
+          >
+            Resume <span className={"transition child"}>↗</span>
+          </a>
         </nav>
 
         {children}

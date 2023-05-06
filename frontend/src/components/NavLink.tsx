@@ -12,10 +12,8 @@ export default function NavLink(props: {
   return (
     <Link
       href={props.href}
-      className={`mr-8 pt-2 pb-4 transition ${
-        props.pattern && pathname.match(props.pattern)
-          ? "opacity-70"
-          : "opacity-50 hover:opacity-90"
+      className={`mr-8 pt-2 pb-4 transition hover:opacity-90 ${
+        pathname === props.href ? "text-[#E6BAFF]" : "opacity-50"
       }`}
     >
       {props.children}
