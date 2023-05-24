@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={"scroll-smooth"}>
       <Head>
         <meta property="og:title" content="Joseph Emmanuel (iemarjay)" />
         <meta property="og:type" content="website" />
