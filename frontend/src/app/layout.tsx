@@ -10,52 +10,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Emmanuel Joseph (iemarjay)",
-  description: "Full-stack Engineer, Blockchain Engineer",
-  icons: {
-    other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/icon.svg",
-    },
-    icon: [
-      // @ts-ignore
-      { url: "/icon-16x16.png", size: "16x16" },
-      { url: "/icon.svg", size: "32x32" },
-    ],
-    shortcut: "/icon.svg",
-    apple: "/icon.svg",
-    android: [
-      {
-        url: "/icon-192x192.svg",
-        size: "192x192",
-      },
-      {
-        url: "/icon-512x512.svg",
-        size: "512x512",
-      },
-    ],
-  },
-
-  openGraph: {
-    title: "Emmanuel Joseph (iemarjay)",
-    description: "Full-stack Engineer, Blockchain Engineer",
-    url: "iemarjay.com",
-    siteName: "Emmanuel Joseph (iemarjay)",
-    images: [
-      {
-        url: "/media/hire-emmanuel-joseph-iemarjay.png",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "/media/hire-emmanuel-joseph-iemarjay.png",
-        width: 1800,
-        height: 1600,
-        alt: "Screen3 preview",
-      },
-    ],
-    locale: "en-US",
-    type: "website",
-  },
+  description:
+    "Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries",
 };
 
 export default function RootLayout({
