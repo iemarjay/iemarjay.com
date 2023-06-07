@@ -1,4 +1,4 @@
-import {ProductVideo} from "@/components/productVideo";
+import { ProductVideo } from "@/components/productVideo";
 import Image from "next/image";
 import Icon from "@/components/icon";
 
@@ -23,8 +23,8 @@ export default function Home() {
               Full-stack Engineer, Blockchain Engineer
             </h2>
             <p className="mb-3 text-[#c4b0cf] leading-normal">
-              I have a built multiple products, won numerous hack“athons and
-              creating software solutions for various industries
+              I have a built multiple products, won numerous hackathons and
+              created software solutions for various industries
             </p>
 
             <div className="">
@@ -45,7 +45,9 @@ export default function Home() {
             >
               <Icon
                 name={"linked-in"}
-                className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
+                className={
+                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
+                }
               />
             </a>
             <a
@@ -55,7 +57,9 @@ export default function Home() {
             >
               <Icon
                 name={"github"}
-                className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
+                className={
+                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
+                }
               />
             </a>
             <a
@@ -65,7 +69,9 @@ export default function Home() {
             >
               <Icon
                 name={"twitter"}
-                className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
+                className={
+                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
+                }
               />
             </a>
             <a
@@ -75,7 +81,9 @@ export default function Home() {
             >
               <Icon
                 name={"youtube"}
-                className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
+                className={
+                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
+                }
               />
             </a>
             <a
@@ -85,7 +93,9 @@ export default function Home() {
             >
               <Icon
                 name={"instagram"}
-                className={"text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"}
+                className={
+                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
+                }
               />
             </a>
           </div>
@@ -93,9 +103,30 @@ export default function Home() {
 
         <nav className={"text-sm text-[#c4b0cf] hidden lg:block"}>
           <ul>
-            <li><a href="#about" className={"block py-3 hover:text-[#E7D9EF] transition-all"}>ABOUT</a></li>
-            <li><a href="#project" className={"block py-3 hover:text-[#E7D9EF] transition-all"}>PROJECTS</a></li>
-            <li><a href="#experience" className={"block py-3 hover:text-[#E7D9EF] transition-all"}>EXPERIENCE</a></li>
+            <li>
+              <a
+                href="#about"
+                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+              >
+                ABOUT
+              </a>
+            </li>
+            <li>
+              <a
+                href="#project"
+                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+              >
+                PROJECTS
+              </a>
+            </li>
+            <li>
+              <a
+                href="#experience"
+                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+              >
+                EXPERIENCE
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -161,17 +192,31 @@ export default function Home() {
                   </a>
                 </h3>
                 <p className="mt-4 text-sm leading-normal">
-                  An all-in-one app for recording, organizing knowledge, and sharing video updates
+                  An all-in-one app for recording, organizing knowledge, and
+                  sharing video updates
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Electron</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">NextJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Node</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Typescript</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">FFMPEG</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Theta Network
-                    </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">WebRTC</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Electron
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NextJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Typescript
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    FFMPEG
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Theta Network
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    WebRTC
+                  </span>
                 </div>
               </div>
 
@@ -188,85 +233,181 @@ export default function Home() {
           <h1 className="text-sm font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
             Experience
           </h1>
-          
+
           <div className="text-[#c4b0cf]">
             <div className="">
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
-                <h3 className="text-white leading-7">Lead Engineer · Origineum DWTCA</h3>
+                <h3 className="text-white leading-7">
+                  Lead Engineer · Origineum DWTCA
+                </h3>
                 <p className="mb-4">AUG 2022 - PRESENT</p>
                 <p className="text-sm leading-normal">
-                  Led the development of several products that won numerous hackathons. Delivered high-quality, robust production code for a diverse array of projects for clients. Provided leadership within the engineering team by fostering close collaboration, facilitating knowledge sharing, and providing mentorship.
+                  Led the development of several products that won numerous
+                  hackathons. Delivered high-quality, robust production code for
+                  a diverse array of projects for clients. Provided leadership
+                  within the engineering team by fostering close collaboration,
+                  facilitating knowledge sharing, and providing mentorship.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">React</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Solidity</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Hardhat</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Ethers JS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Node JS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Next JS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Golang</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Docker</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    React
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Solidity
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Hardhat
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Ethers JS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node JS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Next JS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Golang
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
                 </div>
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
-                <h3 className="text-white leading-7">Software Engineer · Wikimedia Foundation</h3>
+                <h3 className="text-white leading-7">
+                  Software Engineer · Wikimedia Foundation
+                </h3>
                 <p className="mb-4">OCT 2021 - NOV 2022</p>
                 <p className="text-sm leading-normal">
-                  Contributed to the Elasticsearch-based search engine that powers Wikipedia and its sister projects, which indexes ~10 billion documents across ~1000 wikis in ~300 different languages. Upgraded Elasticsearch plugins, including 7 internally developed plugins and contributions to 3 open source plugins, making them compatible with Elasticsearch 7 and published on Maven Central.
+                  Contributed to the Elasticsearch-based search engine that
+                  powers Wikipedia and its sister projects, which indexes ~10
+                  billion documents across ~1000 wikis in ~300 different
+                  languages. Upgraded Elasticsearch plugins, including 7
+                  internally developed plugins and contributions to 3 open
+                  source plugins, making them compatible with Elasticsearch 7
+                  and published on Maven Central.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Vagrant</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Java</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">GIT</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Gerrit</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">PHP</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Elasticsearch</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Less</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Docker</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Vagrant</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Vagrant
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Java
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    GIT
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Gerrit
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    PHP
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Elasticsearch
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Less
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Vagrant
+                  </span>
                 </div>
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
-                <h3 className="text-white leading-7">Lead Engineer · Decasoft Technologies</h3>
+                <h3 className="text-white leading-7">
+                  Lead Engineer · Decasoft Technologies
+                </h3>
                 <p className="mb-4">OCT 2019 - NOV 2021</p>
                 <p className="text-sm leading-normal">
-                  Led the development team of 4 in building Decafinance, a Fintech loan and savings PAAS that currently serves over 2,000 ride-hailing drivers. Integrated several banking APIs to automate loan disbursements, withdrawals, and savings collection on behalf of customers.
+                  Led the development team of 4 in building Decafinance, a
+                  Fintech loan and savings PAAS that currently serves over 2,000
+                  ride-hailing drivers. Integrated several banking APIs to
+                  automate loan disbursements, withdrawals, and savings
+                  collection on behalf of customers.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">LEMP</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">PHP</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Laravel</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">VueJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">NuxtJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Docker</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    LEMP
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    PHP
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Laravel
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    VueJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NuxtJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
                 </div>
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
-                <h3 className="text-white leading-7">Fullstack Engineer · Software Business Solutions Consulting (SBSC)</h3>
+                <h3 className="text-white leading-7">
+                  Fullstack Engineer · Software Business Solutions Consulting
+                  (SBSC)
+                </h3>
                 <p className="mb-4">JUN 2019 - SEPT 2019</p>
                 <p className="text-sm leading-normal">
-                  Built EMed HMR, a health management system, and scaled the platform to manage 8 local governments with over 30,000 health records. Revamped the accounting module to improve response time by caching responses and restructuring the database to eliminate unnecessary queries.
+                  Built EMed HMR, a health management system, and scaled the
+                  platform to manage 8 local governments with over 30,000 health
+                  records. Revamped the accounting module to improve response
+                  time by caching responses and restructuring the database to
+                  eliminate unnecessary queries.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">PHP</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Laravel</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">VueJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">NuxtJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Docker</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    PHP
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Laravel
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    VueJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NuxtJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
                 </div>
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
-                <h3 className="text-white leading-7">Fullstack Engineer · AlphaBeta, Ghana</h3>
+                <h3 className="text-white leading-7">
+                  Fullstack Engineer · AlphaBeta, Ghana
+                </h3>
                 <p className="mb-4">MAY 2017 - DEC 2017</p>
                 <p className="text-sm leading-normal">
-                  Maintained and supported an Enterprise Tax Collection System for local governments in Ghana.
+                  Maintained and supported an Enterprise Tax Collection System
+                  for local governments in Ghana.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">PHP</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Laravel</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">VueJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">NuxtJS</span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">Docker</span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    PHP
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Laravel
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    VueJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NuxtJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
                 </div>
               </div>
             </div>
