@@ -240,7 +240,7 @@ export default function Home() {
                 <h3 className="text-white leading-7">
                   Lead Engineer · Origineum DWTCA
                 </h3>
-                <p className="mb-4">AUG 2022 - PRESENT</p>
+                <p className="mb-4">OCT 2021 - PRESENT</p>
                 <p className="text-sm leading-normal">
                   Led the development of several products that won numerous
                   hackathons. Delivered high-quality, robust production code for
