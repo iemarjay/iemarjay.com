@@ -23,8 +23,7 @@ export default function Home() {
               Full-stack Engineer, Blockchain Engineer
             </h2>
             <p className="mb-3 text-[#c4b0cf] leading-normal">
-              I have a built multiple products, won numerous hackathons and
-              created software solutions for various industries
+              I help pre-seed to Series A companies conquer code architecture, scaling, and performance challenges.
             </p>
 
             <div className="">
@@ -138,41 +137,17 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-sm text-[#c4b0cf]">
             <p className="mb-6">
-              I&#39;m a Fullstack Software/Blockchain Engineer with a passion
-              for developing innovative solutions that solve real-world
-              problems. With over 8 years of experience in software development,
-              I&#39;ve worked on a range of projects spanning Fintech,
-              blockchain, e-commerce, and enterprise software.
+              <span className="font-medium">I&#39;m Emmanuel, a full-stack software and blockchain engineer obsessed with building innovative solutions that empower people and solve real-world problems.</span>
+              Over the past 8 years, I&#39;ve tackled diverse challenges across industries like Fintech, blockchain, e-commerce, and enterprise software. My passion lies in leveraging cutting-edge technologies like ReactJS, Solidity, NodeJS and Go to architect scalable and user-centric platforms.
             </p>
             <p className="mb-6">
-              My expertise lies in ReactJS, NextJS, JavaScript, ES6+, NodeJS,
-              Typescript, Solidity, EthersJS, Hardhat, Go lang, Echo, Fiber,
-              Java, Maven, Elasticsearch, Tailwind CSS, Bootstrap, Webpack,
-              Babel, VueJS, NuxtJS, Docker, Jenkins, PHP, Laravel, GraphQL,
-              HTML5, CSS3, and SASS.
+              I&#39;m driven by a desire to create positive impact. For instance, I led the development of PiggyFi, a cUSD-powered platform that enables fast and affordable money transfers across Africa, impacting thousands of users daily. I also co-founded OpenLand, a groundbreaking NFT platform revolutionizing land ownership by fractionalizing real estate assets on the blockchain.
             </p>
             <p className="mb-6">
-              I&#39;m proud to have led the development of PiggyFi, a
-              groundbreaking platform on the Celo blockchain that won the
-              Binance Africa Hackathon (Defi Category) and Celo Hackathon.
-              PiggyFi enables users to send money across Africa within an hour
-              using cUSD or local bank transfer. I also wrote the Smart contract
-              and contributed to the development of OpenLand, a fractionalized
-              NFT platform for buying, selling, and earning returns on land
-              assets on the blockchain, deployed live on Moonriver.
+              In my previous role at Wikimedia, I contributed to the colossal search engine powering Wikipedia and its sister projects, handling billions of documents in hundreds of languages. And as a Software Engineer at Decasoft, I architected Decafinance, a loan and savings platform currently serving over 2,000 ride-hailing drivers.
             </p>
             <p className="mb-6">
-              In my previous role as a Software Engineer at Wikimedia
-              Foundation, I contributed to an Elasticsearch-based search engine
-              that powers Wikipedia and its sister projects, which indexes ~10
-              billion documents across ~1000 wikis in ~300 different languages.
-              Also led a team in building Decafinance, a Fintech loan and
-              savings PAAS that currently serves over 2,000 ride-hailing drivers
-            </p>
-            <p className="mb-6">
-              If you&#39;re looking for a talented Fullstack Software Engineer
-              who can deliver innovative solutions that meet your business
-              needs, feel free to contact me.
+              I&#39;m not just a tech enthusiast; I'm a collaborative partner and a driven problem solver. If you're looking for a passionate full-stack engineer who can translate your vision into a game-changing reality, let's connect!
             </p>
             <p className="mb-6 font-medium text-[#E6BAFF]">
               Thank you for visiting my portfolio website!
