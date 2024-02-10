@@ -96,8 +96,7 @@ export default function Page() {
       <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 mt-16 mb-8">
         Role
       </h1>
-      <p className="mb-6">
-        <ol className="list-decimal">
+      <ol className="list-decimal mb-6">
           <li className="mb-2">
             <span className="font-medium mb-4">Identifying the Root Cause:</span>
             <ul className="list-disc ml-4 mt-4">
@@ -124,7 +123,7 @@ export default function Page() {
             <span className="font-medium mb-4">Implementing a Sustainable Solution:</span>
             <ul className="list-disc ml-4 mt-4">
               <li className="mb-2">
-                <span className="font-medium">Refactoring and Optimization: {" "}</span>
+                <span className="font-medium">Refactoring and Optimization:{" "}</span>
                 Undertook a systematic code refactoring process, improving code quality, modularity, and
                 maintainability.
               </li>
@@ -134,14 +133,13 @@ export default function Page() {
                 (CI/CD) and cloud-based infrastructure, ensuring scalability and agility.
               </li>
               <li className="mb-2">
-                <span className="font-medium">Building a New Team: {" "}</span>
+                <span className="font-medium">Building a New Team:{" "}</span>
                 Helped the founder hire and on-board a cos effective skilled engineering team with the help of the HR,
                 fostering a collaborative and efficient work environment.
               </li>
             </ul>
           </li>
         </ol>
-      </p>
 
       <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 mt-16 mb-8">
         Results: From Collapse to Confidence
@@ -149,30 +147,28 @@ export default function Page() {
       <p className="mb-6">
         The impact was nothing short of transformative:
       </p>
-      <p className="mb-6">
-        <ol className="list-decimal">
-          <li className="mb-2">
-            <span className="font-medium mb-4">Vision Revived:{" "}</span>
-            Investor confidence soared, fueled by the concrete progress and some of the ideas I and the founder
-            brainstormed. Additional funding of $50,000 secured Fitted&apos;s future.
-          </li>
-          <li className="mb-2">
-            <span className="font-medium mb-4">Growth on Track:{" "}</span>
-            Agile development cycles ensured rapid feature delivery, putting Fitted back on the path to achieve its
-            visionary roadmap.
-          </li>
-          <li className="mb-2">
-            <span className="font-medium mb-4">Efficiency & Cost Savings:{" "}</span>
-            Cloud solutions and open-source technologies maximized resources, reducing server costs and maximizing
-            Fitted&apos;s financial health.
-          </li>
-          <li className="mb-2">
-            <span className="font-medium mb-4">Empowered & Agile:{" "}</span>
-            The new team, equipped with best practices and a collaborative environment, thrives on challenges, ready to
-            propel Fitted&apos;s future success.
-          </li>
-        </ol>
-      </p>
+      <ol className="list-decimal mb-6">
+        <li className="mb-2">
+          <span className="font-medium mb-4">Vision Revived:{" "}</span>
+          Investor confidence soared, fueled by the concrete progress and some of the ideas I and the founder
+          brainstormed. Additional funding of $50,000 secured Fitted&apos;s future.
+        </li>
+        <li className="mb-2">
+          <span className="font-medium mb-4">Growth on Track:{" "}</span>
+          Agile development cycles ensured rapid feature delivery, putting Fitted back on the path to achieve its
+          visionary roadmap.
+        </li>
+        <li className="mb-2">
+          <span className="font-medium mb-4">Efficiency & Cost Savings:{" "}</span>
+          Cloud solutions and open-source technologies maximized resources, reducing server costs and maximizing
+          Fitted&apos;s financial health.
+        </li>
+        <li className="mb-2">
+          <span className="font-medium mb-4">Empowered & Agile:{" "}</span>
+          The new team, equipped with best practices and a collaborative environment, thrives on challenges, ready to
+          propel Fitted&apos;s future success.
+        </li>
+      </ol>
 
 
       <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 mt-16 mb-8">

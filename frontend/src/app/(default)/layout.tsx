@@ -26,8 +26,8 @@ export default function Default({ children }: { children: JSX.Element }) {
       for (var j = 0; j < navLinks.length; j++) {
         navLinks[j].classList.remove('nav-active');
       }
-      const list = document.querySelector('nav a[href="#' + sectionId + '"]').classList
-      if (list) list.add('nav-active');
+      const list = document.querySelector('nav a[href="#' + sectionId + '"]')
+      if (list) list.classList.add('nav-active');
     }
   }
 });

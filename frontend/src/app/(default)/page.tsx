@@ -115,6 +115,14 @@ export default function Home() {
             </li>
             <li>
               <a
+                href="#case-study"
+                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+              >
+                CASE STUDY
+              </a>
+            </li>
+            <li>
+              <a
                 href="#project"
                 className={"block py-3 hover:text-[#E7D9EF] transition-all"}
               >
