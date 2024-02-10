@@ -166,9 +166,9 @@ export default function Home() {
               drivers.
             </p>
             <p className="mb-6">
-              I&#39;m not just a tech enthusiast; I'm a collaborative partner and a driven problem solver. If you're
+              I&#39;m not just a tech enthusiast; I&#39;m a collaborative partner and a driven problem solver. If you're
               looking for a passionate full-stack engineer who can translate your vision into a game-changing reality,
-              let's connect!
+              let&#39;s connect!
             </p>
             <p className="mb-6 font-medium text-[#E6BAFF]">
               Thank you for visiting my portfolio website!
