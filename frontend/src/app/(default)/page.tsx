@@ -115,6 +115,14 @@ export default function Home() {
             </li>
             <li>
               <a
+                href="#experience"
+                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+              >
+                EXPERIENCE
+              </a>
+            </li>
+            <li>
+              <a
                 href="#case-study"
                 className={"block py-3 hover:text-[#E7D9EF] transition-all"}
               >
@@ -129,14 +137,6 @@ export default function Home() {
                 PROJECTS
               </a>
             </li>
-            <li>
-              <a
-                href="#experience"
-                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
-              >
-                EXPERIENCE
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
@@ -148,135 +148,18 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-md leading-normal text-[#c4b0cf]">
             <p className="mb-6">
-              <span className="font-medium">I&#39;m Emmanuel, a full-stack software and blockchain engineer obsessed with building innovative solutions that empower people and solve real-world problems.{" "}</span>
-              Over the past 8 years, I&#39;ve tackled diverse challenges across industries like Fintech, blockchain,
-              e-commerce, and enterprise software. My passion lies in leveraging cutting-edge technologies like ReactJS,
-              Solidity, NodeJS and Go to architect scalable and user-centric platforms.
+              <span className="font-medium">I&#39;m Emmanuel, a seasoned full-stack software and blockchain engineer dedicated to crafting innovative solutions that address real-world challenges and empower individuals.{" "}</span>
+              With 8 years of experience spanning various sectors like Fintech, blockchain, e-commerce, and enterprise
+              software, I specialize in utilizing cutting-edge technologies such as <span className="font-medium text-[#E6BAFF]">ReactJS, VueJS Solidity, NodeJS, and Golang</span> to
+              architect scalable and user-centric platforms.
             </p>
-            <p className="mb-6">
-              I&#39;m driven by a desire to create positive impact. For instance, I led the development of PiggyFi, a
-              cUSD-powered platform that enables fast and affordable money transfers across Africa, impacting thousands
-              of users daily. I also co-founded OpenLand, a groundbreaking NFT platform revolutionizing land ownership
-              by fractionalizing real estate assets on the blockchain.
-            </p>
-            <p className="mb-6">
-              In my previous role at Wikimedia, I contributed to the colossal search engine powering Wikipedia and its
-              sister projects, handling billions of documents in hundreds of languages. And as a Software Engineer at
-              Decasoft, I architected Decafinance, a loan and savings platform currently serving over 2,000 ride-hailing
-              drivers.
-            </p>
-            <p className="mb-6">
-              I&#39;m not just a tech enthusiast; I&#39;m a collaborative partner and a driven problem solver. If you&#39;re
-              looking for a passionate full-stack engineer who can translate your vision into a game-changing reality,
-              let&#39;s connect!
-            </p>
+
             <p className="mb-6 font-medium text-[#E6BAFF]">
               Thank you for visiting my portfolio website!
             </p>
           </div>
         </section>
-        <section id="case-study" className="mb-16 md:mb-24 lg:mb-36 lg:pt-24">
-          <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
-            Case Study
-          </h1>
-          <div className="">
-            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
-              <div className="sm:order-2 sm:col-span-5">
-                <h3 className="text-white leading-7">
-                  <Link href="/case-study/fitted">Fitted.fashion</Link>
-                </h3>
-                <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    NFT
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Fashion
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    AI
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Supply Chain
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    E-commerce
-                  </span>
-                </div>
-                <p className="mt-4 text-sm leading-normal">
-                  Platform powering custom and ready to wear apparel production for the fashion industry
-                </p>
-              </div>
-              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px]">
-                <Link href="/case-study/fitted" className="w-full h-full">
-                  <Image src={"/media/fitted-landing-page.png"} fill className={'object-cover object-top'} alt={"Fitted.fashion landing page"} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="project" className="mb-16 md:mb-24 lg:mb-36 lg:pt-24">
-          <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
-            Projects
-          </h1>
-          <div className="">
-            <div
-              className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
-              <div className="sm:order-2 sm:col-span-5">
-                <h3 className="text-white leading-7">
-                  <a href="https://screen3.io" target={"_blank"}>
-                    Screen3 ↗
-                  </a>
-                </h3>
-                <p className="mt-4 text-sm leading-normal">
-                  An all-in-one app for recording, organizing knowledge, and
-                  sharing video updates
-                </p>
-                <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Electron
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    NextJS
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Node
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Typescript
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    FFMPEG
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Theta Network
-                  </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    WebRTC
-                  </span>
-                </div>
-              </div>
 
-              <ProductVideo
-                className={"sm:order-1 sm:col-span-3"}
-                src={"/media/screen3.mp4"}
-                poster={"/media/screen3.png"}
-                color={"#171160"}
-              />
-            </div>
-          </div>
-        </section>
         <section id="experience" className="mb-16 md:mb-24 lg:mb-36 lg:pt-24">
           <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
             Experience
@@ -494,7 +377,113 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section id="case-study" className="mb-16 md:mb-24 lg:mb-36 lg:pt-24">
+          <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
+            Case Study
+          </h1>
+          <div className="">
+            <div
+              className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+              <div className="sm:order-2 sm:col-span-5">
+                <h3 className="text-white leading-7">
+                  <Link href="/case-study/fitted">Fitted.fashion</Link>
+                </h3>
+                <div className="mt-2 flex flex-wrap">
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NFT
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Fashion
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    AI
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Supply Chain
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    E-commerce
+                  </span>
+                </div>
+                <p className="mt-4 text-sm leading-normal">
+                  Platform powering custom and ready to wear apparel production for the fashion industry
+                </p>
+              </div>
+              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px]">
+                <Link href="/case-study/fitted" className="w-full h-full">
+                  <Image src={"/media/fitted-landing-page.png"} fill className={'object-cover object-top'}
+                         alt={"Fitted.fashion landing page"}/>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="project" className="mb-16 md:mb-24 lg:mb-36 lg:pt-24">
+          <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
+            Projects
+          </h1>
+          <div className="">
+            <div
+              className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+              <div className="sm:order-2 sm:col-span-5">
+                <h3 className="text-white leading-7">
+                  <a href="https://screen3.io" target={"_blank"}>
+                    Screen3 ↗
+                  </a>
+                </h3>
+                <p className="mt-4 text-sm leading-normal">
+                  An all-in-one app for recording, organizing knowledge, and
+                  sharing video updates
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Electron
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NextJS
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Typescript
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    FFMPEG
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Theta Network
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    WebRTC
+                  </span>
+                </div>
+              </div>
+
+              <ProductVideo
+                className={"sm:order-1 sm:col-span-3"}
+                src={"/media/screen3.mp4"}
+                poster={"/media/screen3.png"}
+                color={"#171160"}
+              />
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-);
+  );
 }
