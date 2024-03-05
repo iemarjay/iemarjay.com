@@ -415,7 +415,7 @@ export default function Home() {
                   Platform powering custom and ready to wear apparel production for the fashion industry
                 </p>
               </div>
-              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px]">
+              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[250px]">
                 <Link href="/case-study/fitted" className="w-full h-full">
                   <Image src={"/media/fitted-landing-page.png"} fill className={'object-cover object-top'}
                          alt={"Fitted.fashion landing page"}/>
