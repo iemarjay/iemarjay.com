@@ -47,4 +47,4 @@ jobs:
 
       - name: SSH into VPS and deploy with Docker Compose
         run: |
-          ssh root@${{ secrets.VPS_IP }} 'cd ~/iemarjay.com && docker-compose pull && docker-compose up -d'
+          ssh root@${{ secrets.VPS_IP }} 'cd ~/iemarjay.com && docker compose pull && docker compose up -d'
