@@ -2,9 +2,8 @@
 version: '3'
 services:
   frontend:
-    build:
-      context: frontend
-      dockerfile: Dockerfile
+    container_name: iemarjay.com_frontend
+    image: iemarjay/website
     restart: always
     ports:
       - '${FRONTEND_PORT}:3000'
@@ -13,6 +12,3 @@ services:
       NODE_ENV: ${NODE_ENV}
     stdin_open: true
     tty: true
-
-volumes:
-  strapi-data:
