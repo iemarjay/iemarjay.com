@@ -5,7 +5,7 @@ import {formatDate} from "@/helpers";
 import {PostsLoadMore} from "@/app/post/PostsLoadMore";
 
 export default async function PostsPage() {
-  const posts = await getPaginatedBlogPosts(1,1);
+  const posts = await getPaginatedBlogPosts();
 
   return <div>
     <Navigation/>
@@ -26,7 +26,7 @@ export default async function PostsPage() {
             </span>
             </div>
           ))}
-          <PostsLoadMore page={1} take={1} />
+          <PostsLoadMore page={1} take={20} />
         </div>
       </div>
 
