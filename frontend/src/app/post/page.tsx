@@ -13,7 +13,7 @@ export default async function PostsPage() {
     <div className="max-w-4xl mx-auto px-6 md:px-24 pt-10 md:pt-12">
         <div className="mt-10">
           {posts.map(post => (
-            <div className="md:max-w-xl mb-8">
+            <div className="md:max-w-xl mb-8" key={post.id}>
               <div className="mb-2 lg:mb-4">
                 <h2 className="font-gilroy text-2xl font-bold text-[#180622] mb-1">
                   <Link href={`/post/${post.slug}`}>{post.title}</Link>

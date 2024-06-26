@@ -34,7 +34,7 @@ export default async function Page() {
             With 8+ years of experience, I help pre-seed to Series A companies conquer their toughest code architecture, scaling, and performance challenges.  Expertise in <span className="text-[#9106dd]">ReactJS, VueJS, Solidity, NodeJS, and Golang</span>.
           </p>
           <p className="max-w-md mx-auto md:mx-0 mb-6 text-[#1b002a] leading-normal">
-            If you've used Wikipedia recently, there's a good chance you've interacted with features I've contributed to. I've helped startups like Pouchfi and Fitted.ng significantly improve their tech debt, boosting investor confidence and accelerating their growth. <span className="text-[#9106dd]">I played a crucial role in securing a $50k grant for Fitted.ng.</span> Let's chat about how I can help your startup reach new heights!
+            If you&apos;ve used Wikipedia recently, there&apos;s a good chance you&apos;ve interacted with features I&apos;ve contributed to. I&apos;ve helped startups like Pouchfi and Fitted.ng significantly improve their tech debt, boosting investor confidence and accelerating their growth. <span className="text-[#9106dd]">I played a crucial role in securing a $50k grant for Fitted.ng.</span> Let&apos;s chat about how I can help your startup reach new heights!
           </p>
 
           <div className="">
