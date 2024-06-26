@@ -1,7 +1,7 @@
 import {ProductVideo} from "@/components/productVideo";
 import Image from "next/image";
 import Icon from "@/components/icon";
-import {GmailIcon} from "@/app/(default)/GmailIcon";
+import {GmailIcon} from "@/app/about/GmailIcon";
 import Link from "next/link";
 
 export default function Home() {

@@ -1,8 +1,8 @@
+version: '3.8'
 
-version: '3'
 services:
   frontend:
-    container_name: iemarjay.com_frontend
+    container_name: iemarjay_frontend
     image: iemarjay/website
     restart: always
     ports:
@@ -12,3 +12,30 @@ services:
       NODE_ENV: ${NODE_ENV}
     stdin_open: true
     tty: true
+    networks:
+      - server_nginx_network
+
+  strapi:
+    container_name: iemarjay_strapi
+    image: strapi/strapi
+    restart: always
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_PORT=${DATABASE_PORT}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_USERNAME=${DATABASE_USERNAME}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+    ports:
+      - "${STRAPI_PORT}:1337"
+    volumes:
+      - ./strapi:/srv/app
+    networks:
+      - pg_network
+      - server_nginx_network
+
+networks:
+  server_nginx_network:
+    external: true
+  pg_network:
+    external: true
