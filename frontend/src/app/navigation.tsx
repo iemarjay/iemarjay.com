@@ -6,7 +6,7 @@ export function Navigation() {
       <nav className="divide-x">
         <Link href="/"><span className="inline-block pr-3">Home</span></Link>
         <Link href="/about"><span className="inline-block px-3">About</span></Link>
-        <Link href="/post"><span className="inline-block pl-3">Blogs</span></Link>
+        <Link href="/post"><span className="inline-block pl-3">Blog</span></Link>
       </nav>
     </div>
   </header>;
