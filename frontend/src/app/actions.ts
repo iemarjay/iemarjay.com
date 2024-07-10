@@ -8,6 +8,7 @@ export async function getBlogPostsForHome(): Promise<Post[]> {
 
 export async function getPaginatedBlogPosts(page = 1, take = 20): Promise<Post[]> {
   const start = ((page || 1) - 1) * take;
+
   const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_BASE_URL?.replace(/\/+$/, '') + `/blog-posts?_start=${start}&_limit=${take}&_sort=published_at:DESC`);
   return await response.json();
 }
