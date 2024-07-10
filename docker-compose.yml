@@ -13,6 +13,7 @@ services:
     networks:
       - server_nginx_network
 
+
   strapi:
     container_name: iemarjay_strapi
     image: strapi/strapi
