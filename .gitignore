@@ -5,6 +5,7 @@
 *.pem
 .idea
 frontend/node_modules
+strapi
 
 # local env files
 .env*.local

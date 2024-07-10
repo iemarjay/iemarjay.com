@@ -1,10 +1,8 @@
-version: '3.8'
-
 services:
   frontend:
     container_name: iemarjay_frontend
     image: iemarjay/website
-    restart: always
+    restart: unless-stopped
     ports:
       - '${FRONTEND_PORT}:3000'
     environment:
@@ -18,7 +16,7 @@ services:
   strapi:
     container_name: iemarjay_strapi
     image: strapi/strapi
-    restart: always
+    restart: unless-stopped
     environment:
       - DATABASE_CLIENT=postgres
       - DATABASE_HOST=${DATABASE_HOST}
