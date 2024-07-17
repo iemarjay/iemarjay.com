@@ -5,7 +5,9 @@ function prependBaseUrl(path: string) {
 }
 
 export async function getBlogPostsForHome(): Promise<Post[]> {
-  const response = await fetch(prependBaseUrl('/blog-posts?_limit=10&_sort=published_at:DESC'));
+  const input = prependBaseUrl('/blog-posts?_limit=10&_sort=published_at:DESC');
+  console.log(input)
+  const response = await fetch(input);
   return await response.json();
 }
 
