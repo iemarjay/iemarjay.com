@@ -7,6 +7,7 @@ export function getStrapiImageFullUrl(image: { formats: Formats }, format: Forma
   return process.env.NEXT_PUBLIC_BACKEND_BASE_URL?.replace(/\/+$/, '') + image?.formats?.[format]?.url;
 }
 
-export function formatDate(date: string) {
+export function formatDate(date: string | Date | null) {
+  if (!date) return ''
   return dayjs(date).format('Do MMMM, YYYY');
 }
