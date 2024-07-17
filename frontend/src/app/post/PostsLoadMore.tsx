@@ -4,6 +4,7 @@ import {useState} from "react";
 import {getPaginatedBlogPosts} from "@/app/actions";
 import Link from "next/link";
 import {formatDate} from "@/helpers";
+import {Post} from "@prisma/client";
 
 export function PostsLoadMore({page, take}: { page: number, take?: number}) {
   const [posts, setPosts] = useState<Post[]>([]);
