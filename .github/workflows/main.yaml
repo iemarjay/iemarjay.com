@@ -34,6 +34,8 @@ jobs:
           npm install
 
       - name: Build Docker image
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           docker build -t iemarjay/website ./frontend
           docker tag iemarjay/website iemarjay/website:$GITHUB_SHA

@@ -2,7 +2,6 @@ import {getBlogPostBySlug} from "@/app/actions";
 import {formatDate} from "@/helpers";
 import {marked} from "marked";
 import {Navigation} from "@/app/navigation";
-import Script from "next/script";
 import JsonLd from "@/app/components/JsonLd";
 import Link from "next/link";
 
@@ -64,7 +63,7 @@ export async function generateMetadata({params: {slug}}: {params: {slug: string}
       title: post.title,
       description: post.excerpt,
       type: 'article',
-      url: `https://iemarjay.com/post/${post.slug}`,
+      url: `https://www.iemarjay.com/post/${post.slug}`,
       article: {
         publishedTime: post.published_at,
         authors: ['Emmanuel Joseph (iemarjay)'],
@@ -75,7 +74,7 @@ export async function generateMetadata({params: {slug}}: {params: {slug: string}
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [post.cover_image_url ?? '/media/hire-emmanuel-joseph-iemarjay.png'],
+      images: [post.cover_image_url ?? 'https://www.iemarjay.com/media/hire-emmanuel-joseph-iemarjay.png'],
     },
   }
 }
