@@ -33,10 +33,16 @@ jobs:
           cd frontend
           npm install
 
+      - name: Load environment variables
+        run: echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> ./frontend/.env
+
       - name: Build Docker image
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
+          cat ./frontend/.env
+          echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> ./frontend/.env
+          cat ./frontend/.env
           docker build -t iemarjay/website ./frontend
           docker tag iemarjay/website iemarjay/website:$GITHUB_SHA
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
