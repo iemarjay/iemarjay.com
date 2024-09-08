@@ -54,12 +54,12 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "/media/hire-emmanuel-joseph-iemarjay.png",
+        url: "/media/meet-emmanuel-joseph-iemarjay.png",
         width: 800,
         height: 600,
       },
       {
-        url: "/media/hire-emmanuel-joseph-iemarjay.png",
+        url: "/media/meet-emmanuel-joseph-iemarjay.png",
         width: 1800,
         height: 1600,
       },
@@ -85,7 +85,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://iemarjay.com" />
         <meta
           property="og:image"
-          content="/media/hire-emmanuel-joseph-iemarjay.png"
+          content="/media/meet-emmanuel-joseph-iemarjay.png"
         />
       </Head>
       <body className={poppins.className}>{children}</body>

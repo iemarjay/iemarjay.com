@@ -74,7 +74,7 @@ export async function generateMetadata({params: {slug}}: {params: {slug: string}
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [post.cover_image_url ?? 'https://www.iemarjay.com/media/hire-emmanuel-joseph-iemarjay.png'],
+      images: [post.cover_image_url ?? 'https://www.iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png'],
     },
   }
 }
