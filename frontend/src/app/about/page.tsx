@@ -387,7 +387,7 @@ export default function Home() {
               className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
               <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
-                  <Link href="/case-study/fitted">Fitted.fashion</Link>
+                  <Link href="/about/case-study/fitted">Fitted.fashion</Link>
                 </h3>
                 <div className="mt-2 flex flex-wrap">
                   <span
@@ -416,7 +416,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[250px]">
-                <Link href="/case-study/fitted" className="w-full h-full">
+                <Link href="/about/case-study/fitted" className="w-full h-full">
                   <Image src={"/media/fitted-landing-page.png"} fill className={'object-cover object-top'}
                          alt={"Fitted.fashion landing page"}/>
                 </Link>
