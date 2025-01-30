@@ -2,6 +2,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import React from "react";
 import Head from "next/head";
+import {GTM} from "@/app/components/GTM";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
@@ -89,6 +90,8 @@ export default function RootLayout({
         />
       </Head>
       <body className={poppins.className}>{children}</body>
+
+      <GTM id={"GTM-PZQZ5LX6"} />
     </html>
   );
 }
