@@ -169,15 +169,54 @@ export default function Home() {
             <div className="">
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
                 <h3 className="text-white leading-7">
+                  Lead Engineer · PouchFI Limited
+                </h3>
+                <p className="mb-4">OCT 2025 - Present</p>
+                <p className="text-sm leading-normal">
+                  Applied MediaWiki-inspired architecture principles—modularity, API-first design, and observability, to build a scalable microservices platform. As Lead Engineer, I designed and delivered a multi-currency wallet onboarding 12 000+ users and processing ₦ 450 M+ in monthly fiat and crypto transactions, implemented on-chain deposit flows via audited Solidity contracts and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (< 200ms TTFB). I also integrated debit-card issuance APIs—including KYC verification and automated settlement, to achieve sub-5 s transaction confirmations, and led a team of five engineers to ship the MVP in eight weeks with zero critical post-launch incidents.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    React
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Solidity
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Hardhat
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Ethers JS
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node JS
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Next JS
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Nest JS
+                  </span>
+                  <span
+                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Docker
+                  </span>
+                </div>
+              </div>
+              <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
+                <h3 className="text-white leading-7">
                   Lead Engineer · Origineum DWTCA
                 </h3>
-                <p className="mb-4">OCT 2021 - PRESENT</p>
+                <p className="mb-4">NOV 2022 - DEC 2024</p>
                 <p className="text-sm leading-normal">
-                  Led the development of several products that won numerous
-                  hackathons. Delivered high-quality, robust production code for
-                  a diverse array of projects for clients. Provided leadership
-                  within the engineering team by fostering close collaboration,
-                  facilitating knowledge sharing, and providing mentorship.
+                  Spearheaded PiggyFi—a Celo-based money-transfer dApp handling over 1,000 daily transactions via Node.js/Express APIs and Celo SDK integration, and leading the development of OpenLand, a Moonriver NFT land-investment platform managing $200 K+ in assets with a Next.js front end and Go/Echo microservices; I also optimized overall system performance to sub-200 ms TTFB and containerized our infrastructure on AWS using Terraform, achieving 99.8% uptime.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span
@@ -220,13 +259,7 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">OCT 2021 - NOV 2022</p>
                 <p className="text-sm leading-normal">
-                  Contributed to the Elasticsearch-based search engine that
-                  powers Wikipedia and its sister projects, which indexes ~10
-                  billion documents across ~1000 wikis in ~300 different
-                  languages. Upgraded Elasticsearch plugins, including 7
-                  internally developed plugins and contributions to 3 open
-                  source plugins, making them compatible with Elasticsearch 7
-                  and published on Maven Central.
+                  Contributed to the Metrics & Search Interfaces stack by consolidating the event pipeline into a single buffer (−15% complexity), introducing thread-safe configurations to eliminate race conditions, and refactoring client integrations to an exception-driven model (−20% incident fatigue). I also boosted CirrusSearch reliability and recall, developing heuristic recovery mechanisms that cut outages by 30% and adding an apostrophe filter that improved possessive query recall by 25%, all while leveraging Gerrit code-review workflows to streamline patch submissions and mentor new contributors.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span
@@ -273,11 +306,7 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">OCT 2019 - NOV 2021</p>
                 <p className="text-sm leading-normal">
-                  Led the development team of 4 in building Decafinance, a
-                  Fintech loan and savings PAAS that currently serves over 2,000
-                  ride-hailing drivers. Integrated several banking APIs to
-                  automate loan disbursements, withdrawals, and savings
-                  collection on behalf of customers.
+                  Architected and delivered Decafinance—a Laravel & Vue.js lending and savings platform serving over 2,000 ride-hailing drivers and processing ₦82 M (~$200 K) in transactions. I automated loan disbursement and settlement workflows via Flutterwave and Paystack integrations, reducing manual effort by 70%, and implemented Docker-based CI/CD pipelines with GitHub Actions, cutting deployment time in half. Additionally, I mentored a team of four engineers in Agile best practices, fostering collaboration and continuous delivery.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span
