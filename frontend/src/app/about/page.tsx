@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={"relative grid lg:grid-cols-2 max-w-[1280px] mx-auto "}>
+    <div className="relative grid lg:grid-cols-2 max-w-[1280px] mx-auto">
       <div className="lg:sticky top-0 flex flex-col justify-between max-h-[70vh] lg:py-24">
         <div className="">
           <div className="h-20 relative text-left">
             <Image
-              src={"/media/emar.png"}
+              src="/media/emar.png"
               fill={true}
-              className={"object-contain object-left"}
-              alt={"Emmanuel Joseph"}
+              className="object-contain object-left"
+              alt="Emmanuel Joseph"
             />
           </div>
           <h1 className="font-gilroy sm:text-5xl text-4xl text-[#E7D9EF] tracking-tight mt-5 mb-3">
@@ -34,81 +34,70 @@ export default function Home() {
                 href="mailto:emarjay921@gmail.com"
               >
                 <GmailIcon/>
-                <span
-                  className="text-[#1e1e1e] text-sm sm:text-base font-medium">Hire me</span>
+                <span className="text-[#1e1e1e] text-sm sm:text-base font-medium">Hire me</span>
               </a>
             </div>
           </div>
           <div className="flex justify-center lg:justify-start gap-5 mb-6 md:mb-20 mt-8">
             <a
               href="https://linkedin.com/in/iemarjay"
-              title={"LinkedIn"}
-              target={"_blank"}
+              title="LinkedIn"
+              target="_blank"
             >
               <Icon
-                name={"linked-in"}
-                className={
-                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
-                }
+                name="linked-in"
+                className="text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
               />
             </a>
             <a
               href="https://github.com/iemarjay"
-              title={"Github"}
-              target={"_blank"}
+              title="Github"
+              target="_blank"
             >
               <Icon
-                name={"github"}
-                className={
-                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
-                }
+                name="github"
+                className="text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
               />
             </a>
             <a
               href="https://twitter.com/iemarjay"
-              title={"Twitter"}
-              target={"_blank"}
+              title="Twitter"
+              target="_blank"
             >
               <Icon
-                name={"twitter"}
-                className={
-                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
-                }
+                name="twitter"
+                className="text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
               />
             </a>
             <a
               href="https://youtube.com/@iemarjay"
-              title={"Youtube"}
-              target={"_blank"}
+              title="Youtube"
+              target="_blank"
             >
               <Icon
-                name={"youtube"}
-                className={
-                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
-                }
+                name="youtube"
+                className="text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
               />
             </a>
             <a
               href="https://instagram.com/iemarjay"
-              title={"Instagram"}
-              target={"_blank"}
+              title="Instagram"
+              target="_blank"
             >
               <Icon
-                name={"instagram"}
-                className={
-                  "text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
-                }
+                name="instagram"
+                className="text-[#E7D9EF] text-opacity-60 hover:text-[#E6BAFF]"
               />
             </a>
           </div>
         </div>
 
-        <nav className={"text-sm text-[#c4b0cf] hidden lg:block"}>
+        <nav className="text-sm text-[#c4b0cf] hidden lg:block">
           <ul>
             <li>
               <a
                 href="#about"
-                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+                className="block py-3 hover:text-[#E7D9EF] transition-all"
               >
                 ABOUT
               </a>
@@ -116,7 +105,7 @@ export default function Home() {
             <li>
               <a
                 href="#experience"
-                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+                className="block py-3 hover:text-[#E7D9EF] transition-all"
               >
                 EXPERIENCE
               </a>
@@ -124,7 +113,7 @@ export default function Home() {
             <li>
               <a
                 href="#case-study"
-                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+                className="block py-3 hover:text-[#E7D9EF] transition-all"
               >
                 CASE STUDY
               </a>
@@ -132,7 +121,7 @@ export default function Home() {
             <li>
               <a
                 href="#project"
-                className={"block py-3 hover:text-[#E7D9EF] transition-all"}
+                className="block py-3 hover:text-[#E7D9EF] transition-all"
               >
                 PROJECTS
               </a>
@@ -173,39 +162,31 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">OCT 2025 - Present</p>
                 <p className="text-sm leading-normal">
-                  Applied MediaWiki-inspired architecture principles—modularity, API-first design, and observability, to build a scalable microservices platform. As Lead Engineer, I designed and delivered a multi-currency wallet onboarding 12 000+ users and processing ₦ 450 M+ in monthly fiat and crypto transactions, implemented on-chain deposit flows via audited Solidity contracts and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (< 200ms TTFB). I also integrated debit-card issuance APIs—including KYC verification and automated settlement, to achieve sub-5 s transaction confirmations, and led a team of five engineers to ship the MVP in eight weeks with zero critical post-launch incidents.
+                  Applied MediaWiki-inspired architecture principles—modularity, API-first design, and observability, to build a scalable microservices platform. As Lead Engineer, I designed and delivered a multi-currency wallet onboarding 12,000+ users and processing ₦ 450 M+ in monthly fiat and crypto transactions, implemented on-chain deposit flows via audited Solidity contracts and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (&lt; 200ms TTFB). I also integrated debit-card issuance APIs—including KYC verification and automated settlement, to achieve sub-5 s transaction confirmations, and led a team of five engineers to ship the MVP in eight weeks with zero critical post-launch incidents.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     React
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Solidity
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Hardhat
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Ethers JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Node JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Next JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Nest JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
                 </div>
@@ -219,36 +200,28 @@ export default function Home() {
                   Spearheaded PiggyFi—a Celo-based money-transfer dApp handling over 1,000 daily transactions via Node.js/Express APIs and Celo SDK integration, and leading the development of OpenLand, a Moonriver NFT land-investment platform managing $200 K+ in assets with a Next.js front end and Go/Echo microservices; I also optimized overall system performance to sub-200 ms TTFB and containerized our infrastructure on AWS using Terraform, achieving 99.8% uptime.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     React
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Solidity
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Hardhat
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Ethers JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Node JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Next JS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Golang
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
                 </div>
@@ -262,40 +235,31 @@ export default function Home() {
                   Contributed to the Metrics & Search Interfaces stack by consolidating the event pipeline into a single buffer (−15% complexity), introducing thread-safe configurations to eliminate race conditions, and refactoring client integrations to an exception-driven model (−20% incident fatigue). I also boosted CirrusSearch reliability and recall, developing heuristic recovery mechanisms that cut outages by 30% and adding an apostrophe filter that improved possessive query recall by 25%, all while leveraging Gerrit code-review workflows to streamline patch submissions and mentor new contributors.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Vagrant
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Java
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     GIT
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Gerrit
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     PHP
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Elasticsearch
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Less
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Vagrant
                   </span>
                 </div>
@@ -309,28 +273,22 @@ export default function Home() {
                   Architected and delivered Decafinance—a Laravel & Vue.js lending and savings platform serving over 2,000 ride-hailing drivers and processing ₦82 M (~$200 K) in transactions. I automated loan disbursement and settlement workflows via Flutterwave and Paystack integrations, reducing manual effort by 70%, and implemented Docker-based CI/CD pipelines with GitHub Actions, cutting deployment time in half. Additionally, I mentored a team of four engineers in Agile best practices, fostering collaboration and continuous delivery.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     LEMP
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     PHP
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Laravel
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     VueJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     NuxtJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
                 </div>
@@ -349,24 +307,19 @@ export default function Home() {
                   eliminate unnecessary queries.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     PHP
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Laravel
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     VueJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     NuxtJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
                 </div>
@@ -381,24 +334,19 @@ export default function Home() {
                   for local governments in Ghana.
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     PHP
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Laravel
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     VueJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     NuxtJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Docker
                   </span>
                 </div>
@@ -412,31 +360,25 @@ export default function Home() {
             Case Study
           </h1>
           <div className="">
-            <div
-              className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
               <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
                   <Link href="/about/case-study/fitted">Fitted.fashion</Link>
                 </h3>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     NFT
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Fashion
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     AI
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Supply Chain
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     E-commerce
                   </span>
                 </div>
@@ -446,8 +388,8 @@ export default function Home() {
               </div>
               <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[250px]">
                 <Link href="/about/case-study/fitted" className="w-full h-full">
-                  <Image src={"/media/fitted-landing-page.png"} fill className={'object-cover object-top'}
-                         alt={"Fitted.fashion landing page"}/>
+                  <Image src="/media/fitted-landing-page.png" fill className="object-cover object-top"
+                         alt="Fitted.fashion landing page"/>
                 </Link>
               </div>
             </div>
@@ -459,11 +401,10 @@ export default function Home() {
             Projects
           </h1>
           <div className="">
-            <div
-              className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
               <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
-                  <a href="https://screen3.io" target={"_blank"}>
+                  <a href="https://screen3.io" target="_blank">
                     Screen3 ↗
                   </a>
                 </h3>
@@ -472,42 +413,35 @@ export default function Home() {
                   sharing video updates
                 </p>
                 <div className="mt-2 flex flex-wrap">
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Electron
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     NextJS
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Node
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Typescript
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     FFMPEG
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Theta Network
                   </span>
-                  <span
-                    className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     WebRTC
                   </span>
                 </div>
               </div>
 
               <ProductVideo
-                className={"sm:order-1 sm:col-span-3"}
-                src={"/media/screen3.mp4"}
-                poster={"/media/screen3.png"}
-                color={"#171160"}
+                className="sm:order-1 sm:col-span-3"
+                src="/media/screen3.mp4"
+                poster="/media/screen3.png"
+                color="#171160"
               />
             </div>
           </div>
