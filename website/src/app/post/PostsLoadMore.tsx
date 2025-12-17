@@ -1,18 +1,17 @@
 'use client';
 
 import {useState} from "react";
-import {getPaginatedBlogPosts} from "@/app/actions";
+import {getPaginatedBlogPostsSerialized, SerializedPost} from "@/app/actions";
 import Link from "next/link";
 import {formatDate} from "@/helpers";
-import {Post} from "@prisma/client";
 
 export function PostsLoadMore({page, take}: { page: number, take?: number}) {
-  const [posts, setPosts] = useState<Post[]>([]);
+  const [posts, setPosts] = useState<SerializedPost[]>([]);
   const [loading, setLoading] = useState(false);
 
   function loadMore() {
     setLoading(true)
-    return getPaginatedBlogPosts(page + 1, take).then(newPosts => {
+    return getPaginatedBlogPostsSerialized(page + 1, take).then(newPosts => {
       setPosts([...posts, ...newPosts])
     }).finally(() => setLoading(false))
   }
