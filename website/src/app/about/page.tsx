@@ -22,19 +22,19 @@ export default function Home() {
           </h1>
           <div className="max-w-sm text-md">
             <h2 className="mb-4 font-gilroy text-lg font-medium tracking-tight text-[#E7D9EF]">
-              Full-stack Engineer, Blockchain Engineer
+              Full-stack Engineer (web2 and web3), serial builder, Ex Wikipedia
             </h2>
             <p className="mb-6 text-[#c4b0cf] leading-normal">
-              I help pre-seed to Series A companies conquer code architecture, scaling, and performance challenges.
+              8 years building production systems, DeFi protocols, enterprise platforms, and my own products.
             </p>
 
             <div className="">
               <a
-                className="w-fit bg-white py-1.5 sm:py-3 px-6 rounded-[48px] flex justify-center items-center gap-2 backdrop-blur-2xl"
+                className="w-fit bg-white py-2 sm:py-3 px-8 rounded-[48px] flex justify-center items-center gap-2 backdrop-blur-2xl"
                 href="mailto:emarjay921@gmail.com"
               >
                 <GmailIcon/>
-                <span className="text-[#1e1e1e] text-sm sm:text-base font-medium">Hire me</span>
+                <span className="text-[#1e1e1e] text-base font-medium">Get in touch</span>
               </a>
             </div>
           </div>
@@ -137,14 +137,15 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-md leading-normal text-[#c4b0cf]">
             <p className="mb-6">
-              <span className="font-medium">I&#39;m Emmanuel, a seasoned full-stack software and blockchain engineer dedicated to crafting innovative solutions that address real-world challenges and empower individuals.{" "}</span>
-              With 8 years of experience spanning various sectors like Fintech, blockchain, e-commerce, and enterprise
-              software, I specialize in utilizing cutting-edge technologies such as <span className="font-medium text-[#E6BAFF]">ReactJS, VueJS Solidity, NodeJS, and Golang</span> to
-              architect scalable and user-centric platforms.
+              I build things that handle real money and real users. Over 8 years, I&#39;ve worked across fintech, blockchain, e-commerce, and enterprise software, from search infrastructure at <span className="font-medium text-[#E6BAFF]">Wikimedia Foundation</span> to DeFi protocols handling user funds.
             </p>
 
-            <p className="mb-6 font-medium text-[#E6BAFF]">
-              Thank you for visiting my portfolio website!
+            <p className="mb-6">
+              I take security seriously. A webhook vulnerability I missed while building a payment platform cost a client $10k, that failure changed how I build. Now I audit my own smart contracts using an <span className="font-medium text-[#E6BAFF]">AI-augmented methodology</span> before deployment.
+            </p>
+
+            <p className="mb-6">
+              When I&#39;m not working on client projects, I&#39;m building <span className="font-medium text-[#E6BAFF]">Shuttershow</span>, a tool for photographers. I believe the best engineers ship their own products, not just other people&#39;s.
             </p>
           </div>
         </section>
@@ -162,7 +163,7 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">OCT 2025 - Present</p>
                 <p className="text-sm leading-normal">
-                  Applied MediaWiki-inspired architecture principles—modularity, API-first design, and observability, to build a scalable microservices platform. As Lead Engineer, I designed and delivered a multi-currency wallet onboarding 12,000+ users and processing ₦ 450 M+ in monthly fiat and crypto transactions, implemented on-chain deposit flows via audited Solidity contracts and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (&lt; 200ms TTFB). I also integrated debit-card issuance APIs—including KYC verification and automated settlement, to achieve sub-5 s transaction confirmations, and led a team of five engineers to ship the MVP in eight weeks with zero critical post-launch incidents.
+                  Building an early-stage DeFi protocol on BSC. As Lead Engineer, I designed a multi-currency wallet system with signature-based withdrawals, implemented on-chain deposit flows via Solidity contracts (audited using my AI-augmented security methodology) and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (&lt; 200ms TTFB). Integrated debit-card issuance APIs including KYC verification and automated settlement. Leading a team of five engineers with zero critical post-launch incidents.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -270,7 +271,7 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">OCT 2019 - NOV 2021</p>
                 <p className="text-sm leading-normal">
-                  Architected and delivered Decafinance—a Laravel & Vue.js lending and savings platform serving over 2,000 ride-hailing drivers and processing ₦82 M (~$200 K) in transactions. I automated loan disbursement and settlement workflows via Flutterwave and Paystack integrations, reducing manual effort by 70%, and implemented Docker-based CI/CD pipelines with GitHub Actions, cutting deployment time in half. Additionally, I mentored a team of four engineers in Agile best practices, fostering collaboration and continuous delivery.
+                  Architected and delivered Decafinance, a Laravel & Vue.js lending and savings platform serving over 2,000 ride-hailing drivers and processing ₦82 M (~$200 K) in transactions. I automated loan disbursement and settlement workflows via Flutterwave and Paystack integrations, reducing manual effort by 70%, and implemented Docker-based CI/CD pipelines with GitHub Actions, cutting deployment time in half. Additionally, I mentored a team of four engineers in Agile best practices, fostering collaboration and continuous delivery.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -443,6 +444,62 @@ export default function Home() {
                 poster="/media/screen3.png"
                 color="#171160"
               />
+            </div>
+
+            {/* Shuttershow */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
+              <div className="sm:col-span-8">
+                <h3 className="text-white leading-7">
+                  Shuttershow
+                  <span className="ml-2 text-xs text-teal-300 font-normal">(Building)</span>
+                </h3>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  A tool for photographers to create galleries, public pages, and let clients select their favorite shots. Competing with Pixieset.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    NextJS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    React
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Typescript
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    PostgreSQL
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Green Africa */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
+              <div className="sm:col-span-8">
+                <h3 className="text-white leading-7">
+                  Green Africa (Hedera)
+                </h3>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Smart reverse vending machine on Hedera blockchain. Users recycle plastics and receive rewards in tokens, airtime, or data bundles.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Hedera
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Smart Contracts
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    IoT Integration
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
