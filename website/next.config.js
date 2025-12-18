@@ -11,7 +11,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'blog-api.iemarjay.com',
+        hostname: 'storage.startsmall.community',
       },
     ],
   },
