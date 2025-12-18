@@ -31,8 +31,8 @@ export default async function Page() {
         <div className="pt-24 pb-16 md:pt-32 md:pb-20">
           <Image
             src={Emar}
-            height={120}
-            width={120}
+            height={80}
+            width={80}
             className={"object-contain object-left mx-auto md:mx-0 rounded-full"}
             alt={"Emmanuel Joseph"}
           />
