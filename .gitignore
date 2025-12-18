@@ -10,3 +10,5 @@ strapi
 # local env files
 .env*.local
 .env
+
+.mcp.json
