@@ -4,6 +4,26 @@ import {Navigation} from "@/app/navigation";
 export const metadata = {
   title: "Technical Consulting | Emmanuel Joseph",
   description: "Architecture reviews, code audits, and strategic guidance for web2 and web3 projects.",
+  openGraph: {
+    title: "Technical Consulting | Emmanuel Joseph",
+    description: "Architecture reviews, code audits, and strategic guidance for web2 and web3 projects.",
+    url: "https://iemarjay.com/services/consulting",
+    siteName: "Emmanuel Joseph (iemarjay)",
+    images: [
+      {
+        url: "https://iemarjay.com/media/og-consulting.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Technical Consulting | Emmanuel Joseph",
+    description: "Architecture reviews, code audits, and strategic guidance for web2 and web3 projects.",
+    images: ["https://iemarjay.com/media/og-consulting.png"],
+  },
 };
 
 export default function ConsultingPage() {

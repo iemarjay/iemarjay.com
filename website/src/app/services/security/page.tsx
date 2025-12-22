@@ -4,6 +4,26 @@ import {Navigation} from "@/app/navigation";
 export const metadata = {
   title: "Backend Security Audits | Emmanuel Joseph",
   description: "Comprehensive security assessments for fintech backends, APIs, and web applications. Find vulnerabilities before attackers do.",
+  openGraph: {
+    title: "Backend Security Audits | Emmanuel Joseph",
+    description: "Comprehensive security assessments for fintech backends, APIs, and web applications. Find vulnerabilities before attackers do.",
+    url: "https://iemarjay.com/services/security",
+    siteName: "Emmanuel Joseph (iemarjay)",
+    images: [
+      {
+        url: "https://iemarjay.com/media/og-security-audit.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Backend Security Audits | Emmanuel Joseph",
+    description: "Comprehensive security assessments for fintech backends, APIs, and web applications. Find vulnerabilities before attackers do.",
+    images: ["https://iemarjay.com/media/og-security-audit.png"],
+  },
 };
 
 export default function SecurityPage() {

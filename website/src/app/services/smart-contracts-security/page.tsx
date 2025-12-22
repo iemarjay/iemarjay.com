@@ -4,6 +4,26 @@ import {Navigation} from "@/app/navigation";
 export const metadata = {
   title: "Smart Contract Security Audits | Emmanuel Joseph",
   description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+  openGraph: {
+    title: "Smart Contract Security Audits | Emmanuel Joseph",
+    description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+    url: "https://iemarjay.com/services/smart-contracts-security",
+    siteName: "Emmanuel Joseph (iemarjay)",
+    images: [
+      {
+        url: "https://iemarjay.com/media/og-smart-contract-audit.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Contract Security Audits | Emmanuel Joseph",
+    description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+    images: ["https://iemarjay.com/media/og-smart-contract-audit.png"],
+  },
 };
 
 export default function SmartContractsSecurityPage() {

@@ -4,6 +4,26 @@ import {Navigation} from "@/app/navigation";
 export const metadata = {
   title: "Services | Emmanuel Joseph",
   description: "Backend security audits, smart contract security, consulting, and full-stack development services.",
+  openGraph: {
+    title: "Services | Emmanuel Joseph",
+    description: "Backend security audits, smart contract security, consulting, and full-stack development services.",
+    url: "https://iemarjay.com/services",
+    siteName: "Emmanuel Joseph (iemarjay)",
+    images: [
+      {
+        url: "https://iemarjay.com/media/og-services.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Services | Emmanuel Joseph",
+    description: "Backend security audits, smart contract security, consulting, and full-stack development services.",
+    images: ["https://iemarjay.com/media/og-services.png"],
+  },
 };
 
 export default function ServicesPage() {
