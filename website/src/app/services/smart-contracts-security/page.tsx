@@ -6,10 +6,10 @@ export const metadata = {
   description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
 };
 
-export default function AuditsPage() {
+export default function SmartContractsSecurityPage() {
   return (
     <div className="min-h-screen bg-[#180622]">
-      <Navigation />
+      <Navigation variant="dark" />
 
       <div className="max-w-4xl mx-auto px-6 md:px-24 pt-24 pb-16 md:pt-32 md:pb-20">
         {/* Hero */}
@@ -61,6 +61,37 @@ export default function AuditsPage() {
             </p>
             <p className="text-[#E6BAFF] font-medium">
               Now I make sure other builders don&apos;t learn this lesson the expensive way.
+            </p>
+          </div>
+        </section>
+
+        {/* Track Record */}
+        <section className="mb-16">
+          <h2 className="font-gilroy text-2xl font-bold text-white mb-4">Track Record</h2>
+          <div className="text-[#c4b0cf] space-y-4">
+            <p>
+              Recent DeFi protocol audit results:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+              <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
+                <div className="text-3xl font-bold text-white">10+</div>
+                <div className="text-sm text-[#c4b0cf]">Issues Found</div>
+              </div>
+              <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">
+                <div className="text-3xl font-bold text-red-400">1</div>
+                <div className="text-sm text-[#c4b0cf]">Critical</div>
+              </div>
+              <div className="p-4 rounded-lg bg-orange-500 bg-opacity-10 text-center">
+                <div className="text-3xl font-bold text-orange-400">3</div>
+                <div className="text-sm text-[#c4b0cf]">High</div>
+              </div>
+              <div className="p-4 rounded-lg bg-yellow-500 bg-opacity-10 text-center">
+                <div className="text-3xl font-bold text-yellow-400">6+</div>
+                <div className="text-sm text-[#c4b0cf]">Medium/Low</div>
+              </div>
+            </div>
+            <p className="text-sm text-[#c4b0cf] mt-4">
+              Audit scope: DeFi deposit/withdrawal system with upgradeable contracts. Critical finding: cross-chain signature replay attack.
             </p>
           </div>
         </section>

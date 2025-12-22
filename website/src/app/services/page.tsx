@@ -3,13 +3,13 @@ import {Navigation} from "@/app/navigation";
 
 export const metadata = {
   title: "Services | Emmanuel Joseph",
-  description: "Smart contract security audits, consulting, and full-stack development services.",
+  description: "Backend security audits, smart contract security, consulting, and full-stack development services.",
 };
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-[#180622]">
-      <Navigation />
+      <Navigation variant="dark" />
 
       <div className="max-w-4xl mx-auto px-6 md:px-24 pt-24 pb-16 md:pt-32 md:pb-20">
         <h1 className="font-gilroy text-4xl sm:text-5xl font-bold text-[#E6BAFF] mb-4">
@@ -20,9 +20,38 @@ export default function ServicesPage() {
         </p>
 
         <div className="grid gap-8">
-          {/* Security Audits */}
+          {/* Backend Security Audits */}
           <Link
-            href="/services/audits"
+            href="/services/security"
+            className="block p-6 md:p-8 rounded-lg bg-[#E6BAFF] bg-opacity-10 hover:bg-opacity-15 transition-all border border-[#E6BAFF] border-opacity-30"
+          >
+            <div className="flex items-start justify-between">
+              <div>
+                <h2 className="font-gilroy text-2xl font-bold text-white mb-2">
+                  Backend Security Audits
+                </h2>
+                <p className="text-[#c4b0cf] mb-4 max-w-xl">
+                  Comprehensive security assessments for fintech systems, APIs, and web applications. Find vulnerabilities before attackers do.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 rounded-full bg-teal-400/10 text-xs font-medium text-teal-300">
+                    From $1,500
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-teal-400/10 text-xs font-medium text-teal-300">
+                    Fintech / APIs
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-teal-400/10 text-xs font-medium text-teal-300">
+                    Incident Response
+                  </span>
+                </div>
+              </div>
+              <span className="text-[#E6BAFF] text-2xl">&rarr;</span>
+            </div>
+          </Link>
+
+          {/* Smart Contract Security Audits */}
+          <Link
+            href="/services/smart-contracts-security"
             className="block p-6 md:p-8 rounded-lg bg-white bg-opacity-5 hover:bg-opacity-10 transition-all border border-white border-opacity-10"
           >
             <div className="flex items-start justify-between">

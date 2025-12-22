@@ -9,7 +9,7 @@ export const metadata = {
 export default function ConsultingPage() {
   return (
     <div className="min-h-screen bg-[#180622]">
-      <Navigation />
+      <Navigation variant="dark" />
 
       <div className="max-w-4xl mx-auto px-6 md:px-24 pt-24 pb-16 md:pt-32 md:pb-20">
         {/* Hero */}
@@ -152,13 +152,13 @@ export default function ConsultingPage() {
               I&apos;ve been building production systems for 8 years. Not tutorials, not side projects, real systems handling real money and real users.
             </p>
             <ul className="space-y-2">
-              <li>• <strong className="text-white">DeFi protocols</strong> — deposit flows, signature-based withdrawals, batch operations</li>
-              <li>• <strong className="text-white">Enterprise platforms</strong> — serving thousands of users, handling millions in transactions</li>
-              <li>• <strong className="text-white">Wikimedia Foundation</strong> — search infrastructure used by millions</li>
-              <li>• <strong className="text-white">Fintech integrations</strong> — payment webhooks, KYC flows, settlement systems</li>
+              <li>• <strong className="text-white">DeFi protocols</strong>: deposit flows, signature-based withdrawals, batch operations</li>
+              <li>• <strong className="text-white">Enterprise platforms</strong>: serving thousands of users, handling millions in transactions</li>
+              <li>• <strong className="text-white">Wikimedia Foundation</strong>: search infrastructure used by millions</li>
+              <li>• <strong className="text-white">Fintech integrations</strong>: payment webhooks, KYC flows, settlement systems</li>
             </ul>
             <p>
-              I&apos;ve made expensive mistakes and learned from them. That experience is what you&apos;re buying — not just my time, but the shortcuts to avoid the pitfalls I&apos;ve already hit.
+              I&apos;ve made expensive mistakes and learned from them. That experience is what you&apos;re buying, not just my time, but the shortcuts to avoid the pitfalls I&apos;ve already hit.
             </p>
           </div>
         </section>
