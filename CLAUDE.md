@@ -6,8 +6,8 @@ Personal brand and portfolio project for **Emmanuel Joseph (@iemarjay)** — ful
 
 This repo contains:
 - **Website**: Portfolio and blog at iemarjay.com
-- **Content**: Blog posts and copy drafts
-- **Docs**: Brand strategy, mentorship frameworks, career planning
+- **Content**: Blog posts, twitter threads, and proposal templates
+- **Docs**: Brand strategy, mentorship frameworks, case studies, career planning
 
 ## Who Emmanuel Is
 
@@ -59,15 +59,18 @@ iemarjay.com/
 │   │   └── schema.prisma         # Database schema (posts table)
 │   ├── public/media/             # Static images
 │   └── .env                      # Environment variables
-├── content/                      # Blog posts and copy
-│   └── blog/                     # Blog post drafts
+├── content/                      # Content drafts and templates
+│   ├── blog/                     # Blog post drafts
+│   ├── templates/                # Proposal templates
+│   │   └── SECURITY_ENGAGEMENT_PROPOSAL.md
+│   └── twitter-threads/          # Twitter thread drafts
 └── docs/                         # Strategy & planning docs
     ├── PERSONAL_BRAND_STRATEGY.md
     ├── ADPLIST_MENTORSHIP.md
     ├── CLAUDE_CODE_HANDOFF_CONTEXT.md
     ├── SECURITY_AUDIT_EXPERIENCE.md
-    └── templates/                # Proposal templates
-        └── SECURITY_ENGAGEMENT_PROPOSAL.md
+    └── case-studies/             # Anonymized case studies
+        └── fintech-incident-response-case-study.md
 ```
 
 ## Website
@@ -124,7 +127,8 @@ Required in `website/.env`:
 - `docs/PERSONAL_BRAND_STRATEGY.md` - Full brand strategy
 - `docs/ADPLIST_MENTORSHIP.md` - Mentorship tracking & frameworks
 - `docs/SECURITY_AUDIT_EXPERIENCE.md` - Audit methodology & experience (NDA-compliant)
-- `docs/templates/SECURITY_ENGAGEMENT_PROPOSAL.md` - Proposal template for security engagements
+- `docs/case-studies/` - Anonymized case studies for proposals/portfolio
+- `content/templates/SECURITY_ENGAGEMENT_PROPOSAL.md` - Proposal template for security engagements
 
 ## Content Status
 
@@ -132,7 +136,7 @@ Required in `website/.env`:
 |---------|--------|
 | $10k bug story blog post | Published |
 | $10k redemption blog post | Draft (content/blog/) |
-| Fintech incident response case study | Draft (docs/case-studies/) |
+| Fintech incident response case study | Done (docs/case-studies/) |
 | $10k redemption Twitter thread | Draft (content/twitter-threads/) |
 | Backend security audit page | Done (/services/security) |
 | Smart contract audit page | Done (/services/smart-contracts-security) |

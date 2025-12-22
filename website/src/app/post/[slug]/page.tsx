@@ -119,35 +119,37 @@ export default async function PostPage({params}: PageProps) {
 }
 
 export async function generateMetadata({params}: PageProps) {
-  return {title: "Blog Post"};
-  // const post = await getBlogPostMetadata((await params).slug);
-  // if (!post) {
-  //   return {
-  //     title: 'Post not found | Emmanuel Joseph',
-  //     description: 'Could not find requested resource'
-  //   }
-  // }
+  const post = await getBlogPostMetadata((await params).slug);
+  if (!post) {
+    return {
+      title: 'Post not found | Emmanuel Joseph',
+      description: 'Could not find requested resource'
+    }
+  }
 
-  // return {
-  //   title: `${post.title} | Emmanuel Joseph`,
-  //   description: post.excerpt,
-  //   openGraph: {
-  //     title: post.title,
-  //     description: post.excerpt,
-  //     type: 'article',
-  //     url: `https://www.iemarjay.com/post/${post.slug}`,
-  //     article: {
-  //       publishedTime: post.published_at,
-  //       authors: ['Emmanuel Joseph (iemarjay)'],
-  //       updatedTime: post.updated_at,
-  //     },
-  //     images: [post.cover_image_url ?? 'https://www.iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png'],
-  //   },
-  //   twitter: {
-  //     card: 'summary_large_image',
-  //     title: post.title,
-  //     description: post.excerpt,
-  //     images: [post.cover_image_url ?? 'https://www.iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png'],
-  //   },
-  // }
+  const imageUrl = post.cover_image_url ?? '/media/meet-emmanuel-joseph-iemarjay.png';
+
+  return {
+    title: `${post.title} | Emmanuel Joseph`,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: 'article',
+      url: `https://iemarjay.com/post/${post.slug}`,
+      siteName: 'Emmanuel Joseph (iemarjay)',
+      article: {
+        publishedTime: post.published_at ?? undefined,
+        authors: ['Emmanuel Joseph (iemarjay)'],
+        modifiedTime: post.updated_at,
+      },
+      images: [imageUrl],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [imageUrl],
+    },
+  }
 }

@@ -9,6 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://iemarjay.com"),
   title:
     "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
   description:
@@ -54,9 +55,10 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "https://iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png",
+        url: "/media/meet-emmanuel-joseph-iemarjay.png",
         width: 1200,
         height: 630,
+        alt: "Emmanuel Joseph (iemarjay) - Full-stack software engineer",
       },
     ],
     type: "website",
@@ -65,7 +67,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
     description: "Full-stack software engineer, blockchain engineer and serial builder. 8 years building production systems across web2 and web3.",
-    images: ["https://iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png"],
+    images: ["/media/meet-emmanuel-joseph-iemarjay.png"],
   },
 };
 

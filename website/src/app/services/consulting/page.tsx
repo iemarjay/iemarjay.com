@@ -11,9 +11,10 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "https://iemarjay.com/media/og-consulting.png",
+        url: "/media/og-consulting.png",
         width: 1200,
         height: 630,
+        alt: "Technical Consulting - Emmanuel Joseph",
       },
     ],
     type: "website",
@@ -22,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Technical Consulting | Emmanuel Joseph",
     description: "Architecture reviews, code audits, and strategic guidance for web2 and web3 projects.",
-    images: ["https://iemarjay.com/media/og-consulting.png"],
+    images: ["/media/og-consulting.png"],
   },
 };
 

@@ -11,9 +11,10 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "https://iemarjay.com/media/og-services.png",
+        url: "/media/og-services.png",
         width: 1200,
         height: 630,
+        alt: "Services - Emmanuel Joseph",
       },
     ],
     type: "website",
@@ -22,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Services | Emmanuel Joseph",
     description: "Backend security audits, smart contract security, consulting, and full-stack development services.",
-    images: ["https://iemarjay.com/media/og-services.png"],
+    images: ["/media/og-services.png"],
   },
 };
 

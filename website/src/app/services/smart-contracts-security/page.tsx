@@ -11,9 +11,10 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "https://iemarjay.com/media/og-smart-contract-audit.png",
+        url: "/media/og-smart-contract-audit.png",
         width: 1200,
         height: 630,
+        alt: "Smart Contract Security Audits - Emmanuel Joseph",
       },
     ],
     type: "website",
@@ -22,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Smart Contract Security Audits | Emmanuel Joseph",
     description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
-    images: ["https://iemarjay.com/media/og-smart-contract-audit.png"],
+    images: ["/media/og-smart-contract-audit.png"],
   },
 };
 

@@ -11,9 +11,10 @@ export const metadata = {
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "https://iemarjay.com/media/og-security-audit.png",
+        url: "/media/og-security-audit.png",
         width: 1200,
         height: 630,
+        alt: "Backend Security Audits - Emmanuel Joseph",
       },
     ],
     type: "website",
@@ -22,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Backend Security Audits | Emmanuel Joseph",
     description: "Comprehensive security assessments for fintech backends, APIs, and web applications. Find vulnerabilities before attackers do.",
-    images: ["https://iemarjay.com/media/og-security-audit.png"],
+    images: ["/media/og-security-audit.png"],
   },
 };
 

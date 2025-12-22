@@ -10,7 +10,6 @@ import JsonLd from "@/app/components/JsonLd";
 
 export default async function Page() {
   const posts = await getBlogPostsForHome();
-  console.warn("Posts for home:", posts);
 
   return <>
     <JsonLd data={{
