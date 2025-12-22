@@ -35,7 +35,7 @@
 | Client work     | ~$20k revenue in 2025 (web2 + web3 projects)  |
 | Team            | Small team of engineers (private, not public) |
 | Product         | Shuttershow - photographer tool (MVP stage)   |
-| Security audits | New offering, exploring as revenue stream     |
+| Security audits | Proven: 125+ issues found (backend + web3)    |
 | Mentorship      | ADPList mentor - career guidance for devs     |
 
 ### Production Experience
@@ -253,7 +253,7 @@ Your content helps you get hired:
 
 1. **Land the job first** — stable income, benefits, credibility
 2. **Keep client work** — but be selective, higher rates
-3. **Security audits** — experiment, see if it works
+3. **Security audits** — proven methodology, ready for external clients
 4. **Shuttershow** — long-term bet, work on when you can
 
 ---
@@ -505,17 +505,24 @@ Security audits are **one revenue stream**, not your whole identity.
 
 ### The Methodology
 
-7-prompt AI-augmented framework:
+**AI-augmented audits with prompts tailored per project.**
 
-1. Line-by-Line Security Audit
-2. Key Areas Security Review
-3. Access Control Matrix
-4. Business Logic Review
-5. External Dependencies Review
-6. Static Analysis Integration (proprietary)
-7. Security Test Generation (proprietary)
+Prompts are written fresh based on:
+- Tech stack and domain
+- Integration points (payment providers, oracles, etc.)
+- Risk areas identified during initial review
 
-**Open-source 5 of 7** — builds credibility, generates leads.
+**Smart Contract Audits** — more standardized (Solidity patterns are consistent):
+- Line-by-line review, access control, business logic, static analysis
+- Adapted for protocol type (DeFi, NFT, governance)
+
+**Backend Audits** — fully custom per project:
+- Auth, API security, financial logic, third-party integrations
+- Tailored to the specific codebase and risk profile
+
+**Track record**: 125+ issues found across real audits (NDA clients).
+
+See `docs/SECURITY_AUDIT_EXPERIENCE.md` for full details.
 
 ### How It Supports the Brand
 
@@ -542,7 +549,7 @@ Security audits are **one revenue stream**, not your whole identity.
 
 - [ ] Update Twitter bio and profile
 - [ ] Update LinkedIn headline and about
-- [ ] Finalize cornerstone blog post
+- [x] Finalize cornerstone blog post
 - [ ] Draft 3 Twitter threads
 - [ ] Create service page for website
 
@@ -551,7 +558,7 @@ Security audits are **one revenue stream**, not your whole identity.
 - [ ] Get feedback on blog post
 - [ ] Create visual assets (code screenshots, diagrams)
 - [ ] Set up GitHub repo for audit prompts
-- [ ] Fix blog 404 on website
+- [x] Fix blog 404 on website
 - [ ] Set up Calendly
 
 ### Phase 2: Launch (Week 3-4)
@@ -560,7 +567,7 @@ Security audits are **one revenue stream**, not your whole identity.
 
 **Week 3:**
 
-- [ ] Publish blog post
+- [x] Publish blog post
 - [ ] Post launch Twitter thread
 - [ ] Share on LinkedIn
 - [ ] Make GitHub repo public
@@ -754,8 +761,9 @@ Focus on leading indicators early. Results follow effort.
 | File                                                     | Purpose              | Status     |
 | -------------------------------------------------------- | -------------------- | ---------- |
 | `security-audit-page-copy.md`                            | Service page         | Done       |
-| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Draft done |
+| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Published  |
 | `ADPLIST_MENTORSHIP.md`                                  | Mentorship tracking  | Active     |
+| `SECURITY_AUDIT_EXPERIENCE.md`                           | Audit methodology    | Active     |
 
 ---
 

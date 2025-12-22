@@ -15,7 +15,7 @@ This repo contains:
 - Currently at Pouchfi + freelance client work
 - Building Shuttershow (photographer tool MVP)
 - ADPList mentor for developers
-- Exploring security audits as additional revenue stream
+- Security audits: Proven methodology (125+ issues found across backend + web3)
 
 **Positioning**: Developer who builds production systems, takes security seriously, ships products, and has depth. NOT "just a security auditor."
 
@@ -45,6 +45,11 @@ iemarjay.com/
 │   │   │   │   └── [slug]/       # Dynamic post pages
 │   │   │   ├── about/            # About section
 │   │   │   │   └── case-study/   # Case studies
+│   │   │   ├── services/         # Services section
+│   │   │   │   ├── page.tsx      # Services listing
+│   │   │   │   ├── security/     # Backend security audits
+│   │   │   │   ├── smart-contracts-security/  # Web3 audits
+│   │   │   │   └── consulting/   # Technical consulting
 │   │   │   ├── components/       # Page-level components (GTM, JsonLd)
 │   │   │   ├── sitemap.ts        # Dynamic sitemap
 │   │   │   └── robots.ts         # Robots.txt
@@ -59,7 +64,10 @@ iemarjay.com/
 └── docs/                         # Strategy & planning docs
     ├── PERSONAL_BRAND_STRATEGY.md
     ├── ADPLIST_MENTORSHIP.md
-    └── CLAUDE_CODE_HANDOFF_CONTEXT.md
+    ├── CLAUDE_CODE_HANDOFF_CONTEXT.md
+    ├── SECURITY_AUDIT_EXPERIENCE.md
+    └── templates/                # Proposal templates
+        └── SECURITY_ENGAGEMENT_PROPOSAL.md
 ```
 
 ## Website
@@ -115,13 +123,16 @@ Required in `website/.env`:
 - `docs/CLAUDE_CODE_HANDOFF_CONTEXT.md` - Session handoff context, resume instructions
 - `docs/PERSONAL_BRAND_STRATEGY.md` - Full brand strategy
 - `docs/ADPLIST_MENTORSHIP.md` - Mentorship tracking & frameworks
+- `docs/SECURITY_AUDIT_EXPERIENCE.md` - Audit methodology & experience (NDA-compliant)
+- `docs/templates/SECURITY_ENGAGEMENT_PROPOSAL.md` - Proposal template for security engagements
 
 ## Content Status
 
 | Content | Status |
 |---------|--------|
-| $10k bug story blog post | Draft done |
-| Security audit page copy | Done |
+| $10k bug story blog post | Published |
+| Backend security audit page | Done (/services/security) |
+| Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |
 | LinkedIn optimization | Not started |
 
@@ -129,7 +140,22 @@ Required in `website/.env`:
 
 Emmanuel learned about replay attacks the hard way — a webhook vulnerability cost a client $10k. That failure drove him to build systematic security checks. This connects to his security audit work.
 
+## Security Audit Experience
+
+Emmanuel has executed comprehensive security audits with **prompts tailored per project** (not fixed templates):
+
+**Backend Audits** — fully custom per project:
+- Prompts written based on tech stack, domain, and risk areas
+- Found 115 issues (35 critical, 39 high) in a fintech backend
+
+**Smart Contract Audits** — more standardized (Solidity patterns consistent):
+- Adapted for protocol type (DeFi, NFT, governance)
+- Found critical cross-chain replay vulnerability, storage gaps, rate limit issues
+
+**The $10k Connection**: The webhook replay vulnerability from Panelsuite directly connected to the cross-chain signature replay found in smart contracts — same class of bug, different layer.
+
+Details in `docs/SECURITY_AUDIT_EXPERIENCE.md` (methodology without client names due to NDA).
+
 ## Known Issues
 
-- Blog returns 404 (needs fix)
-- Security audit service page not added to website yet
+- None currently

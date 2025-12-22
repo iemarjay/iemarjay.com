@@ -1,6 +1,6 @@
 # Claude Code Handoff: Emmanuel's Brand & Career Strategy
 
-**Date**: December 10, 2025
+**Date**: December 22, 2025
 **Purpose**: Continue this conversation in a new Claude Code session
 **Project**: Personal brand building + career growth
 
@@ -8,7 +8,9 @@
 
 ## Quick Resume Point
 
-**Where we left off**: Drafted cornerstone blog post about the $10k bug story. Clarified broader context about who Emmanuel is and what he actually wants.
+**Where we left off**: Active security opportunity with a Lagos fintech. Friend connected Emmanuel with their CTO after they got hacked (unauthorized debits, ₦5M+ loss discovered, unknown total). Call scheduled.
+
+**Recent work**: Created two separate security service pages and proposal template for the engagement.
 
 **Key insight**: Security audits are ONE revenue stream, not his whole identity. He's a full-stack developer (web2 + web3) building his personal brand to attract better opportunities.
 
@@ -212,17 +214,59 @@ Any format that puts name + skills out there:
 | `CLAUDE_CODE_HANDOFF_CONTEXT.md` | This file | Updated |
 | `PERSONAL_BRAND_STRATEGY.md` | Full strategy doc | Updated |
 | `ADPLIST_MENTORSHIP.md` | Mentorship tracking & frameworks | Active |
-| `security-audit-page-copy.md` | Service page copy | Done |
-| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog post | Draft done |
+| `SECURITY_AUDIT_EXPERIENCE.md` | Audit methodology & experience (NDA-compliant) | Done |
+| `templates/SECURITY_ENGAGEMENT_PROPOSAL.md` | Proposal template for security engagements | Done |
+| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog post | Published |
+
+### Website Pages
+
+| Page | URL | Purpose |
+|------|-----|---------|
+| Backend Security Audits | `/services/security` | Fintech/API security services |
+| Smart Contract Audits | `/services/smart-contracts-security` | Web3/DeFi audit services |
+| Services listing | `/services` | Overview of all services |
 
 ### Not Done Yet
 
 - First Twitter thread
 - GitHub repo for audit prompts
-- Fix blog 404 on website
-- Add service page to website
 - Calendly setup
 - Profile optimization (Twitter, LinkedIn)
+
+### Recently Completed
+
+- Backend security audit page (`/services/security`)
+- Smart contract audit page (`/services/smart-contracts-security`)
+- Navigation dark variant for services pages
+- Proposal template for security engagements
+- Track record metrics on both security pages
+
+---
+
+## Active Opportunity: Lagos Fintech Security Engagement
+
+**Status**: Discovery call scheduled with CTO
+
+**Situation**:
+- Friend works at a Lagos fintech, company got hacked
+- Unauthorized customer debits occurring
+- ₦5M+ loss discovered, unknown total
+- Don't know how long vulnerability has been active
+- CTO wants to discuss security help
+
+**What's prepared**:
+- Backend security page: `iemarjay.com/services/security`
+- Proposal template: `docs/templates/SECURITY_ENGAGEMENT_PROPOSAL.md`
+- Discovery questions for the call
+- Pricing guidance: ₦500K-₦1M (incident response), ₦3.5M-₦6M (full package)
+
+**Next steps**:
+1. Discovery call with CTO
+2. Customize proposal after call
+3. Send proposal within 24 hours
+4. Follow up if no response in 2-3 days
+
+**Key positioning**: Individual expert consultant, not fake agency. Lead with incident response (low commitment), propose phases.
 
 ---
 
@@ -272,4 +316,4 @@ My voice: practical, friendly, tutor energy, admits mistakes openly.
 
 ---
 
-*Last updated: December 11, 2025*
+*Last updated: December 22, 2025*
