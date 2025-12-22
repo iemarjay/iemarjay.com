@@ -13,7 +13,70 @@ I have developed and executed comprehensive security audit frameworks for both *
 
 ## Audit Experience Summary
 
-### Backend Security Audit
+### Backend Security Audit #1 — The $10k Incident (Vulnerability Audit + Forensic Analysis)
+
+**Context**: This is the same fintech backend where a webhook replay attack cost my client $10k. I was brought back to conduct a comprehensive security audit AND analyze the production database to quantify the actual damage.
+
+**Scope**: Full-stack fintech backend (NestJS/TypeScript) — wallet operations, payment webhooks, purchase flows
+
+#### Part 1: Vulnerability Audit
+
+| Metric | Value |
+|--------|-------|
+| Total Issues Found | 24 |
+| Critical | 5 |
+| High | 7 |
+| Medium | 5 |
+| Low | 7 |
+
+**The Attack Vector Identified**: The webhook handler created payments and credited wallets from webhook data alone when no pre-existing payment existed. Attackers could craft webhooks with arbitrary amounts and user IDs — a "free money" vulnerability.
+
+**Critical Vulnerabilities Found**:
+- Webhook can create payments for arbitrary users (free money vulnerability)
+- Payment verification missing error handling and wallet locks (race condition)
+- Webhook signature validation silent failure
+- MD5 used for signature verification (cryptographically broken)
+- Auto-refund without pessimistic lock (double refund)
+
+**High Severity Issues**:
+- Negative amount injection in admin wallet operations
+- No database-level balance constraints
+- Hold can exceed available balance (double-spend vector)
+- Refund operations without pessimistic locks
+- Transaction cleanup null reference crashes
+
+#### Part 2: Forensic Incident Analysis (Production Database)
+
+Given production database access, I analyzed the actual attack impact:
+
+| Metric | Value |
+|--------|-------|
+| Total Fraudulent Deposits | $7,149.24 |
+| Attack Duration | 42 days |
+| Affected Customers | 720 (0.86% of 84K total) |
+| Affected Payment References | 985 |
+| Total Extra Payments | 1,058 |
+| Recoverable from Current Balances | $5,110.06 |
+
+**Attack Timeline Analysis**:
+- Start: October 28, 2025
+- End: December 8, 2025
+- Peak days: 46 duplicate payments in single day
+- Pattern: Gradually escalating from ~6/day to ~32/day
+
+**Identified Top Offenders**: Located accounts showing deliberate replay patterns (40+ duplicates from single user), provided actionable list for investigation.
+
+**Deliverables**:
+- Forensic SQL queries to identify affected accounts
+- Attack timeline with daily breakdown
+- Top offender list with amounts and current balances
+- Recovery recommendations ($5K+ recoverable)
+- Remediation roadmap with priority tiers
+- Code fixes with before/after examples
+
+---
+
+### Backend Security Audit #2
 
 **Scope**: Full-stack fintech backend (Node.js/NestJS)
 
@@ -171,14 +234,25 @@ More standardized than backend audits (Solidity patterns are more consistent), b
 
 ## Key Learnings
 
-### The $10k Connection
+### The $10k Redemption Arc
 
-The webhook replay vulnerability that cost a client $10k in my earlier work (Panelsuite) connected directly to the cross-chain signature replay vulnerability found in smart contract audits. Same class of bug, different layer:
+The webhook replay vulnerability that cost a client $10k became the catalyst for building systematic security audit capabilities. When I returned to audit the same system:
 
-- **Web2**: Webhook notifications replayed 2-6 times before duplicate check
+1. **Found the exact vulnerability** that was exploited (webhook creating payments from external data)
+2. **Quantified the damage** with forensic database analysis ($7,149 fraudulent, 42-day attack window)
+3. **Identified the attackers** and recoverable funds ($5,110 still in wallets)
+4. **Found 23 additional vulnerabilities** the attackers didn't exploit
+
+This wasn't just finding bugs — it was providing complete incident response: root cause, impact analysis, attacker identification, and remediation path.
+
+### Cross-Layer Pattern Recognition
+
+The replay vulnerability class appears across layers:
+
+- **Web2**: Webhook notifications creating payments without pre-existing records
 - **Web3**: Withdrawal signatures replayable across chains without chain ID binding
 
-This pattern recognition across layers is a core strength.
+Same class of bug, different layer. This pattern recognition across web2/web3 is a core strength.
 
 ### What Makes Audits Effective
 

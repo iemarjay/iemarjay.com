@@ -15,7 +15,7 @@ This repo contains:
 - Currently at Pouchfi + freelance client work
 - Building Shuttershow (photographer tool MVP)
 - ADPList mentor for developers
-- Security audits: Proven methodology (125+ issues found across backend + web3)
+- Security audits: Proven methodology (149+ issues found across backend + web3, including forensic incident analysis)
 
 **Positioning**: Developer who builds production systems, takes security seriously, ships products, and has depth. NOT "just a security auditor."
 
@@ -131,6 +131,9 @@ Required in `website/.env`:
 | Content | Status |
 |---------|--------|
 | $10k bug story blog post | Published |
+| $10k redemption blog post | Draft (content/blog/) |
+| Fintech incident response case study | Draft (docs/case-studies/) |
+| $10k redemption Twitter thread | Draft (content/twitter-threads/) |
 | Backend security audit page | Done (/services/security) |
 | Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |
@@ -138,21 +141,28 @@ Required in `website/.env`:
 
 ## The Origin Story
 
-Emmanuel learned about replay attacks the hard way — a webhook vulnerability cost a client $10k. That failure drove him to build systematic security checks. This connects to his security audit work.
+Emmanuel learned about replay attacks the hard way — a webhook vulnerability cost a client $10k. That failure drove him to build systematic security audit capabilities.
+
+**The redemption**: He returned to audit the same system, found the exact vulnerability that was exploited plus 23 more, and performed forensic analysis quantifying $7,149 in fraud over 42 days with $5,110 recoverable. From costly mistake to complete incident response.
 
 ## Security Audit Experience
 
 Emmanuel has executed comprehensive security audits with **prompts tailored per project** (not fixed templates):
 
-**Backend Audits** — fully custom per project:
-- Prompts written based on tech stack, domain, and risk areas
+**Backend Audit #1 — The $10k Redemption**:
+- Returned to audit the same system where webhook vulnerability cost client $10k
+- Found 24 issues (5 critical, 7 high) including the exact vulnerability exploited
+- **Forensic analysis**: Given production DB access, quantified attack ($7,149 fraudulent over 42 days)
+- Identified attackers and $5,110 recoverable funds still in wallets
+
+**Backend Audit #2**:
 - Found 115 issues (35 critical, 39 high) in a fintech backend
+- Fake deposits, race conditions, auth weaknesses, encryption flaws
 
 **Smart Contract Audits** — more standardized (Solidity patterns consistent):
-- Adapted for protocol type (DeFi, NFT, governance)
 - Found critical cross-chain replay vulnerability, storage gaps, rate limit issues
 
-**The $10k Connection**: The webhook replay vulnerability from Panelsuite directly connected to the cross-chain signature replay found in smart contracts — same class of bug, different layer.
+**The $10k Connection**: Same replay vulnerability class across layers — web2 (webhook replay) and web3 (cross-chain signature replay).
 
 Details in `docs/SECURITY_AUDIT_EXPERIENCE.md` (methodology without client names due to NDA).
 
