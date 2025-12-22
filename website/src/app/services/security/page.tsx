@@ -72,10 +72,13 @@ export default function SecurityPage() {
               It was a webhook replay attack on a payment integration. Attackers discovered they could replay payment notifications multiple times before my system checked for duplicates. A single deposit credited the account 2, 3, sometimes 6 times. Classic race condition, and I didn&apos;t catch it until money was gone.
             </p>
             <p>
-              That failure changed how I approach code. I stopped trusting &quot;it looks fine&quot; and built systematic processes to catch what human eyes miss. I now use AI-augmented analysis to review every endpoint, every integration, every authentication flow.
+              That failure changed how I approach code. I stopped trusting &quot;it looks fine&quot; and built systematic processes to catch what human eyes miss.
+            </p>
+            <p>
+              <strong className="text-white">The redemption:</strong> I later returned to audit that same system. Found the exact vulnerability that was exploited, plus 23 more. Then performed forensic analysis on the production database — quantified $7,149 in fraudulent deposits over 42 days, identified the attackers, and located $5,110 still recoverable in wallets.
             </p>
             <p className="text-[#E6BAFF] font-medium">
-              I help teams find these issues before they become expensive lessons.
+              From costly mistake to complete incident response. I help teams find these issues before they become expensive lessons.
             </p>
           </div>
         </section>
@@ -85,28 +88,28 @@ export default function SecurityPage() {
           <h2 className="font-gilroy text-2xl font-bold text-white mb-4">Track Record</h2>
           <div className="text-[#c4b0cf] space-y-4">
             <p>
-              Recent fintech backend audit results:
+              Combined results from fintech backend audits:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
               <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
-                <div className="text-3xl font-bold text-white">115</div>
+                <div className="text-3xl font-bold text-white">139</div>
                 <div className="text-sm text-[#c4b0cf]">Issues Found</div>
               </div>
               <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-red-400">35</div>
+                <div className="text-3xl font-bold text-red-400">40</div>
                 <div className="text-sm text-[#c4b0cf]">Critical</div>
               </div>
               <div className="p-4 rounded-lg bg-orange-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-orange-400">39</div>
+                <div className="text-3xl font-bold text-orange-400">46</div>
                 <div className="text-sm text-[#c4b0cf]">High</div>
               </div>
               <div className="p-4 rounded-lg bg-yellow-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-yellow-400">41</div>
+                <div className="text-3xl font-bold text-yellow-400">53</div>
                 <div className="text-sm text-[#c4b0cf]">Medium/Low</div>
               </div>
             </div>
             <p className="text-sm text-[#c4b0cf] mt-4">
-              Client details under NDA. Methodology and vulnerability classes available for discussion.
+              Across multiple fintech backends. Client details under NDA.
             </p>
           </div>
         </section>
@@ -254,7 +257,7 @@ export default function SecurityPage() {
             {/* Incident Response */}
             <div className="p-6 rounded-lg bg-red-500 bg-opacity-10 border border-red-500 border-opacity-30">
               <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-                <h3 className="font-gilroy text-xl font-bold text-white">Incident Response</h3>
+                <h3 className="font-gilroy text-xl font-bold text-white">Incident Response + Forensics</h3>
                 <span className="text-red-400 font-bold">Contact for pricing</span>
               </div>
               <p className="text-sm text-[#c4b0cf] mb-4">
@@ -264,6 +267,7 @@ export default function SecurityPage() {
                 <li>• Immediate containment assistance</li>
                 <li>• Root cause identification</li>
                 <li>• Attack timeline reconstruction</li>
+                <li>• <strong className="text-white">Forensic database analysis</strong> — quantify damage, identify attackers, locate recoverable funds</li>
                 <li>• Emergency patching guidance</li>
               </ul>
             </div>

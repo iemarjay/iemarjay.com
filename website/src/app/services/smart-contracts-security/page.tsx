@@ -71,16 +71,16 @@ export default function SmartContractsSecurityPage() {
               I got serious about security after a bug I missed cost a client nearly $10,000.
             </p>
             <p>
-              It was a webhook replay attack. Attackers discovered they could replay payment notifications multiple times before my system could check for duplicates. A single real deposit credited the wallet 2, 3, sometimes 6 times. Classic race condition, and I didn&apos;t catch it until money was gone.
+              It was a webhook replay attack. Attackers discovered they could replay payment notifications multiple times before my system could check for duplicates. A single real deposit credited the wallet 2, 3, sometimes 6 times.
             </p>
             <p>
-              That failure changed how I approach code. I stopped trusting &quot;it looks fine&quot; and started building systems to catch what human eyes miss. I developed a structured methodology using Claude AI to perform comprehensive, systematic reviews.
+              <strong className="text-white">The redemption:</strong> I later returned to audit that same system. Found the exact vulnerability that was exploited, plus 23 more. Then performed forensic analysis on the production database — quantified $7,149 in fraudulent deposits over 42 days, identified the attackers, and located $5,110 still recoverable.
             </p>
             <p>
-              When I later audited my own smart contracts using this methodology, I found a critical vulnerability: signatures that could be replayed across chains. The <em>exact same class of bug</em>, replay attacks, at the smart contract level.
+              When I audited my own smart contracts, I found a critical vulnerability: signatures that could be replayed across chains. The <em>exact same class of bug</em> — replay attacks — at the smart contract level. This cross-layer pattern recognition is why I audit both web2 backends and web3 contracts.
             </p>
             <p className="text-[#E6BAFF] font-medium">
-              Now I make sure other builders don&apos;t learn this lesson the expensive way.
+              149+ vulnerabilities found across backend and smart contract systems. I help builders avoid learning these lessons the expensive way.
             </p>
           </div>
         </section>
