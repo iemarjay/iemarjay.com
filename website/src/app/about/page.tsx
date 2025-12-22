@@ -360,7 +360,42 @@ export default function Home() {
           <h1 className="text-lg font-semibold uppercase tracking-widest text-slate-200 lg:sr-only mt-16 lg:mt-0 mb-8">
             Case Study
           </h1>
-          <div className="">
+          <div className="space-y-8">
+            {/* Fintech Security Audit */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+              <div className="sm:order-2 sm:col-span-5">
+                <h3 className="text-white leading-7">
+                  <Link href="/about/case-study/fintech-security">Fintech Security Audit</Link>
+                </h3>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-red-400/10 px-3 py-1 text-xs font-medium leading-5 text-red-300 mr-1.5 mt-2">
+                    Security Audit
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Fintech
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Forensics
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Incident Response
+                  </span>
+                </div>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Identified 24 vulnerabilities, traced an active attack, quantified $7,149 in fraud, and recovered $5,110 for a payments platform.
+                </p>
+              </div>
+              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[150px] flex items-center justify-center rounded-lg bg-gradient-to-br from-red-500/20 to-purple-500/20">
+                <Link href="/about/case-study/fintech-security" className="w-full h-full flex items-center justify-center">
+                  <div className="text-center p-4">
+                    <div className="text-3xl font-bold text-red-400">24</div>
+                    <div className="text-xs text-[#c4b0cf]">Vulnerabilities</div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
+            {/* Fitted.fashion */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
               <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
@@ -383,13 +418,13 @@ export default function Home() {
                     E-commerce
                   </span>
                 </div>
-                <p className="mt-4 text-sm leading-normal">
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
                   Platform powering custom and ready to wear apparel production for the fashion industry
                 </p>
               </div>
-              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[250px]">
+              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[150px]">
                 <Link href="/about/case-study/fitted" className="w-full h-full">
-                  <Image src="/media/fitted-landing-page.png" fill className="object-cover object-top"
+                  <Image src="/media/fitted-landing-page.png" fill className="object-cover object-top rounded-lg"
                          alt="Fitted.fashion landing page"/>
                 </Link>
               </div>
