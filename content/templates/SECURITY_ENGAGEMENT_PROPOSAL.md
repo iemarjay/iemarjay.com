@@ -98,8 +98,9 @@ Based on our conversation:
 
 **Relevant Experience**:
 - 8 years full-stack development (fintech systems)
-- Conducted comprehensive security audit of fintech backend: found 115 issues including 35 critical and 39 high severity
+- 139+ backend security issues found across multiple audits (40 critical, 46 high severity)
 - Specific expertise in payment integration vulnerabilities, webhook security, race conditions
+- **Forensic analysis capability**: Production database analysis to quantify attack impact, identify attackers, and recover funds
 - Based in Lagos — available for in-person meetings if needed
 
 **Methodology**:
@@ -107,7 +108,7 @@ Based on our conversation:
 - Focus on financial logic, payment flows, and authentication — the areas that matter most for fintech
 
 **The Personal Note**:
-I once missed a webhook replay vulnerability that cost a client nearly $10,000. That failure made me obsessive about systematic security checks. I now help other teams avoid learning this lesson the expensive way.
+I once missed a webhook replay vulnerability that cost a client nearly $10,000. I later returned to audit that same system — found the exact vulnerability that was exploited plus 23 more, and performed forensic analysis quantifying $7,149 in fraud over 42 days with $5,110 recoverable. That failure became the foundation for my systematic audit methodology.
 
 ---
 
