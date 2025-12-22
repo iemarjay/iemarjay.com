@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import React from "react";
-import Head from "next/head";
 import {GTM} from "@/app/components/GTM";
 
 const poppins = Poppins({
@@ -50,22 +49,23 @@ export const metadata = {
     title:
       "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
     description:
-      "Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries",
+      "Full-stack software engineer, blockchain engineer and serial builder. I have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries.",
     url: "https://iemarjay.com",
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
       {
-        url: "/media/meet-emmanuel-joseph-iemarjay.png",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "/media/meet-emmanuel-joseph-iemarjay.png",
-        width: 1800,
-        height: 1600,
+        url: "https://iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png",
+        width: 1200,
+        height: 630,
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
+    description: "Full-stack software engineer, blockchain engineer and serial builder. 8 years building production systems across web2 and web3.",
+    images: ["https://iemarjay.com/media/meet-emmanuel-joseph-iemarjay.png"],
   },
 };
 
@@ -76,19 +76,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={"scroll-smooth"}>
-      <Head>
-        <meta property="og:title" content="Joseph Emmanuel (iemarjay)" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:description"
-          content="Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries"
-        />
-        <meta property="og:url" content="https://iemarjay.com" />
-        <meta
-          property="og:image"
-          content="/media/meet-emmanuel-joseph-iemarjay.png"
-        />
-      </Head>
       <body className={poppins.className}>{children}</body>
 
       <GTM id={"GTM-PZQZ5LX6"} />
