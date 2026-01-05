@@ -24,6 +24,8 @@ This repo contains:
 
 **X/Twitter**: Has X Premium — write long-form single posts, NOT threads. Store drafts in `content/twitter-threads/` (legacy folder name).
 
+**Video/Shorts**: Creating micro vlogs and shorts for X, TikTok, YouTube Shorts, Instagram Reels. Store scripts in `content/video-scripts/`. See `docs/MICRO_VLOGGING_PLAN.md` for full strategy.
+
 ## Goals
 
 - Land $5k+/mo remote role with flexibility (3-6 months)
@@ -66,6 +68,7 @@ iemarjay.com/
 │   ├── blog/                     # Blog post drafts
 │   ├── linkedin/                 # LinkedIn post drafts
 │   ├── twitter-threads/          # X post drafts (legacy folder name)
+│   ├── video-scripts/            # Micro vlog/shorts scripts
 │   └── templates/                # Proposal templates
 │       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
@@ -135,6 +138,7 @@ Required in `website/.env`:
 - `docs/2026_YEARLY_PLAN.md` - Month-by-month focus for projects, content, career, travel
 - `docs/AUDIT_CONTEST_STUDY_PLAN.md` - 12-week study plan for audit contests
 - `docs/ADPLIST_MENTORSHIP.md` - Mentorship tracking & frameworks
+- `docs/MICRO_VLOGGING_PLAN.md` - Short-form video strategy (X, TikTok, YouTube Shorts, IG)
 - `docs/SECURITY_AUDIT_EXPERIENCE.md` - Audit methodology & experience (NDA-compliant)
 - `docs/case-studies/` - Anonymized case studies for proposals/portfolio
   - `fintech-incident-response-case-study.md` - Backend audit + forensics
@@ -157,6 +161,8 @@ Required in `website/.env`:
 | Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |
 | LinkedIn optimization | Not started |
+| Micro vlogging intro video | Script ready (content/video-scripts/) |
+| $10k bug story video | Script ready (content/video-scripts/) |
 
 ## The Origin Story
 
