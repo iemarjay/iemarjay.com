@@ -820,7 +820,7 @@ Focus on leading indicators early. Results follow effort.
 | -------------------------------------------------------- | -------------------- | ------------- |
 | `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Published     |
 | `solana-prediction-market-security-lessons.md`           | Solana audit blog    | Published     |
-| `solana-prediction-market-audit-thread.md`               | X post               | Ready to post |
+| `solana-prediction-market-audit-post.md`               | X post               | Ready to post |
 | `solana-prediction-market-audit.md`                      | LinkedIn post        | Ready to post |
 | `fintech-incident-response-case-study.md`                | Backend case study   | Done          |
 | `solana-prediction-market-audit-case-study.md`           | Solana case study    | Done          |

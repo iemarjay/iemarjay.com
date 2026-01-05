@@ -213,6 +213,7 @@ Any format that puts name + skills out there:
 |------|---------|--------|
 | `CLAUDE_CODE_HANDOFF_CONTEXT.md` | This file | Updated |
 | `PERSONAL_BRAND_STRATEGY.md` | Full strategy doc | Updated |
+| `JANUARY_2026_CONTENT_PLAN.md` | Weekly content calendar for January | Done |
 | `ADPLIST_MENTORSHIP.md` | Mentorship tracking & frameworks | Active |
 | `SECURITY_AUDIT_EXPERIENCE.md` | Audit methodology & experience (NDA-compliant) | Done |
 | `templates/SECURITY_ENGAGEMENT_PROPOSAL.md` | Proposal template for security engagements | Done |
@@ -228,10 +229,11 @@ Any format that puts name + skills out there:
 
 ### Not Done Yet
 
-- First Twitter thread
+- First X post (Solana audit post ready, $10k redemption post ready)
 - GitHub repo for audit prompts
 - Calendly setup
 - Profile optimization (Twitter, LinkedIn)
+- First micro vlog (scripts ready)
 
 ### Recently Completed
 

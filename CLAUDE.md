@@ -74,9 +74,11 @@ iemarjay.com/
 └── docs/                         # Strategy & planning docs
     ├── PERSONAL_BRAND_STRATEGY.md
     ├── 2026_YEARLY_PLAN.md
+    ├── JANUARY_2026_CONTENT_PLAN.md
     ├── AUDIT_CONTEST_STUDY_PLAN.md
     ├── ADPLIST_MENTORSHIP.md
     ├── CLAUDE_CODE_HANDOFF_CONTEXT.md
+    ├── MICRO_VLOGGING_PLAN.md
     ├── SECURITY_AUDIT_EXPERIENCE.md
     └── case-studies/             # Anonymized case studies
         ├── fintech-incident-response-case-study.md
@@ -136,6 +138,7 @@ Required in `website/.env`:
 - `docs/CLAUDE_CODE_HANDOFF_CONTEXT.md` - Session handoff context, resume instructions
 - `docs/PERSONAL_BRAND_STRATEGY.md` - Full brand strategy
 - `docs/2026_YEARLY_PLAN.md` - Month-by-month focus for projects, content, career, travel
+- `docs/JANUARY_2026_CONTENT_PLAN.md` - Weekly content calendar for January
 - `docs/AUDIT_CONTEST_STUDY_PLAN.md` - 12-week study plan for audit contests
 - `docs/ADPLIST_MENTORSHIP.md` - Mentorship tracking & frameworks
 - `docs/MICRO_VLOGGING_PLAN.md` - Short-form video strategy (X, TikTok, YouTube Shorts, IG)
@@ -150,11 +153,11 @@ Required in `website/.env`:
 | Content | Status |
 |---------|--------|
 | $10k bug story blog post | Published |
-| $10k redemption blog post | Draft (content/blog/) |
+| $10k redemption blog post | Draft ready (content/blog/) |
 | Fintech incident response case study | Done (docs + /about/case-study/fintech-security) |
 | Solana prediction market case study | Done (docs + /about/case-study/solana-prediction-market) |
-| $10k redemption X post | Draft (content/twitter-threads/) |
-| Solana audit X post | Ready to post (content/twitter-threads/) |
+| $10k redemption X post | Ready to post (content/twitter-threads/10k-redemption-post.md) |
+| Solana audit X post | Ready to post (content/twitter-threads/solana-prediction-market-audit-post.md) |
 | Solana audit blog post | Published (/post/solana-prediction-market-security-lessons) |
 | Solana audit LinkedIn post | Ready to post (content/linkedin/) |
 | Backend security audit page | Done (/services/security) |
@@ -163,6 +166,7 @@ Required in `website/.env`:
 | LinkedIn optimization | Not started |
 | Micro vlogging intro video | Script ready (content/video-scripts/) |
 | $10k bug story video | Script ready (content/video-scripts/) |
+| January 2026 content plan | Done (docs/JANUARY_2026_CONTENT_PLAN.md) |
 
 ## The Origin Story
 

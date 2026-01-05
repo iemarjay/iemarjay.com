@@ -224,6 +224,7 @@ This plan maps out monthly priorities across:
 ## Related Documents
 
 - [PERSONAL_BRAND_STRATEGY.md](./PERSONAL_BRAND_STRATEGY.md) — Full brand strategy and 90-day plan
+- [JANUARY_2026_CONTENT_PLAN.md](./JANUARY_2026_CONTENT_PLAN.md) — Weekly content calendar for January
 - [MICRO_VLOGGING_PLAN.md](./MICRO_VLOGGING_PLAN.md) — Short-form video strategy (X, TikTok, YouTube Shorts, IG)
 - [AUDIT_CONTEST_STUDY_PLAN.md](./AUDIT_CONTEST_STUDY_PLAN.md) — 12-week audit skill building
 - [SECURITY_AUDIT_EXPERIENCE.md](./SECURITY_AUDIT_EXPERIENCE.md) — Audit methodology reference
