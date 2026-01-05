@@ -76,7 +76,8 @@ iemarjay.com/
     ├── CLAUDE_CODE_HANDOFF_CONTEXT.md
     ├── SECURITY_AUDIT_EXPERIENCE.md
     └── case-studies/             # Anonymized case studies
-        └── fintech-incident-response-case-study.md
+        ├── fintech-incident-response-case-study.md
+        └── solana-prediction-market-audit-case-study.md
 ```
 
 ## Website
@@ -146,12 +147,12 @@ Required in `website/.env`:
 |---------|--------|
 | $10k bug story blog post | Published |
 | $10k redemption blog post | Draft (content/blog/) |
-| Fintech incident response case study | Done (docs/case-studies/) |
-| Solana prediction market case study | Done (docs/case-studies/) |
+| Fintech incident response case study | Done (docs + /about/case-study/fintech-security) |
+| Solana prediction market case study | Done (docs + /about/case-study/solana-prediction-market) |
 | $10k redemption X post | Draft (content/twitter-threads/) |
-| Solana audit X post | Draft (content/twitter-threads/) |
-| Solana audit blog post | Draft (content/blog/) |
-| Solana audit LinkedIn post | Draft (content/linkedin/) |
+| Solana audit X post | Ready to post (content/twitter-threads/) |
+| Solana audit blog post | Published (/post/solana-prediction-market-security-lessons) |
+| Solana audit LinkedIn post | Ready to post (content/linkedin/) |
 | Backend security audit page | Done (/services/security) |
 | Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |

@@ -788,9 +788,10 @@ Focus on leading indicators early. Results follow effort.
 
 ### Website (iemarjay.com)
 
-- Has about page
-- Blog section (404 — needs fixing)
-- Needs: service page, updated home
+- Has about page with case studies
+- Blog section (working, publishing posts)
+- Service pages: security, smart-contracts-security, consulting
+- Case studies: fintech-security, solana-prediction-market
 
 ### GitHub (40 repos)
 
@@ -815,12 +816,16 @@ Focus on leading indicators early. Results follow effort.
 
 ### Content Created
 
-| File                                                     | Purpose              | Status     |
-| -------------------------------------------------------- | -------------------- | ---------- |
-| `security-audit-page-copy.md`                            | Service page         | Done       |
-| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Published  |
-| `ADPLIST_MENTORSHIP.md`                                  | Mentorship tracking  | Active     |
-| `SECURITY_AUDIT_EXPERIENCE.md`                           | Audit methodology    | Active     |
+| File                                                     | Purpose              | Status        |
+| -------------------------------------------------------- | -------------------- | ------------- |
+| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Published     |
+| `solana-prediction-market-security-lessons.md`           | Solana audit blog    | Published     |
+| `solana-prediction-market-audit-thread.md`               | X post               | Ready to post |
+| `solana-prediction-market-audit.md`                      | LinkedIn post        | Ready to post |
+| `fintech-incident-response-case-study.md`                | Backend case study   | Done          |
+| `solana-prediction-market-audit-case-study.md`           | Solana case study    | Done          |
+| `ADPLIST_MENTORSHIP.md`                                  | Mentorship tracking  | Active        |
+| `SECURITY_AUDIT_EXPERIENCE.md`                           | Audit methodology    | Active        |
 
 ---
 
@@ -848,5 +853,5 @@ Stop chasing. Start attracting. Content works while you sleep.
 
 ---
 
-_Last updated: December 2025_
-_Version: 2.0_
+_Last updated: January 2026_
+_Version: 2.1_
