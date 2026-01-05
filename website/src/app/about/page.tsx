@@ -395,6 +395,40 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Solana Prediction Market Audit */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+              <div className="sm:order-2 sm:col-span-5">
+                <h3 className="text-white leading-7">
+                  <Link href="/about/case-study/solana-prediction-market">Solana Prediction Market Audit</Link>
+                </h3>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 mr-1.5 mt-2">
+                    Security Audit
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Solana
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Rust
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    DeFi
+                  </span>
+                </div>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Pre-mainnet audit of a prediction market protocol. Found 17 issues including vault insolvency risk in 2,800 lines of Rust.
+                </p>
+              </div>
+              <div className="sm:order-1 sm:col-span-3 relative min-h-[100px] md:min-h-[150px] flex items-center justify-center rounded-lg bg-gradient-to-br from-orange-500/20 to-purple-500/20">
+                <Link href="/about/case-study/solana-prediction-market" className="w-full h-full flex items-center justify-center">
+                  <div className="text-center p-4">
+                    <div className="text-3xl font-bold text-orange-400">17</div>
+                    <div className="text-xs text-[#c4b0cf]">Issues Found</div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
             {/* Fitted.fashion */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
               <div className="sm:order-2 sm:col-span-5">

@@ -6,7 +6,7 @@ Personal brand and portfolio project for **Emmanuel Joseph (@iemarjay)** — ful
 
 This repo contains:
 - **Website**: Portfolio and blog at iemarjay.com
-- **Content**: Blog posts, twitter threads, and proposal templates
+- **Content**: Blog posts, X posts, and proposal templates
 - **Docs**: Brand strategy, mentorship frameworks, case studies, career planning
 
 ## Who Emmanuel Is
@@ -15,11 +15,14 @@ This repo contains:
 - Currently at Pouchfi + freelance client work
 - Building Shuttershow (photographer tool MVP)
 - ADPList mentor for developers
-- Security audits: Proven methodology (149+ issues found across backend + web3, including forensic incident analysis)
+- Security audits: Proven methodology (160+ issues found across backend + web3, including forensic incident analysis)
+- Politically conscious: Cares about Nigeria, Africa, and global politics/economies
 
 **Positioning**: Developer who builds production systems, takes security seriously, ships products, and has depth. NOT "just a security auditor."
 
 **Voice**: Practical, friendly, tutor energy, admits mistakes openly.
+
+**X/Twitter**: Has X Premium — write long-form single posts, NOT threads. Store drafts in `content/twitter-threads/` (legacy folder name).
 
 ## Goals
 
@@ -61,11 +64,14 @@ iemarjay.com/
 │   └── .env                      # Environment variables
 ├── content/                      # Content drafts and templates
 │   ├── blog/                     # Blog post drafts
-│   ├── templates/                # Proposal templates
-│   │   └── SECURITY_ENGAGEMENT_PROPOSAL.md
-│   └── twitter-threads/          # Twitter thread drafts
+│   ├── linkedin/                 # LinkedIn post drafts
+│   ├── twitter-threads/          # X post drafts (legacy folder name)
+│   └── templates/                # Proposal templates
+│       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
     ├── PERSONAL_BRAND_STRATEGY.md
+    ├── 2026_YEARLY_PLAN.md
+    ├── AUDIT_CONTEST_STUDY_PLAN.md
     ├── ADPLIST_MENTORSHIP.md
     ├── CLAUDE_CODE_HANDOFF_CONTEXT.md
     ├── SECURITY_AUDIT_EXPERIENCE.md
@@ -125,9 +131,13 @@ Required in `website/.env`:
 
 - `docs/CLAUDE_CODE_HANDOFF_CONTEXT.md` - Session handoff context, resume instructions
 - `docs/PERSONAL_BRAND_STRATEGY.md` - Full brand strategy
+- `docs/2026_YEARLY_PLAN.md` - Month-by-month focus for projects, content, career, travel
+- `docs/AUDIT_CONTEST_STUDY_PLAN.md` - 12-week study plan for audit contests
 - `docs/ADPLIST_MENTORSHIP.md` - Mentorship tracking & frameworks
 - `docs/SECURITY_AUDIT_EXPERIENCE.md` - Audit methodology & experience (NDA-compliant)
 - `docs/case-studies/` - Anonymized case studies for proposals/portfolio
+  - `fintech-incident-response-case-study.md` - Backend audit + forensics
+  - `solana-prediction-market-audit-case-study.md` - Solana/Rust audit
 - `content/templates/SECURITY_ENGAGEMENT_PROPOSAL.md` - Proposal template for security engagements
 
 ## Content Status
@@ -137,7 +147,11 @@ Required in `website/.env`:
 | $10k bug story blog post | Published |
 | $10k redemption blog post | Draft (content/blog/) |
 | Fintech incident response case study | Done (docs/case-studies/) |
-| $10k redemption Twitter thread | Draft (content/twitter-threads/) |
+| Solana prediction market case study | Done (docs/case-studies/) |
+| $10k redemption X post | Draft (content/twitter-threads/) |
+| Solana audit X post | Draft (content/twitter-threads/) |
+| Solana audit blog post | Draft (content/blog/) |
+| Solana audit LinkedIn post | Draft (content/linkedin/) |
 | Backend security audit page | Done (/services/security) |
 | Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |
@@ -163,8 +177,13 @@ Emmanuel has executed comprehensive security audits with **prompts tailored per 
 - Found 115 issues (35 critical, 39 high) in a fintech backend
 - Fake deposits, race conditions, auth weaknesses, encryption flaws
 
-**Smart Contract Audits** — more standardized (Solidity patterns consistent):
+**Smart Contract Audit #1 (Solidity)**:
 - Found critical cross-chain replay vulnerability, storage gaps, rate limit issues
+
+**Smart Contract Audit #2 (Solana/Rust)**:
+- Prediction market protocol with LMSR AMM, ~2,800 lines
+- Found 17 issues (2 high, 5 medium) including vault insolvency risk
+- Reviewed 703-line fixed-point math engine
 
 **The $10k Connection**: Same replay vulnerability class across layers — web2 (webhook replay) and web3 (cross-chain signature replay).
 

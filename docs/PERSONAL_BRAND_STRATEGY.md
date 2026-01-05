@@ -35,7 +35,7 @@
 | Client work     | ~$20k revenue in 2025 (web2 + web3 projects)  |
 | Team            | Small team of engineers (private, not public) |
 | Product         | Shuttershow - photographer tool (MVP stage)   |
-| Security audits | Proven: 125+ issues found (backend + web3)    |
+| Security audits | Proven: 160+ issues found (backend + web3)    |
 | Mentorship      | ADPList mentor - career guidance for devs     |
 
 ### Production Experience
@@ -241,13 +241,14 @@ Your content helps you get hired:
 
 ### Target State (12 months)
 
-| Source          | Target          | Notes                     |
-| --------------- | --------------- | ------------------------- |
-| Job             | $5,000+/mo      | Priority #1               |
-| Client work     | $2,000-3,000/mo | Higher-value, less volume |
-| Security audits | $1,000-2,000/mo | 1-2 audits/month          |
-| Shuttershow     | $500-1,000/mo   | If it gains traction      |
-| **Total**       | **$10,000+/mo** |                           |
+| Source           | Target          | Notes                          |
+| ---------------- | --------------- | ------------------------------ |
+| Job              | $5,000+/mo      | Priority #1                    |
+| Client work      | $2,000-3,000/mo | Higher-value, less volume      |
+| Security audits  | $1,000-2,000/mo | 1-2 audits/month               |
+| Audit contests   | $500-2,000/mo   | Variable, skill-building phase |
+| Shuttershow      | $500-1,000/mo   | If it gains traction           |
+| **Total**        | **$10,000+/mo** |                                |
 
 ### Priority Order
 
@@ -512,15 +513,15 @@ Prompts are written fresh based on:
 - Integration points (payment providers, oracles, etc.)
 - Risk areas identified during initial review
 
-**Smart Contract Audits** — more standardized (Solidity patterns are consistent):
+**Smart Contract Audits** — Solidity and Solana/Rust:
 - Line-by-line review, access control, business logic, static analysis
-- Adapted for protocol type (DeFi, NFT, governance)
+- Adapted for protocol type (DeFi, NFT, governance, prediction markets)
 
 **Backend Audits** — fully custom per project:
 - Auth, API security, financial logic, third-party integrations
 - Tailored to the specific codebase and risk profile
 
-**Track record**: 125+ issues found across real audits (NDA clients).
+**Track record**: 160+ issues found across real audits (NDA clients).
 
 See `docs/SECURITY_AUDIT_EXPERIENCE.md` for full details.
 
@@ -536,6 +537,62 @@ See `docs/SECURITY_AUDIT_EXPERIENCE.md` for full details.
 - Realistic: 1-2 audits/month = $1,000-3,000
 - Not the main income source
 - Complements job + client work
+
+---
+
+## Audit Contests (Skill Building Track)
+
+### Why Contests
+
+Audit contests (Code4rena, Sherlock, CodeHawks) offer:
+- Skill building with real codebases
+- Public track record (rankings, findings)
+- Variable income ($500-$10k+ per contest if you place well)
+- Portfolio proof for private audit clients
+
+### Platforms
+
+| Platform | Best For | Link |
+|----------|----------|------|
+| CodeHawks First Flights | Beginners | codehawks.cyfrin.io |
+| Code4rena | All levels | code4rena.com |
+| Sherlock | Experienced | sherlock.xyz |
+| Cantina | Growing | cantina.xyz |
+
+### Your Edge in Contests
+
+Most auditors only know Solidity. You bring:
+- Backend security experience (race conditions, auth, integrations)
+- Cross-layer thinking (web2 + web3)
+- Replay attack pattern recognition (your $10k story)
+- Production incident response experience
+
+### Study Plan
+
+Full 12-week study plan in `docs/AUDIT_CONTEST_STUDY_PLAN.md`:
+- Phase 1 (Weeks 1-4): DeFi mechanics + token standards
+- Phase 2 (Weeks 5-8): CTF practice (Ethernaut, Damn Vulnerable DeFi)
+- Phase 3 (Weeks 9-12): Advanced CTFs + first contest submission
+
+**Time commitment**: 5-8 hours/week (separate from brand building)
+
+### Revenue Expectation
+
+- First 3 months: Learning, maybe $0-500
+- Months 4-6: $500-2,000/month if consistent
+- Long term: Compounds with reputation (top auditors make $10k+/contest)
+
+---
+
+## 2026 Yearly Plan
+
+For the full month-by-month breakdown of projects, content, career, and travel for 2026, see **[2026_YEARLY_PLAN.md](./2026_YEARLY_PLAN.md)**.
+
+The yearly plan expands on the 90-day plan below with:
+- Monthly focus areas across all priorities
+- Quarterly revenue targets
+- Recommended conferences and travel
+- Key milestones per month
 
 ---
 

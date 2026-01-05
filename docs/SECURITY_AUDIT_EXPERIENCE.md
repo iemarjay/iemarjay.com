@@ -1,7 +1,7 @@
 # Security Audit Experience & Methodology
 
 **Author**: Emmanuel Joseph (@iemarjay)
-**Last Updated**: December 2025
+**Last Updated**: January 2026
 
 ---
 
@@ -98,7 +98,7 @@ Given production database access, I analyzed the actual attack impact:
 - Sensitive data in logs
 - Third-party integration security gaps
 
-### Smart Contract Security Audit (Solidity)
+### Smart Contract Security Audit #1 (Solidity)
 
 **Scope**: DeFi deposit/withdrawal system (upgradeable contracts)
 
@@ -117,6 +117,54 @@ Given production database access, I analyzed the actual attack impact:
 - Single-step ownership transfer risks
 - Batch operation DoS vectors
 - Unsafe token recovery patterns
+
+---
+
+### Smart Contract Security Audit #2 (Solana/Rust)
+
+**Scope**: Prediction market protocol using LMSR (Logarithmic Market Scoring Rule) AMM with USDC settlement
+
+| Metric | Value |
+|--------|-------|
+| Total Issues Found | 17 |
+| Critical | 0 |
+| High | 2 |
+| Medium | 5 |
+| Low | 4 |
+| Informational | 6 |
+| Lines Reviewed | ~2,800 |
+
+**Protocol Architecture**:
+- 2 Solana programs (main protocol + test faucet)
+- 13 instruction handlers
+- 7 account types
+- LMSR fixed-point math engine (703 lines)
+- Binary (YES/NO) prediction markets
+
+**High Severity Issues Found**:
+- **Vault Insolvency Risk**: Dispute bond refunds could deplete vault below redemption obligations when combined with creator fee withdrawals
+- **Missing Vault Balance Check**: Sell operations transferred USDC without explicit balance verification (relied on SPL token program revert)
+
+**Medium Severity Issues Found**:
+- Inconsistent time comparison operators (off-by-one-second edge cases)
+- LMSR exponential function clamping distorts extreme prices (q >> b scenarios)
+- No admin key rotation mechanism (single point of failure)
+- Creator fee truncation at low redemption amounts
+- Dispute deadline calculated from trading close instead of proposal time
+
+**Key Review Areas**:
+- LMSR fixed-point arithmetic (precision, overflow, economic invariants)
+- State machine transitions (Open → TradingClosed → ProposedResolution → Finalized)
+- PDA validation patterns (comprehensive manual verification in remaining accounts)
+- Double-spend prevention in redemption flow
+- Time-based security (Clock sysvar usage, window calculations)
+
+**Positive Security Observations**:
+- Strong PDA validation patterns throughout
+- Proper double-spend prevention (burn → transfer → zero position)
+- Consistent use of checked arithmetic
+- Comprehensive event logging for all operations
+- Well-structured state machine with proper guards
 
 ---
 
@@ -214,11 +262,40 @@ More standardized than backend audits (Solidity patterns are more consistent), b
 - Flash loan vulnerabilities
 - Price manipulation
 - Front-running / sandwich attacks
+- AMM invariant violations
+- Vault solvency issues
 
 **Denial of Service**
 - Block gas limit issues
 - Unbounded loops
 - External call failures
+
+### Solana-Specific Vulnerability Classes
+
+**Account Validation**
+- Missing signer checks
+- Missing owner checks
+- PDA substitution attacks
+- Account data injection via remaining accounts
+- Type cosplay (wrong account type)
+- Reinitialization attacks
+
+**Anchor Framework**
+- Improper constraint usage
+- UncheckedAccount without manual validation
+- Missing seeds/bump verification
+- Incorrect mutability annotations
+
+**CPI Security**
+- Arbitrary CPI calls
+- Incorrect signer seeds
+- Program ID validation
+- Authority verification
+
+**State Machine**
+- Invalid state transitions
+- Missing transition guards
+- Time-based manipulation (Clock sysvar)
 
 ### Severity Definitions
 

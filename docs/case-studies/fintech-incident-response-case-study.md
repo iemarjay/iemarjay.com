@@ -205,7 +205,7 @@ Order status polling triggered automatic refunds without pessimistic locking, en
 
 ## About the Consultant
 
-Emmanuel Joseph (@iemarjay) is a full-stack developer with 8 years experience building production systems. Specializes in fintech security, having conducted audits finding 149+ vulnerabilities across backend and smart contract systems.
+Emmanuel Joseph (@iemarjay) is a full-stack developer with 8 years experience building production systems. Conducts security audits across backend systems and smart contracts (Solidity and Solana/Rust), with 160+ vulnerabilities identified across engagements.
 
 **Contact**: emarjay921@gmail.com
 **Services**: [iemarjay.com/services/security](https://iemarjay.com/services/security)

@@ -177,7 +177,7 @@ export default function ConsultingPage() {
               <li>• <strong className="text-white">Enterprise platforms</strong>: serving thousands of users, handling millions in transactions</li>
               <li>• <strong className="text-white">Wikimedia Foundation</strong>: search infrastructure used by millions</li>
               <li>• <strong className="text-white">Fintech integrations</strong>: payment webhooks, KYC flows, settlement systems</li>
-              <li>• <strong className="text-white">Security audits</strong>: 149+ vulnerabilities found across backend and smart contract systems</li>
+              <li>• <strong className="text-white">Security audits</strong>: 160+ vulnerabilities found across backend and smart contract systems (Solidity + Solana)</li>
             </ul>
             <p>
               I&apos;ve made expensive mistakes and learned from them. A bug I missed once cost a client $10,000. I later returned to audit that same system, found the exact vulnerability plus 23 more, and performed forensic analysis quantifying the damage. That experience is what you&apos;re buying, not just my time, but the shortcuts to avoid the pitfalls I&apos;ve already hit.

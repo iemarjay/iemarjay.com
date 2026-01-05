@@ -3,10 +3,10 @@ import {Navigation} from "@/app/navigation";
 
 export const metadata = {
   title: "Smart Contract Security Audits | Emmanuel Joseph",
-  description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+  description: "AI-augmented security reviews for Solidity and Solana smart contracts. DeFi protocols, prediction markets, and more at startup-friendly prices.",
   openGraph: {
     title: "Smart Contract Security Audits | Emmanuel Joseph",
-    description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+    description: "AI-augmented security reviews for Solidity and Solana smart contracts. DeFi protocols, prediction markets, and more at startup-friendly prices.",
     url: "https://iemarjay.com/services/smart-contracts-security",
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
@@ -22,7 +22,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Smart Contract Security Audits | Emmanuel Joseph",
-    description: "AI-augmented security reviews for DeFi protocols and smart contracts. Thorough analysis at startup-friendly prices.",
+    description: "AI-augmented security reviews for Solidity and Solana smart contracts. DeFi protocols, prediction markets, and more at startup-friendly prices.",
     images: ["/media/og-smart-contract-audit.png"],
   },
 };
@@ -42,7 +42,7 @@ export default function SmartContractsSecurityPage() {
             Smart Contract Security Audits
           </h1>
           <p className="text-lg text-[#c4b0cf] max-w-2xl">
-            I&apos;m a full-stack Web3 developer who takes security seriously. I offer professional security reviews for DeFi protocols and smart contracts, at prices that won&apos;t drain your runway.
+            I&apos;m a full-stack Web3 developer who takes security seriously. I offer professional security reviews for Solidity and Solana smart contracts, at prices that won&apos;t drain your runway.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export default function SmartContractsSecurityPage() {
               When I audited my own smart contracts, I found a critical vulnerability: signatures that could be replayed across chains. The <em>exact same class of bug</em> — replay attacks — at the smart contract level. This cross-layer pattern recognition is why I audit both web2 backends and web3 contracts.
             </p>
             <p className="text-[#E6BAFF] font-medium">
-              149+ vulnerabilities found across backend and smart contract systems. I help builders avoid learning these lessons the expensive way.
+              160+ vulnerabilities found across backend and smart contract systems (Solidity + Solana/Rust). I help builders avoid learning these lessons the expensive way.
             </p>
           </div>
         </section>
@@ -89,31 +89,62 @@ export default function SmartContractsSecurityPage() {
         {/* Track Record */}
         <section className="mb-16">
           <h2 className="font-gilroy text-2xl font-bold text-white mb-4">Track Record</h2>
-          <div className="text-[#c4b0cf] space-y-4">
+          <div className="text-[#c4b0cf] space-y-6">
             <p>
-              Recent DeFi protocol audit results:
+              Recent smart contract audit results:
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-              <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
-                <div className="text-3xl font-bold text-white">10+</div>
-                <div className="text-sm text-[#c4b0cf]">Issues Found</div>
+
+            {/* Solidity Audit */}
+            <div>
+              <h4 className="text-white font-medium mb-3">Solidity — DeFi Deposit/Withdrawal System</h4>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
+                  <div className="text-3xl font-bold text-white">10+</div>
+                  <div className="text-sm text-[#c4b0cf]">Issues Found</div>
+                </div>
+                <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-red-400">1</div>
+                  <div className="text-sm text-[#c4b0cf]">Critical</div>
+                </div>
+                <div className="p-4 rounded-lg bg-orange-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-orange-400">3</div>
+                  <div className="text-sm text-[#c4b0cf]">High</div>
+                </div>
+                <div className="p-4 rounded-lg bg-yellow-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-yellow-400">6+</div>
+                  <div className="text-sm text-[#c4b0cf]">Medium/Low</div>
+                </div>
               </div>
-              <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-red-400">1</div>
-                <div className="text-sm text-[#c4b0cf]">Critical</div>
-              </div>
-              <div className="p-4 rounded-lg bg-orange-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-orange-400">3</div>
-                <div className="text-sm text-[#c4b0cf]">High</div>
-              </div>
-              <div className="p-4 rounded-lg bg-yellow-500 bg-opacity-10 text-center">
-                <div className="text-3xl font-bold text-yellow-400">6+</div>
-                <div className="text-sm text-[#c4b0cf]">Medium/Low</div>
-              </div>
+              <p className="text-sm text-[#c4b0cf] mt-3">
+                Upgradeable contracts. Critical finding: cross-chain signature replay attack.
+              </p>
             </div>
-            <p className="text-sm text-[#c4b0cf] mt-4">
-              Audit scope: DeFi deposit/withdrawal system with upgradeable contracts. Critical finding: cross-chain signature replay attack.
-            </p>
+
+            {/* Solana Audit */}
+            <div>
+              <h4 className="text-white font-medium mb-3">Solana/Rust — Prediction Market Protocol</h4>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
+                  <div className="text-3xl font-bold text-white">17</div>
+                  <div className="text-sm text-[#c4b0cf]">Issues Found</div>
+                </div>
+                <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-red-400">0</div>
+                  <div className="text-sm text-[#c4b0cf]">Critical</div>
+                </div>
+                <div className="p-4 rounded-lg bg-orange-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-orange-400">2</div>
+                  <div className="text-sm text-[#c4b0cf]">High</div>
+                </div>
+                <div className="p-4 rounded-lg bg-yellow-500 bg-opacity-10 text-center">
+                  <div className="text-3xl font-bold text-yellow-400">15</div>
+                  <div className="text-sm text-[#c4b0cf]">Medium/Low</div>
+                </div>
+              </div>
+              <p className="text-sm text-[#c4b0cf] mt-3">
+                LMSR AMM with USDC settlement. ~2,800 lines reviewed including 703-line fixed-point math engine.
+              </p>
+            </div>
           </div>
         </section>
 
