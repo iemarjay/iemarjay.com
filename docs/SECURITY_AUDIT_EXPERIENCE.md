@@ -19,6 +19,32 @@ I have developed and executed comprehensive security audit frameworks for both *
 
 **Scope**: Full-stack fintech backend (NestJS/TypeScript) — wallet operations, payment webhooks, purchase flows
 
+#### Codebase Context (What I Was Working With)
+
+**Tech Stack**: NestJS v11, TypeScript, PostgreSQL, Redis, Bull queues
+
+**Architecture Quality**: B- overall (75/100) — production-ready but with gaps
+
+| Area | Grade | Notes |
+|------|-------|-------|
+| Architecture | A- | Clean modular design, event-driven, pluggable payment providers |
+| Transaction Safety | A | Excellent pessimistic locking, advisory locks for webhooks |
+| Security | B | JWT auth, RBAC, but gaps in rate limiting |
+| Testing | F | Only 1 test file for entire codebase — major liability |
+| Error Handling | B+ | Global exception filter, proper rollbacks |
+| DevOps | C+ | No CI/CD, no health checks, missing observability |
+
+**Notable Patterns**:
+- Event-driven architecture using `@nestjs/event-emitter` for loose coupling
+- Pluggable payment provider pattern with `Map<Provider, Interface>`
+- Queue-based async processing (Bull) for emails, notifications, gift cards
+- Pessimistic locking for all concurrent wallet operations
+- Advisory locks for payment webhook coordination
+
+**The Deadlock Incident**: Prior to audit, production experienced database deadlocks. Root cause: HTTP calls to external payment APIs were happening *inside* database transactions while holding advisory locks. Fix: Move all HTTP calls outside transactions, commit DB state first. This pattern was applied across all payment methods.
+
+**Key Security Gap Found**: A `testGetAccessToken()` method in auth service could generate valid JWT tokens without password verification — dangerous if exposed in production.
+
 #### Part 1: Vulnerability Audit
 
 | Metric | Value |
