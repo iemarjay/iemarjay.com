@@ -17,6 +17,11 @@
 | $10k redemption X post | Ready (long-form) | Post week 2 |
 | Intro micro vlog script | Ready | Film + post |
 | $10k bug story video script | Ready | Film + post |
+| Database transaction blog | Draft complete | Review, publish week 3-4 |
+| Database deadlock story video | Script ready | Film week 3 |
+| 2-line fix video | Script ready | Film week 3-4 |
+| Code review red flag video | Script ready | Film week 3-4 |
+| Advisory locks video | Script ready | Film week 4 |
 | Twitter profile | Needs work | Optimize bio, pinned post |
 | LinkedIn profile | Needs work | Update headline, about, featured |
 
@@ -57,11 +62,12 @@
 | Day | Platform | Content | Time |
 |-----|----------|---------|------|
 | Mon | X/TikTok/IG | Post $10k bug story video | 1 hr |
+| Tue | - | Film database deadlock story + 2-line fix | 2 hrs |
 | Wed | X | Quick tip post (code review red flag) | 20 min |
-| Thu | X/TikTok/IG | Post Bug of the Week #1 | 30 min |
+| Thu | X/TikTok/IG | Post database deadlock story video | 30 min |
 | Sat | - | Film YouTube #1 (longer $10k story) | 3 hrs |
 
-**Week 3 total**: ~5 hours
+**Week 3 total**: ~7 hours
 
 ---
 
@@ -71,28 +77,35 @@
 |-----|----------|---------|------|
 | Mon | YouTube | Edit and upload YouTube #1 | 2 hrs |
 | Tue | X | Promote YouTube video | 20 min |
+| Tue | X/TikTok/IG | Post 2-line fix video | 30 min |
 | Wed | LinkedIn | Share YouTube video + reflection | 30 min |
-| Thu | X/TikTok/IG | Bug of the Week #2 or replay attack explainer | 1.5 hrs |
+| Wed | Website | Publish database transaction blog | 30 min |
+| Thu | X/TikTok/IG | Post code review red flag video | 30 min |
+| Fri | X | Promote database transaction blog | 15 min |
 
-**Week 4 total**: ~4.5 hours
+**Week 4 total**: ~5 hours
 
 ---
 
 ## Content Series for January
 
 **Micro vlogs (shorts):**
-1. Introduction (script ready in content/video-scripts/)
-2. $10k bug story (script ready in content/video-scripts/)
-3. Bug of the Week #1 (new - create script)
-4. Replay attack explainer (script outline in MICRO_VLOGGING_PLAN.md)
+1. Introduction (script ready: content/video-scripts/01-introduction.md)
+2. $10k bug story (script ready: content/video-scripts/02-10k-bug-story.md)
+3. Database deadlock story (script ready: content/video-scripts/03-database-deadlock-story.md)
+4. 2-line fix (script ready: content/video-scripts/04-two-line-fix.md)
+5. Code review red flag (script ready: content/video-scripts/05-code-review-http-transaction.md)
+6. Advisory locks danger (script ready: content/video-scripts/06-advisory-locks-danger.md)
+7. Replay attack explainer (script outline in MICRO_VLOGGING_PLAN.md)
 
 **Long-form video:**
 1. YouTube #1: "How a $10k Bug Changed How I Code" (expanded $10k story, 5-8 min)
 
 **Written:**
 1. $10k redemption blog (publish from draft)
-2. $10k redemption X post (long-form, ready)
-3. 2-3 casual X posts
+2. Database transaction blog (draft: content/blog/database-transaction-http-calls.md)
+3. $10k redemption X post (long-form, ready)
+4. 2-3 casual X posts
 
 ---
 
@@ -118,11 +131,11 @@
 
 | Metric | Target |
 |--------|--------|
-| X posts | 6-8 |
+| X posts | 8-10 |
 | LinkedIn posts | 3-4 |
-| Shorts (multi-platform) | 4 |
+| Shorts (multi-platform) | 6-7 |
 | YouTube videos | 1 |
-| Blog posts | 1 |
+| Blog posts | 2 |
 | Profile optimizations | 2 |
 
 ---
@@ -137,4 +150,4 @@
 
 ---
 
-_Last updated: January 5, 2026_
+_Last updated: January 6, 2026_
