@@ -2,11 +2,11 @@
 
 ---
 
-Just completed a security audit for a Solana-based prediction market protocol before their mainnet launch.
+## The Post (no external links - LinkedIn deprioritizes them)
 
-2,800 lines of Rust. LMSR pricing engine. 13 instruction handlers. Found 17 issues — 2 high severity that needed fixing before launch.
+I found a bug that could drain a Solana prediction market's vault. Here's how it worked:
 
-Here's what stood out:
+Just completed a security audit for a Solana-based prediction market protocol. 2,800 lines of Rust, LMSR pricing engine, 17 issues found—2 high severity that needed fixing before mainnet.
 
 **The vault insolvency bug**
 
@@ -43,20 +43,39 @@ The issues I found were edge cases and design decisions, not fundamental securit
 4. Plan for admin key compromise from day one — add rotation mechanisms
 5. Get an audit before mainnet
 
----
-
-Full technical writeup on my blog: iemarjay.com/post/solana-prediction-market-security-lessons
-
 I do security audits for backend systems and smart contracts (Solidity + Solana/Rust). 160+ vulnerabilities found across client engagements.
 
-If you're preparing for mainnet and want another set of eyes on your code, let's talk.
+If you're preparing for mainnet and want another set of eyes on your code, let's connect.
+
+#Solana #SmartContractSecurity #Web3 #SecurityAudit #DeFi
 
 ---
 
-## Notes for Posting
+## FIRST COMMENT (post immediately - contains the link)
 
-- More professional tone than X
-- Focus on the business lesson (vault insolvency) rather than all technical details
-- End with clear CTA
-- Consider adding relevant hashtags: #Solana #SmartContracts #SecurityAudit #DeFi #Web3
-- Best times: Tuesday-Thursday, 8-10am local time
+Full technical writeup with code examples and more findings on my blog:
+
+iemarjay.com/post/solana-prediction-market-security-lessons
+
+The LMSR math engine section (703 lines of fixed-point arithmetic) was particularly interesting to audit.
+
+---
+
+## Posting Checklist
+
+- [ ] Ask 2-3 connections to comment within first hour
+- [ ] Post Tuesday-Thursday, 7-9am target audience time (8am WAT for EU/Africa, or 2pm WAT for US)
+- [ ] Post first comment with blog link immediately
+- [ ] Reply to every comment within 2 hours
+- [ ] Repost with fresh angle 24-48 hours later
+- [ ] Cross-reference X post: "More technical details in my X post"
+
+---
+
+## Engagement Pod Ask (DM to 2-3 connections)
+
+"Hey! Just posted about a Solana audit I did—found a vault drain bug. Would appreciate an early comment if you have a sec. Happy to return the favor on your next post."
+
+---
+
+_Updated January 2026 with distribution optimizations_

@@ -8,9 +8,9 @@
 
 ## The Post
 
-Just finished auditing a Solana prediction market protocol. 2,800 lines of Rust, LMSR pricing engine, 13 instruction handlers. Found 17 issues (2 high severity) before mainnet.
+I found 17 bugs in a Solana prediction market before mainnet—including one that could drain the vault.
 
-Here's what I learned:
+2,800 lines of Rust, LMSR pricing engine, 13 instruction handlers. Here's what I learned:
 
 The good news: no critical vulnerabilities. The team knew what they were doing—comprehensive PDA validation, checked arithmetic everywhere, proper state machine guards, strong double-spend prevention.
 
@@ -73,19 +73,41 @@ Full writeup: iemarjay.com/post/solana-prediction-market-security-lessons
 
 I do security audits for backend systems and smart contracts (Solidity + Solana/Rust). DMs open if you're preparing for mainnet.
 
----
-
-## Posting Notes
-
-- Post between 8-10 AM WAT (US East Coast morning)
-- Consider adding a diagram for the vault insolvency scenario
-- Engage with replies for first 2 hours
-- Good for Solana/DeFi developer audience
-
-## Hashtags (optional, at end)
-
 #Solana #DeFi #SmartContracts #Security
 
 ---
 
-_Reformatted to long-form post January 2026_
+## FIRST REPLY (post immediately after)
+
+The vault insolvency bug was the scariest one.
+
+Most devs test the happy path: trade → resolve → redeem. Works fine.
+
+But add a dispute with bonds from the same pool? Now withdrawal order matters. And it can drain the vault.
+
+Always trace fund flows with EVERY combination of operations.
+
+---
+
+## QUOTE RT (6-8 hours later)
+
+The LMSR math engine section was the hardest to audit.
+
+703 lines of fixed-point arithmetic. exp() and ln() without floating point. Q64.64 format with I256 overflow protection.
+
+The tradeoff between precision and overflow safety is genuinely interesting.
+
+---
+
+## Posting Checklist
+
+- [ ] Engage 15-20 mins before posting (reply to others' posts)
+- [ ] Post between 8-10 AM EST / 2-3 PM WAT
+- [ ] Post first reply immediately
+- [ ] Reply to every comment within 2 hours
+- [ ] Quote RT 6-8 hours later with different angle
+- [ ] Cross-reference LinkedIn post tomorrow
+
+---
+
+_Updated January 2026 with distribution optimizations_
