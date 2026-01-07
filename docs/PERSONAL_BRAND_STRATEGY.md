@@ -29,6 +29,8 @@
 
 **Emmanuel Joseph Kayode** — Full-stack developer (web2 + web3) with 8+ years of experience, based in Lagos, Nigeria.
 
+**Education**: B.Sc. Mathematics and Computer Science, Olabisi Onabanjo University (2012-2016)
+
 | What You Do     | Details                                       |
 | --------------- | --------------------------------------------- |
 | Full-time job   | Pouchfi - DeFi on BSC ($1,500/mo, startup)    |

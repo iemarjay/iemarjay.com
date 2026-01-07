@@ -1,6 +1,6 @@
 # Claude Code Handoff: Emmanuel's Brand & Career Strategy
 
-**Date**: December 22, 2025
+**Date**: January 7, 2026
 **Purpose**: Continue this conversation in a new Claude Code session
 **Project**: Personal brand building + career growth
 
@@ -8,9 +8,14 @@
 
 ## Quick Resume Point
 
-**Where we left off**: Active security opportunity with a Lagos fintech. Friend connected Emmanuel with their CTO after they got hacked (unauthorized debits, ₦5M+ loss discovered, unknown total). Call scheduled.
+**Where we left off**: Applied to 3 job openings in January 2026. Tailored applications and resumes created for each role.
 
-**Recent work**: Created two separate security service pages and proposal template for the engagement.
+**Recent work**:
+- Gowagr (prediction markets, Lagos): Applied. Strong fit due to Solana prediction market audit experience.
+- 40Analytics (AI-native dev, remote contract): Applied. Emphasized AI-assisted workflows.
+- Bumpa (Laravel commerce, Lagos): Applied. Highlighted Laravel experience + payment security.
+
+**Applications location**: `content/job-applications/2026-01-*/`
 
 **Key insight**: Security audits are ONE revenue stream, not his whole identity. He's a full-stack developer (web2 + web3) building his personal brand to attract better opportunities.
 
@@ -22,6 +27,7 @@
 **Location**: Lagos, Nigeria (WAT / UTC+1)
 **Website**: iemarjay.com
 **Experience**: 8 years full-stack (web2 + web3)
+**Education**: B.Sc. Mathematics and Computer Science, Olabisi Onabanjo University (2012-2016)
 
 ### The Full Picture
 
@@ -237,6 +243,8 @@ Any format that puts name + skills out there:
 
 ### Recently Completed
 
+- Job applications sent (Jan 2026): Gowagr, 40Analytics, Bumpa
+- Tailored resumes for each application
 - Backend security audit page (`/services/security`)
 - Smart contract audit page (`/services/smart-contracts-security`)
 - Navigation dark variant for services pages
@@ -318,4 +326,4 @@ My voice: practical, friendly, tutor energy, admits mistakes openly.
 
 ---
 
-*Last updated: December 22, 2025*
+*Last updated: January 7, 2026*

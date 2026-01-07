@@ -12,6 +12,7 @@ This repo contains:
 ## Who Emmanuel Is
 
 - Full-stack developer specializing in web2 + web3
+- B.Sc. Mathematics and Computer Science, Olabisi Onabanjo University (2012-2016)
 - Currently at Pouchfi + freelance client work
 - Building Shuttershow (photographer tool MVP)
 - ADPList mentor for developers
@@ -69,6 +70,10 @@ iemarjay.com/
 │   ├── linkedin/                 # LinkedIn post drafts
 │   ├── twitter-threads/          # X post drafts (legacy folder name)
 │   ├── video-scripts/            # Micro vlog/shorts scripts
+│   ├── job-applications/         # Job applications with tailored resumes
+│   │   ├── 2026-01-gowagr/       # Prediction markets role
+│   │   ├── 2026-01-40analytics/  # AI-native dev contract
+│   │   └── 2026-01-bumpa/        # Laravel commerce role
 │   └── templates/                # Proposal templates
 │       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
@@ -167,10 +172,13 @@ Required in `website/.env`:
 | Micro vlogging intro video | Script ready (content/video-scripts/) |
 | $10k bug story video | Script ready (content/video-scripts/) |
 | January 2026 content plan | Done (docs/JANUARY_2026_CONTENT_PLAN.md) |
+| Gowagr application (prediction markets) | Applied Jan 2026 |
+| 40Analytics application (AI-native contract) | Applied Jan 2026 |
+| Bumpa application (Laravel commerce) | Applied Jan 2026 |
 
 ## The Origin Story
 
-Emmanuel learned about replay attacks the hard way — a webhook vulnerability cost a client $10k. That failure drove him to build systematic security audit capabilities.
+Emmanuel learned about replay attacks the hard way. A webhook vulnerability cost a client $10k. That failure drove him to build systematic security audit capabilities.
 
 **The redemption**: He returned to audit the same system, found the exact vulnerability that was exploited plus 23 more, and performed forensic analysis quantifying $7,149 in fraud over 42 days with $5,110 recoverable. From costly mistake to complete incident response.
 
@@ -178,7 +186,7 @@ Emmanuel learned about replay attacks the hard way — a webhook vulnerability c
 
 Emmanuel has executed comprehensive security audits with **prompts tailored per project** (not fixed templates):
 
-**Backend Audit #1 — The $10k Redemption**:
+**Backend Audit #1, The $10k Redemption**:
 - Returned to audit the same system where webhook vulnerability cost client $10k
 - Found 24 issues (5 critical, 7 high) including the exact vulnerability exploited
 - **Forensic analysis**: Given production DB access, quantified attack ($7,149 fraudulent over 42 days)
@@ -196,7 +204,7 @@ Emmanuel has executed comprehensive security audits with **prompts tailored per 
 - Found 17 issues (2 high, 5 medium) including vault insolvency risk
 - Reviewed 703-line fixed-point math engine
 
-**The $10k Connection**: Same replay vulnerability class across layers — web2 (webhook replay) and web3 (cross-chain signature replay).
+**The $10k Connection**: Same replay vulnerability class across layers: web2 (webhook replay) and web3 (cross-chain signature replay).
 
 Details in `docs/SECURITY_AUDIT_EXPERIENCE.md` (methodology without client names due to NDA).
 
