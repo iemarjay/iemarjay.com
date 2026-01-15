@@ -73,7 +73,10 @@ iemarjay.com/
 │   ├── job-applications/         # Job applications with tailored resumes
 │   │   ├── 2026-01-gowagr/       # Prediction markets role
 │   │   ├── 2026-01-40analytics/  # AI-native dev contract
-│   │   └── 2026-01-bumpa/        # Laravel commerce role
+│   │   ├── 2026-01-bumpa/        # Laravel commerce role
+│   │   ├── 2026-01-paystack-mfb/ # Senior backend (hybrid Lagos)
+│   │   ├── 2026-01-risevest/     # Senior backend (remote)
+│   │   └── 2026-01-deloitte/     # Full-Stack Developer Manager
 │   └── templates/                # Proposal templates
 │       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
@@ -175,6 +178,9 @@ Required in `website/.env`:
 | Gowagr application (prediction markets) | Applied Jan 2026 |
 | 40Analytics application (AI-native contract) | Applied Jan 2026 |
 | Bumpa application (Laravel commerce) | Applied Jan 2026 |
+| Paystack MFB application (senior backend) | Applied Jan 2026 |
+| Risevest application (senior backend, remote) | Applied Jan 2026 |
+| Deloitte application (Full-Stack Developer Manager) | Applied Jan 2026 |
 
 ## The Origin Story
 
