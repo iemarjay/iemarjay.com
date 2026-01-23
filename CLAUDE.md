@@ -76,7 +76,10 @@ iemarjay.com/
 │   │   ├── 2026-01-bumpa/        # Laravel commerce role
 │   │   ├── 2026-01-paystack-mfb/ # Senior backend (hybrid Lagos)
 │   │   ├── 2026-01-risevest/     # Senior backend (remote)
-│   │   └── 2026-01-deloitte/     # Full-Stack Developer Manager
+│   │   ├── 2026-01-deloitte/     # Full-Stack Developer Manager
+│   │   ├── 2026-01-upwork-nft/   # Upwork NFT Full-Stack ($70/hr)
+│   │   ├── 2026-01-piggytech/    # Senior Backend Engineer, high-scale (Lagos)
+│   │   └── 2026-01-b2b2c-ecommerce/  # Backend Engineer, US B2B2C startup (remote)
 │   └── templates/                # Proposal templates
 │       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
@@ -181,6 +184,9 @@ Required in `website/.env`:
 | Paystack MFB application (senior backend) | Applied Jan 2026 |
 | Risevest application (senior backend, remote) | Applied Jan 2026 |
 | Deloitte application (Full-Stack Developer Manager) | Applied Jan 2026 |
+| Upwork NFT Full-Stack Developer ($70/hr) | Applied Jan 2026, client already selected candidates |
+| Piggytech application (senior backend, high-scale) | Applied Jan 2026 |
+| B2B2C e-commerce startup (backend, remote + ESOP) | Applied Jan 2026 |
 
 ## The Origin Story
 
