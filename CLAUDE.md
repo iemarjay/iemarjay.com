@@ -79,7 +79,8 @@ iemarjay.com/
 │   │   ├── 2026-01-deloitte/     # Full-Stack Developer Manager
 │   │   ├── 2026-01-upwork-nft/   # Upwork NFT Full-Stack ($70/hr)
 │   │   ├── 2026-01-piggytech/    # Senior Backend Engineer, high-scale (Lagos)
-│   │   └── 2026-01-b2b2c-ecommerce/  # Backend Engineer, US B2B2C startup (remote)
+│   │   ├── 2026-01-b2b2c-ecommerce/  # Backend Engineer, US B2B2C startup (remote)
+│   │   └── 2026-01-givedirectly/ # Senior Software Engineer, nonprofit (remote)
 │   └── templates/                # Proposal templates
 │       └── SECURITY_ENGAGEMENT_PROPOSAL.md
 └── docs/                         # Strategy & planning docs
@@ -187,6 +188,7 @@ Required in `website/.env`:
 | Upwork NFT Full-Stack Developer ($70/hr) | Applied Jan 2026, client already selected candidates |
 | Piggytech application (senior backend, high-scale) | Applied Jan 2026 |
 | B2B2C e-commerce startup (backend, remote + ESOP) | Applied Jan 2026 |
+| GiveDirectly application (senior software engineer, remote) | Ready to apply Jan 2026 |
 
 ## The Origin Story
 
