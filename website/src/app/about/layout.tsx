@@ -1,9 +1,11 @@
 import Script from "next/script";
+import { Navigation } from "@/app/navigation";
 
 export default function Default({ children }: { children: JSX.Element }) {
   return (
     <>
-      <main className="flex min-h-screen flex-col justify-between p-6 md:p-24 md:pt-6 bg-[#180622] text-[#E7D9EF] text-base leading-normal">
+      <Navigation variant="dark" />
+      <main className="flex min-h-screen flex-col justify-between pt-20 px-6 pb-6 md:p-24 bg-[#180622] text-[#E7D9EF] text-base leading-normal">
         {children}
         <div className="border-t border-[#252525] font-gilroy text-sm pt-8 mt-10">
           Emmanuel Joseph © {new Date().getFullYear()}
