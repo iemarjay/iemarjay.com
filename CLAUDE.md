@@ -11,15 +11,18 @@ This repo contains:
 
 ## Who Emmanuel Is
 
-- Full-stack developer specializing in web2 + web3
+- Full-stack developer specializing in web2 + web3, with formal engineering leadership scope
 - B.Sc. Mathematics and Computer Science, Olabisi Onabanjo University (2012-2016)
-- Currently at Pouchfi + freelance client work
+- **Engineering Lead at Pouchfi** (Jul 2024–Present) — DeFi platform on Binance Smart Chain. Leads team of 7 engineers. Architected the current platform from the ground up: modular monolith backend (Node.js/TypeScript) + Next.js frontend, event-driven design, async queue processing. Wrote the on-chain smart contracts (signature-based withdrawals, CREATE2 deployment, batch ops). Contributes to product strategy. Platform in public beta.
+- **Independent Security Auditor** (Apr 2025–Present, formal contract role) — code review + code security review across web2 backends and web3 (Solidity/EVM, Solana/Rust). 160+ vulnerabilities surfaced across 4 audits. Forensic case quantified $7,149 in fraud and identified $5,110 recoverable.
+- **Code Refinery** (https://github.com/iemarjay/code-refinery) — open-source agentic PR review tool he built. Two-pass review (security + code quality) using Claude Code CLI in agentic mode, multi-provider, JSON-schema-constrained output, branded GitHub App via OIDC. Distilled directly from his audit work. His AI/LLM moat.
+- **GreenAfrica $100K Hedera Africa Hackathon win (2025)** — built the smart RVM platform with on-chain recycling verification + token rewards on Hedera. Won the top "cross-track champion" prize at the largest Web3 hackathon globally (45,000+ participants). NOT an Origneum project — separate engagement.
+- Past CTO at Decasoft (Oct 2019–Oct 2021), led 4 engineers, shipped Decafinance (multi-tenant fintech PaaS scaled to 2,000+ ride-hailing drivers). Built a $400K-raising token sale platform in 2 weeks at Origneum. Worked on Wikipedia search infrastructure at Wikimedia Foundation (Search Platform team, 2021-2022).
 - Building Shuttershow (photographer tool MVP)
 - ADPList mentor for developers
-- Security audits: Proven methodology (160+ issues found across backend + web3, including forensic incident analysis)
 - Politically conscious: Cares about Nigeria, Africa, and global politics/economies
 
-**Positioning**: Developer who builds production systems, takes security seriously, ships products, and has depth. NOT "just a security auditor."
+**Positioning**: CTO / VP Engineering / Engineering Lead candidate at pre-seed → Series A startups, especially in fintech, web3, AI-native products, or "where money + trust meet code." Builds production systems, takes security seriously, ships products, has depth. NOT "just a security auditor" or "just a backend engineer." Multi-chain web3 experience: BSC, EVM, Solana, Hedera. AI/LLM tooling builder, not just consumer.
 
 **Voice**: Practical, friendly, tutor energy, admits mistakes openly.
 
@@ -159,6 +162,17 @@ Required in `website/.env`:
   - `fintech-incident-response-case-study.md` - Backend audit + forensics
   - `solana-prediction-market-audit-case-study.md` - Solana/Rust audit
 - `content/templates/SECURITY_ENGAGEMENT_PROPOSAL.md` - Proposal template for security engagements
+- `content/linkedin/profile-rewrite-2026-05.md` - Canonical LinkedIn rewrite (May 2026): headline, About, all experience entries, Featured copy, banner options, recommendation request DMs. Source of truth for current professional positioning.
+
+## Notable Wins (proof points for applications, posts, talks)
+
+- **GreenAfrica $100K Hedera Africa Hackathon win (2025)** — top "cross-track champion" prize at the largest Web3 hackathon globally (45,000+ participants, 1,300+ submissions, 20+ African hubs). Built smart RVM platform with on-chain recycling verification + token rewards on Hedera. Separate engagement (NOT an Origneum project).
+- **$400K raised in 2 weeks** — built and shipped a token private sale platform (Origneum). Pivoted from Solana to EVM mid-build to handle congestion. Stack: Next.js, Wagmi, EthersJS, Solana web3.js, Solidity.
+- **Decafinance scaled to 2,000+ ride-hailing drivers and $40K+ in transactions** — multi-tenant fintech loan & savings PaaS, architected as CTO at Decasoft (Oct 2019–Oct 2021).
+- **Wikipedia search infrastructure** — Search Platform team at Wikimedia Foundation. Upgraded Elasticsearch plugins for ES7; cut error volume from ~5M/month to ~500K with instrumentation fix.
+- **160+ vulnerabilities surfaced across 4 audits** — fintech backend (115 issues), $10K Redemption fintech audit (24 issues + forensic recovery), Solana prediction market LMSR AMM (17 issues), EVM cross-chain protocol (cross-chain signature replay).
+- **Pouchfi rebuild** (private detail; do NOT publish) — brought in after the company had spent $60K on a failed launch, recommended a rebuild, architected the current platform from the ground up. Now in public beta. Use the public-friendly "designed and built the current platform from the ground up" framing externally.
+- **Code Refinery** — open-source agentic PR review tool, distilled from audit work. AI/LLM moat for the CTO conversation.
 
 ## Content Status
 
@@ -175,7 +189,9 @@ Required in `website/.env`:
 | Backend security audit page | Done (/services/security) |
 | Smart contract audit page | Done (/services/smart-contracts-security) |
 | Twitter profile optimization | Not started |
-| LinkedIn optimization | Not started |
+| LinkedIn optimization | Done May 2026 (content/linkedin/profile-rewrite-2026-05.md) — full headline/About/Experience/Featured rewrite |
+| Code Refinery (open-source agentic PR review tool) | Shipped — github.com/iemarjay/code-refinery |
+| GreenAfrica $100K Hedera Africa Hackathon win (2025) | Won (built smart RVM platform on Hedera) — needs blog/post coverage |
 | Micro vlogging intro video | Script ready (content/video-scripts/) |
 | $10k bug story video | Script ready (content/video-scripts/) |
 | January 2026 content plan | Done (docs/JANUARY_2026_CONTENT_PLAN.md) |

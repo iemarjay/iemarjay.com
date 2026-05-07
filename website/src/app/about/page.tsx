@@ -22,10 +22,10 @@ export default function Home() {
           </h1>
           <div className="max-w-sm text-md">
             <h2 className="mb-4 font-gilroy text-lg font-medium tracking-tight text-[#E7D9EF]">
-              Full-stack Engineer (web2 and web3), serial builder, Ex Wikipedia
+              Engineering Lead at Pouchfi · Ex-Wikipedia — Backend, Web2/3, Security, AI
             </h2>
             <p className="mb-6 text-[#c4b0cf] leading-normal">
-              8 years building production systems, DeFi protocols, enterprise platforms, and my own products.
+              8+ years shipping production systems, from Wikipedia search infrastructure to DeFi protocols handling real user funds.
             </p>
 
             <div className="">
@@ -137,15 +137,15 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-md leading-normal text-[#c4b0cf]">
             <p className="mb-6">
-              I build things that handle real money and real users. Over 8 years, I&#39;ve worked across fintech, blockchain, e-commerce, and enterprise software, from search infrastructure at <span className="font-medium text-[#E6BAFF]">Wikimedia Foundation</span> to DeFi protocols handling user funds.
+              I lead engineering at <span className="font-medium text-[#E6BAFF]">Pouchfi</span>, a DeFi platform on Binance Smart Chain — architected the platform, wrote the on-chain contracts, lead a team of 7. Over 8+ years, I&#39;ve shipped production systems across fintech, web3, e-commerce, and enterprise software, from <span className="font-medium text-[#E6BAFF]">Wikipedia search infrastructure</span> at Wikimedia Foundation to DeFi protocols handling real user funds.
             </p>
 
             <p className="mb-6">
-              I take security seriously. A webhook vulnerability I missed while building a payment platform cost a client $10k, that failure changed how I build. Now I audit my own smart contracts using an <span className="font-medium text-[#E6BAFF]">AI-augmented methodology</span> before deployment.
+              I take security seriously. A webhook vulnerability I missed while building a payment platform cost a client $10k, and that failure changed how I build. I now run a parallel practice as an <span className="font-medium text-[#E6BAFF]">independent security auditor</span> — 4 audits, 160+ vulnerabilities surfaced including a forensic recovery case that quantified $7,149 in fraud and traced $5,110 still recoverable in attacker wallets. I distilled the methodology into <span className="font-medium text-[#E6BAFF]">Code Refinery</span>, an open-source agentic PR review tool.
             </p>
 
             <p className="mb-6">
-              When I&#39;m not working on client projects, I&#39;m building <span className="font-medium text-[#E6BAFF]">Shuttershow</span>, a tool for photographers. I believe the best engineers ship their own products, not just other people&#39;s.
+              I target <span className="font-medium text-[#E6BAFF]">CTO and engineering-lead roles at pre-seed → Series A startups</span>, especially in fintech, web3, AI-native products, or anywhere money and trust meet code.
             </p>
           </div>
         </section>
@@ -159,11 +159,43 @@ export default function Home() {
             <div className="">
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
                 <h3 className="text-white leading-7">
+                  Independent Security Auditor · Contract
+                </h3>
+                <p className="mb-4">APR 2025 - Present</p>
+                <p className="text-sm leading-normal">
+                  Code review and security review across web2 backends and web3 smart contracts (Solidity/EVM, Solana/Rust, Node/TypeScript fintech). 4 audits, 160+ vulnerabilities surfaced including a forensic recovery case ($7,149 in fraud quantified across 42 days, $5,110 traced and recoverable in attacker wallets). Distilled the methodology into Code Refinery, an open-source agentic PR review tool.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Solidity
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Rust
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Foundry
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Anchor
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Slither
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    semgrep
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Claude Code SDK
+                  </span>
+                </div>
+              </div>
+              <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
+                <h3 className="text-white leading-7">
                   Lead Engineer · PouchFI Limited
                 </h3>
-                <p className="mb-4">OCT 2025 - Present</p>
+                <p className="mb-4">JUL 2024 - Present</p>
                 <p className="text-sm leading-normal">
-                  Building an early-stage DeFi protocol on BSC. As Lead Engineer, I designed a multi-currency wallet system with signature-based withdrawals, implemented on-chain deposit flows via Solidity contracts (audited using my AI-augmented security methodology) and Ethers.js, and built NestJS services with JWT auth, RBAC, and Redis pub-sub alongside a Next.js dashboard (&lt; 200ms TTFB). Integrated debit-card issuance APIs including KYC verification and automated settlement. Leading a team of five engineers with zero critical post-launch incidents.
+                  Building Pouchfi, a DeFi platform on BSC. Designed and built the current platform from the ground up: modular monolith backend (Node.js/TypeScript) with event-driven design and async queue processing, plus a Next.js dashboard (&lt; 200ms TTFB). Wrote the on-chain smart contracts on BSC — signature-based withdrawals with cryptographic verification, CREATE2 deterministic deployment, batch operations. Built NestJS services with JWT auth, RBAC, and Redis pub-sub. Integrated debit-card issuance APIs including KYC verification and automated settlement. Trusted technical voice on company direction — input on design and business decisions carries weight beyond pure engineering. Lead a team of 7 engineers with zero critical post-launch incidents. Platform currently in public beta.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -194,11 +226,11 @@ export default function Home() {
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
                 <h3 className="text-white leading-7">
-                  Lead Engineer · Origineum DWTCA
+                  Lead Engineer · Origneum DWTCA
                 </h3>
-                <p className="mb-4">NOV 2022 - DEC 2024</p>
+                <p className="mb-4">OCT 2022 - SEP 2024</p>
                 <p className="text-sm leading-normal">
-                  Spearheaded PiggyFi—a Celo-based money-transfer dApp handling over 1,000 daily transactions via Node.js/Express APIs and Celo SDK integration, and leading the development of OpenLand, a Moonriver NFT land-investment platform managing $200 K+ in assets with a Next.js front end and Go/Echo microservices; I also optimized overall system performance to sub-200 ms TTFB and containerized our infrastructure on AWS using Terraform, achieving 99.8% uptime.
+                  Lead Engineer on a portfolio of fintech, web3, and infrastructure projects for early-stage clients (pre-seed → Series A). Built and shipped a token private sale platform that raised $400K in 2 weeks — pivoted from Solana to EVM mid-build to handle network congestion (Next.js, Wagmi, EthersJS, Solana web3.js, Solidity). Led builds on Openland (fractionalized-NFT real estate on Moonriver) and Qlipit.io (NFT marketplace + academy on BNB Chain). Shipped full-stack web apps and APIs across fintech, web3, and ed-tech, with CI/CD pipelines and container-based deployments on Digital Ocean and AWS. Led a team of 3 engineers, partnering closely with founders/stakeholders, product, and design.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -229,11 +261,11 @@ export default function Home() {
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
                 <h3 className="text-white leading-7">
-                  Software Engineer · Wikimedia Foundation
+                  Software Engineer · Search Infrastructure · Wikimedia Foundation
                 </h3>
-                <p className="mb-4">OCT 2021 - NOV 2022</p>
+                <p className="mb-4">OCT 2021 - OCT 2022</p>
                 <p className="text-sm leading-normal">
-                  Contributed to the Metrics & Search Interfaces stack by consolidating the event pipeline into a single buffer (−15% complexity), introducing thread-safe configurations to eliminate race conditions, and refactoring client integrations to an exception-driven model (−20% incident fatigue). I also boosted CirrusSearch reliability and recall, developing heuristic recovery mechanisms that cut outages by 30% and adding an apostrophe filter that improved possessive query recall by 25%, all while leveraging Gerrit code-review workflows to streamline patch submissions and mentor new contributors.
+                  Wikipedia search infrastructure at Wikimedia Foundation — the non-profit behind Wikipedia, Wiktionary, and Wikidata. My work powered search across 300+ Wikipedia language editions used by billions of monthly readers. Upgraded 7 internally-developed Elasticsearch plugins for ES7 compatibility (published to Maven Central) and improved instrumentation across the CirrusSearch frontend and Elasticsearch backend, surfacing a long-standing bug that cut error volume from ~5M errors/month to ~500K. Built a uniform query-dump system across all Search endpoints (full-text, completion, suggestions) so Search Engineers could visualize queries end-to-end to diagnose correctness and relevance issues. Also shipped reliability and recall improvements to CirrusSearch — heuristic recovery mechanisms that cut outages by 30%, and an apostrophe filter that improved possessive-query recall by 25%.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -267,11 +299,11 @@ export default function Home() {
               </div>
               <div className="lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mb-12">
                 <h3 className="text-white leading-7">
-                  Lead Engineer · Decasoft Technologies
+                  Chief Technology Officer · Decasoft Technologies
                 </h3>
-                <p className="mb-4">OCT 2019 - NOV 2021</p>
+                <p className="mb-4">OCT 2019 - OCT 2021</p>
                 <p className="text-sm leading-normal">
-                  Architected and delivered Decafinance, a Laravel & Vue.js lending and savings platform serving over 2,000 ride-hailing drivers and processing ₦82 M (~$200 K) in transactions. I automated loan disbursement and settlement workflows via Flutterwave and Paystack integrations, reducing manual effort by 70%, and implemented Docker-based CI/CD pipelines with GitHub Actions, cutting deployment time in half. Additionally, I mentored a team of four engineers in Agile best practices, fostering collaboration and continuous delivery.
+                  Architected and delivered Decafinance, a multi-tenant fintech loan & savings PaaS scaled to 2,000+ ride-hailing drivers and $40K+ in transactions. Built the platform on Node.js (NuxtJS frontend) with banking API integrations (Flutterwave, Paystack) for automated loan disbursement, savings, and withdrawals — reducing manual effort by 70%. Built a Docker-based provisioning service that automated tenant onboarding, cutting customer setup from days to minutes. Architected a cost-effective in-house call center on SIP trunking (replacing legacy telephony) and introduced Zoho Mail and Freshdesk company-wide as early adopters. Led a team of 4 engineers, owned hiring, code review standards, and architecture decisions across backend, frontend, and infra.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -515,6 +547,38 @@ export default function Home() {
               />
             </div>
 
+            {/* Code Refinery */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
+              <div className="sm:col-span-8">
+                <h3 className="text-white leading-7">
+                  <a href="https://github.com/iemarjay/code-refinery" target="_blank">
+                    Code Refinery ↗
+                  </a>
+                  <span className="ml-2 text-xs text-teal-300 font-normal">(Open source)</span>
+                </h3>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Open-source agentic PR review for GitHub. Two passes (security + code quality) using Claude Code CLI in full agentic mode. Multi-provider (Anthropic, AWS Bedrock, Vertex AI, Azure), JSON-schema-constrained output, branded GitHub App via OIDC. Distilled from years of audit work into a tool that drops into any repo.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    TypeScript
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Claude Code SDK
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    GitHub Actions
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    OIDC
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    JSON Schema
+                  </span>
+                </div>
+              </div>
+            </div>
+
             {/* Shuttershow */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
               <div className="sm:col-span-8">
@@ -545,18 +609,27 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Green Africa */}
+            {/* GreenAfrica */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
               <div className="sm:col-span-8">
                 <h3 className="text-white leading-7">
-                  Green Africa (Hedera)
+                  <a href="https://www.hashgraph.swiss/news-all/2025-hedera-africa-hackathon-announces-winners-officially-becomes-the-largest-web3-hackathon-globally" target="_blank">
+                    GreenAfrica (Hedera) ↗
+                  </a>
+                  <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
                 </h3>
                 <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
-                  Smart reverse vending machine on Hedera blockchain. Users recycle plastics and receive rewards in tokens, airtime, or data bundles.
+                  Smart reverse-vending-machine platform on Hedera with on-chain verification of recycling actions and automated token rewards. Users recycle plastics via RVMs; each verified action is recorded on-chain (Hedera HCS) and triggers a reward distributed via Hedera Token Service — redeemable for tokens, airtime, or data bundles. Won the $100K top cross-track champion prize at the 2025 Hedera Africa Hackathon — the largest Web3 hackathon globally (45,000+ participants, 1,300+ projects, 20+ African hubs).
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Hedera
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    HCS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    HTS
                   </span>
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     Smart Contracts
