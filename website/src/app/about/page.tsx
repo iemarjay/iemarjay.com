@@ -22,10 +22,10 @@ export default function Home() {
           </h1>
           <div className="max-w-sm text-md">
             <h2 className="mb-4 font-gilroy text-lg font-medium tracking-tight text-[#E7D9EF]">
-              Full-stack Engineer (web2 and web3), serial builder, Ex Wikipedia
+              Engineering Lead at Pouchfi · Ex-Wikipedia — Backend, Web2/3, Security, AI
             </h2>
             <p className="mb-6 text-[#c4b0cf] leading-normal">
-              8 years building production systems, DeFi protocols, enterprise platforms, and my own products.
+              8+ years shipping production systems, from Wikipedia search infrastructure to DeFi protocols handling real user funds.
             </p>
 
             <div className="">
@@ -137,15 +137,15 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-md leading-normal text-[#c4b0cf]">
             <p className="mb-6">
-              I build things that handle real money and real users. Over 8 years, I&#39;ve worked across fintech, blockchain, e-commerce, and enterprise software, from search infrastructure at <span className="font-medium text-[#E6BAFF]">Wikimedia Foundation</span> to DeFi protocols handling user funds.
+              I lead engineering at <span className="font-medium text-[#E6BAFF]">Pouchfi</span>, a DeFi platform on Binance Smart Chain — architected the platform, wrote the on-chain contracts, lead a team of 7. Over 8+ years, I&#39;ve shipped production systems across fintech, web3, e-commerce, and enterprise software, from <span className="font-medium text-[#E6BAFF]">Wikipedia search infrastructure</span> at Wikimedia Foundation to DeFi protocols handling real user funds.
             </p>
 
             <p className="mb-6">
-              I take security seriously. A webhook vulnerability I missed while building a payment platform cost a client $10k, that failure changed how I build. Now I audit my own smart contracts using an <span className="font-medium text-[#E6BAFF]">AI-augmented methodology</span> before deployment.
+              I take security seriously. A webhook vulnerability I missed while building a payment platform cost a client $10k, and that failure changed how I build. I now run a parallel practice as an <span className="font-medium text-[#E6BAFF]">independent security auditor</span> — 4 audits, 160+ vulnerabilities surfaced including a forensic recovery case that quantified $7,149 in fraud and traced $5,110 still recoverable in attacker wallets. I distilled the methodology into <span className="font-medium text-[#E6BAFF]">Code Refinery</span>, an open-source agentic PR review tool.
             </p>
 
             <p className="mb-6">
-              When I&#39;m not working on client projects, I&#39;m building <span className="font-medium text-[#E6BAFF]">Shuttershow</span>, a tool for photographers. I believe the best engineers ship their own products, not just other people&#39;s.
+              I target <span className="font-medium text-[#E6BAFF]">CTO and engineering-lead roles at pre-seed → Series A startups</span>, especially in fintech, web3, AI-native products, or anywhere money and trust meet code.
             </p>
           </div>
         </section>
@@ -263,9 +263,9 @@ export default function Home() {
                 <h3 className="text-white leading-7">
                   Software Engineer · Search Infrastructure · Wikimedia Foundation
                 </h3>
-                <p className="mb-4">OCT 2021 - NOV 2022</p>
+                <p className="mb-4">OCT 2021 - OCT 2022</p>
                 <p className="text-sm leading-normal">
-                  Contributed to the Metrics & Search Interfaces stack by consolidating the event pipeline into a single buffer (−15% complexity), introducing thread-safe configurations to eliminate race conditions, and refactoring client integrations to an exception-driven model (−20% incident fatigue). I also boosted CirrusSearch reliability and recall, developing heuristic recovery mechanisms that cut outages by 30% and adding an apostrophe filter that improved possessive query recall by 25%, all while leveraging Gerrit code-review workflows to streamline patch submissions and mentor new contributors.
+                  Wikipedia search infrastructure at Wikimedia Foundation — the non-profit behind Wikipedia, Wiktionary, and Wikidata. My work powered search across 300+ Wikipedia language editions used by billions of monthly readers. Upgraded 7 internally-developed Elasticsearch plugins for ES7 compatibility (published to Maven Central) and improved instrumentation across the CirrusSearch frontend and Elasticsearch backend, surfacing a long-standing bug that cut error volume from ~5M errors/month to ~500K. Built a uniform query-dump system across all Search endpoints (full-text, completion, suggestions) so Search Engineers could visualize queries end-to-end to diagnose correctness and relevance issues. Also shipped reliability and recall improvements to CirrusSearch — heuristic recovery mechanisms that cut outages by 30%, and an apostrophe filter that improved possessive-query recall by 25%.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
@@ -613,7 +613,9 @@ export default function Home() {
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
               <div className="sm:col-span-8">
                 <h3 className="text-white leading-7">
-                  GreenAfrica (Hedera)
+                  <a href="https://www.hashgraph.swiss/news-all/2025-hedera-africa-hackathon-announces-winners-officially-becomes-the-largest-web3-hackathon-globally" target="_blank">
+                    GreenAfrica (Hedera) ↗
+                  </a>
                   <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
                 </h3>
                 <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
