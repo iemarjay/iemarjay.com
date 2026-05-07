@@ -3,6 +3,7 @@ import Image from "next/image";
 import Icon from "@/components/icon";
 import {GmailIcon} from "@/app/about/GmailIcon";
 import Link from "next/link";
+import HederaWinners from "@/../public/media/hedera-africa-hackathon-winners.png";
 
 export default function Home() {
   return (
@@ -544,6 +545,13 @@ export default function Home() {
                   </a>
                   <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
                 </h3>
+                <Image
+                  src={HederaWinners}
+                  alt="GreenAfrica among the winners on the official 2025 Hedera Africa Hackathon poster"
+                  className="rounded-lg w-full h-auto mt-4"
+                  sizes="(max-width: 768px) 100vw, 800px"
+                  placeholder="blur"
+                />
                 <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
                   Smart reverse-vending-machine platform on Hedera with on-chain verification of recycling actions and automated token rewards. Users recycle plastics via RVMs; each verified action is recorded on-chain (Hedera HCS) and triggers a reward distributed via Hedera Token Service — redeemable for tokens, airtime, or data bundles. Won the $100K top cross-track champion prize at the 2025 Hedera Africa Hackathon — the largest Web3 hackathon globally (45,000+ participants, 1,300+ projects, 20+ African hubs).
                 </p>
