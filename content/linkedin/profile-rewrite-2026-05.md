@@ -80,9 +80,9 @@ Lead engineering for Pouchfi, a DeFi platform on Binance Smart Chain. Own archit
 
 → Backend platform — Built off-chain infrastructure for signature verification, wallet operations, transaction reconciliation, and async job processing (Bull queues). DevSecOps for continuous deployment, infrastructure-as-code, and secret management.
 
-→ Cross-functional leadership — Trusted technical voice on company direction. Contribute to product strategy alongside the leadership team; my input on design and business decisions carries weight beyond pure engineering.
+→ Cross-functional leadership — Set the engineering direction for the platform: chose the modular-monolith architecture, the stack (Node.js/TypeScript + Next.js + Solidity), and the engineering practices (event-driven design, async queues, DevSecOps). Partner with the founder on product roadmap, prioritization, and business decisions.
 
-→ Engineering team — Lead 7 engineers across backend, frontend, and smart contracts. Own hiring, code review standards, architecture decisions, mentorship, and engineering culture.
+→ Engineering team — Started the engineering team from scratch and recruited all 7 engineers across backend, frontend, and smart contracts. Own hiring, code review standards, mentorship, and engineering culture.
 
 The platform is currently in public beta.
 
