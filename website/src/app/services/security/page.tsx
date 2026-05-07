@@ -93,7 +93,7 @@ export default function SecurityPage() {
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
               <div className="p-4 rounded-lg bg-white bg-opacity-5 text-center">
-                <div className="text-3xl font-bold text-white">139</div>
+                <div className="text-3xl font-bold text-white">160</div>
                 <div className="text-sm text-[#c4b0cf]">Issues Found</div>
               </div>
               <div className="p-4 rounded-lg bg-red-500 bg-opacity-10 text-center">

@@ -52,7 +52,7 @@ export default function ServicesPage() {
                   Backend Security Audits
                 </h2>
                 <p className="text-[#c4b0cf] mb-4 max-w-xl">
-                  Comprehensive security assessments for fintech systems, APIs, and payment integrations. 139+ issues found across audits. Incident response with forensic analysis.
+                  Comprehensive security assessments for fintech systems, APIs, and payment integrations. 160+ issues found across audits. Incident response with forensic analysis.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 rounded-full bg-teal-400/10 text-xs font-medium text-teal-300">

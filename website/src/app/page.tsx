@@ -42,10 +42,10 @@ export default async function Page() {
           </h1>
           <div className="text-md text-center md:text-left">
             <h2 className="mb-4 font-gilroy text-lg font-medium tracking-tight text-[#4b1d64]">
-              Full-stack Engineer (web2 and web3), serial builder, Ex Wikipedia
+              Engineering Lead at Pouchfi · Ex-Wikipedia — Backend, Web2/3, Security, AI
             </h2>
             <p className="max-w-sm mx-auto md:mx-0 mb-4 text-[#1b002a] leading-normal">
-              8 years building production systems, from DeFi protocols handling user funds to enterprise platforms serving thousands. I work across the full stack: <span className="text-[#9106dd]">React, Node, Solidity, Go</span>. Currently building Shuttershow, a tool for photographers.
+              Currently leading engineering at Pouchfi — a DeFi platform on BSC. 8+ years shipping production systems, from fintech platforms serving thousands to web3 protocols handling user funds. I work across the full stack: <span className="text-[#9106dd]">React, Node, TypeScript, Solidity, Go</span>.
             </p>
             <p className="max-w-md mx-auto md:mx-0 mb-6 text-[#1b002a] leading-normal">
               If you&apos;ve searched on Wikipedia recently, you&apos;ve probably used features I worked on. <span className="text-[#9106dd]">I helped Fitted.ng secure a $50k grant</span> by rebuilding their technical foundation. I take security seriously, a bug I missed once cost a client $10k, and that failure changed how I build.

@@ -11,16 +11,23 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL("https://iemarjay.com"),
   title:
-    "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
+    "Emmanuel Joseph (iemarjay): Engineering Lead — Backend, Web3, Security, AI",
   description:
-    "Full-stack software engineer, blockchain engineer and serial builder\n\nI have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries",
+    "Engineering Lead at pre-seed → Series A startups. Backend, web3, security, AI/LLM. 8+ years shipping production systems. Powered a $400K raise. Found 160+ vulnerabilities. Building Code Refinery (open-source agentic PR review).",
   keyword: [
-    "Engineer",
-    "Full-stack software engineer",
-    "Software",
-    "Blockchain",
-    "Web3",
-    "Career",
+    "Engineering Lead",
+    "CTO",
+    "Backend Engineer",
+    "Web3 Engineer",
+    "Smart Contract Auditor",
+    "Security Engineer",
+    "LLM Engineering",
+    "AI Engineering",
+    "Solidity",
+    "Node.js",
+    "TypeScript",
+    "DeFi",
+    "Fintech Engineering",
   ],
   icons: {
     other: {
@@ -48,9 +55,9 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
+      "Emmanuel Joseph (iemarjay): Engineering Lead — Backend, Web3, Security, AI",
     description:
-      "Full-stack software engineer, blockchain engineer and serial builder. I have a wide range of technical experience, including building multiple products, winning numerous hackathons, and creating software solutions for various industries.",
+      "Engineering Lead at pre-seed → Series A startups. Backend, web3, security, AI/LLM. 8+ years shipping production systems. Powered a $400K raise. Found 160+ vulnerabilities. Building Code Refinery.",
     url: "https://iemarjay.com",
     siteName: "Emmanuel Joseph (iemarjay)",
     images: [
@@ -58,15 +65,15 @@ export const metadata = {
         url: "/media/meet-emmanuel-joseph-iemarjay.png",
         width: 1200,
         height: 630,
-        alt: "Emmanuel Joseph (iemarjay) - Full-stack software engineer",
+        alt: "Emmanuel Joseph (iemarjay) — Engineering Lead, Backend / Web3 / Security / AI",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Emmanuel Joseph (iemarjay): Full-stack software engineer, blockchain engineer",
-    description: "Full-stack software engineer, blockchain engineer and serial builder. 8 years building production systems across web2 and web3.",
+    title: "Emmanuel Joseph (iemarjay): Engineering Lead — Backend, Web3, Security, AI",
+    description: "Engineering Lead. 8+ years shipping production systems across web2 and web3. Backend, security, AI/LLM tooling.",
     images: ["/media/meet-emmanuel-joseph-iemarjay.png"],
   },
 };
