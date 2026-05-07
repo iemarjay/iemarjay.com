@@ -3,6 +3,7 @@ import Image from "next/image";
 import Icon from "@/components/icon";
 import {GmailIcon} from "@/app/about/GmailIcon";
 import Link from "next/link";
+import HederaWinners from "@/../public/media/hedera-africa-hackathon-winners.png";
 
 export default function Home() {
   return (
@@ -503,7 +504,86 @@ export default function Home() {
             Projects
           </h1>
           <div className="">
+            {/* Code Refinery */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg">
+              <div className="sm:col-span-8">
+                <h3 className="text-white leading-7">
+                  <a href="https://github.com/iemarjay/code-refinery" target="_blank">
+                    Code Refinery ↗
+                  </a>
+                  <span className="ml-2 text-xs text-teal-300 font-normal">(Open source)</span>
+                </h3>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Open-source agentic PR review for GitHub. Two passes (security + code quality) using Claude Code CLI in full agentic mode. Multi-provider (Anthropic, AWS Bedrock, Vertex AI, Azure), JSON-schema-constrained output, branded GitHub App via OIDC. Distilled from years of audit work into a tool that drops into any repo.
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    TypeScript
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Claude Code SDK
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    GitHub Actions
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    OIDC
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    JSON Schema
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* GreenAfrica */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
+              <div className="sm:order-2 sm:col-span-5">
+                <h3 className="text-white leading-7">
+                  <a href="https://www.hashgraph.swiss/news-all/2025-hedera-africa-hackathon-announces-winners-officially-becomes-the-largest-web3-hackathon-globally" target="_blank">
+                    GreenAfrica (Hedera) ↗
+                  </a>
+                  <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
+                </h3>
+                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
+                  Smart reverse-vending-machine platform on Hedera with on-chain verification of recycling actions and automated token rewards. Users recycle plastics via RVMs; each verified action is recorded on-chain (Hedera HCS) and triggers a reward distributed via Hedera Token Service — redeemable for tokens, airtime, or data bundles. Won the $100K top cross-track champion prize at the 2025 Hedera Africa Hackathon — the largest Web3 hackathon globally (45,000+ participants, 1,300+ projects, 20+ African hubs).
+                </p>
+                <div className="mt-2 flex flex-wrap">
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Hedera
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    HCS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    HTS
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Smart Contracts
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    Node
+                  </span>
+                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
+                    IoT Integration
+                  </span>
+                </div>
+              </div>
+
+              <div className="sm:order-1 sm:col-span-3 relative aspect-video sm:aspect-auto rounded-lg overflow-hidden">
+                <Image
+                  src={HederaWinners}
+                  alt="GreenAfrica among the winners on the official 2025 Hedera Africa Hackathon poster"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 300px"
+                  className="object-cover object-center"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+
+            {/* Screen3 */}
+            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
               <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
                   <a href="https://screen3.io" target="_blank">
@@ -547,38 +627,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Code Refinery */}
-            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
-              <div className="sm:col-span-8">
-                <h3 className="text-white leading-7">
-                  <a href="https://github.com/iemarjay/code-refinery" target="_blank">
-                    Code Refinery ↗
-                  </a>
-                  <span className="ml-2 text-xs text-teal-300 font-normal">(Open source)</span>
-                </h3>
-                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
-                  Open-source agentic PR review for GitHub. Two passes (security + code quality) using Claude Code CLI in full agentic mode. Multi-provider (Anthropic, AWS Bedrock, Vertex AI, Azure), JSON-schema-constrained output, branded GitHub App via OIDC. Distilled from years of audit work into a tool that drops into any repo.
-                </p>
-                <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    TypeScript
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Claude Code SDK
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    GitHub Actions
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    OIDC
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    JSON Schema
-                  </span>
-                </div>
-              </div>
-            </div>
-
             {/* Shuttershow */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
               <div className="sm:col-span-8">
@@ -604,41 +652,6 @@ export default function Home() {
                   </span>
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
                     PostgreSQL
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* GreenAfrica */}
-            <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
-              <div className="sm:col-span-8">
-                <h3 className="text-white leading-7">
-                  <a href="https://www.hashgraph.swiss/news-all/2025-hedera-africa-hackathon-announces-winners-officially-becomes-the-largest-web3-hackathon-globally" target="_blank">
-                    GreenAfrica (Hedera) ↗
-                  </a>
-                  <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
-                </h3>
-                <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
-                  Smart reverse-vending-machine platform on Hedera with on-chain verification of recycling actions and automated token rewards. Users recycle plastics via RVMs; each verified action is recorded on-chain (Hedera HCS) and triggers a reward distributed via Hedera Token Service — redeemable for tokens, airtime, or data bundles. Won the $100K top cross-track champion prize at the 2025 Hedera Africa Hackathon — the largest Web3 hackathon globally (45,000+ participants, 1,300+ projects, 20+ African hubs).
-                </p>
-                <div className="mt-2 flex flex-wrap">
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Hedera
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    HCS
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    HTS
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Smart Contracts
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    Node
-                  </span>
-                  <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
-                    IoT Integration
                   </span>
                 </div>
               </div>
