@@ -538,20 +538,13 @@ export default function Home() {
 
             {/* GreenAfrica */}
             <div className="grid gap-4 sm:gap-8 md:gap-4 sm:grid-cols-8 lg:p-4 lg:hover:bg-white lg:hover:bg-opacity-10 transition-all rounded-lg mt-8">
-              <div className="sm:col-span-8">
+              <div className="sm:order-2 sm:col-span-5">
                 <h3 className="text-white leading-7">
                   <a href="https://www.hashgraph.swiss/news-all/2025-hedera-africa-hackathon-announces-winners-officially-becomes-the-largest-web3-hackathon-globally" target="_blank">
                     GreenAfrica (Hedera) ↗
                   </a>
                   <span className="ml-2 text-xs text-teal-300 font-normal">($100K Hackathon Winner)</span>
                 </h3>
-                <Image
-                  src={HederaWinners}
-                  alt="GreenAfrica among the winners on the official 2025 Hedera Africa Hackathon poster"
-                  className="rounded-lg w-full h-auto mt-4"
-                  sizes="(max-width: 768px) 100vw, 800px"
-                  placeholder="blur"
-                />
                 <p className="mt-4 text-sm leading-normal text-[#c4b0cf]">
                   Smart reverse-vending-machine platform on Hedera with on-chain verification of recycling actions and automated token rewards. Users recycle plastics via RVMs; each verified action is recorded on-chain (Hedera HCS) and triggers a reward distributed via Hedera Token Service — redeemable for tokens, airtime, or data bundles. Won the $100K top cross-track champion prize at the 2025 Hedera Africa Hackathon — the largest Web3 hackathon globally (45,000+ participants, 1,300+ projects, 20+ African hubs).
                 </p>
@@ -575,6 +568,17 @@ export default function Home() {
                     IoT Integration
                   </span>
                 </div>
+              </div>
+
+              <div className="sm:order-1 sm:col-span-3 relative aspect-video sm:aspect-auto rounded-lg overflow-hidden">
+                <Image
+                  src={HederaWinners}
+                  alt="GreenAfrica among the winners on the official 2025 Hedera Africa Hackathon poster"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 300px"
+                  className="object-cover object-center"
+                  placeholder="blur"
+                />
               </div>
             </div>
 
