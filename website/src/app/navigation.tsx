@@ -5,17 +5,19 @@ import { useState } from "react";
 
 interface NavigationProps {
   variant?: "light" | "dark";
+  align?: "left" | "center";
 }
 
-export function Navigation({ variant = "light" }: NavigationProps) {
+export function Navigation({ variant = "light", align = "left" }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const isDark = variant === "dark";
+  const desktopJustify = align === "center" ? "md:justify-center" : "md:justify-start";
 
   return (
     <header className={`fixed w-full z-50 ${isDark ? "bg-[#180622]/90 backdrop-blur-sm" : "bg-white"}`}>
       <div className="max-w-4xl mx-auto px-6 md:px-24 py-4 md:py-6">
-        <div className="flex items-center justify-between md:justify-start">
+        <div className={`flex items-center justify-between ${desktopJustify}`}>
           {/* Desktop nav */}
           <nav className={`hidden md:block divide-x ${isDark ? "divide-white/20 text-white" : "divide-current"}`}>
             <Link href="/"><span className={`inline-block pr-3 transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Home</span></Link>
