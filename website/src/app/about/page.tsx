@@ -137,7 +137,7 @@ export default function Home() {
           </h1>
           <div className="max-w-4xl text-md leading-normal text-[#c4b0cf]">
             <p className="mb-6">
-              I lead engineering at <span className="font-medium text-[#E6BAFF]">Pouchfi</span>, a DeFi platform on Binance Smart Chain — architected the platform, wrote the on-chain contracts, lead a team of 7. Over 8+ years, I&#39;ve shipped production systems across fintech, web3, e-commerce, and enterprise software, from <span className="font-medium text-[#E6BAFF]">Wikipedia search infrastructure</span> at Wikimedia Foundation to DeFi protocols handling real user funds.
+              I lead engineering at <span className="font-medium text-[#E6BAFF]">Pouchfi</span>, a DeFi platform on Binance Smart Chain — architected the platform, wrote the on-chain contracts, and built the engineering team from scratch (currently leading 7 engineers). Over 8+ years, I&#39;ve shipped production systems across fintech, web3, e-commerce, and enterprise software, from <span className="font-medium text-[#E6BAFF]">Wikipedia search infrastructure</span> at Wikimedia Foundation to DeFi protocols handling real user funds.
             </p>
 
             <p className="mb-6">
@@ -195,7 +195,7 @@ export default function Home() {
                 </h3>
                 <p className="mb-4">JUL 2024 - Present</p>
                 <p className="text-sm leading-normal">
-                  Building Pouchfi, a DeFi platform on BSC. Designed and built the current platform from the ground up: modular monolith backend (Node.js/TypeScript) with event-driven design and async queue processing, plus a Next.js dashboard (&lt; 200ms TTFB). Wrote the on-chain smart contracts on BSC — signature-based withdrawals with cryptographic verification, CREATE2 deterministic deployment, batch operations. Built NestJS services with JWT auth, RBAC, and Redis pub-sub. Integrated debit-card issuance APIs including KYC verification and automated settlement. Trusted technical voice on company direction — input on design and business decisions carries weight beyond pure engineering. Lead a team of 7 engineers with zero critical post-launch incidents. Platform currently in public beta.
+                  Building Pouchfi, a DeFi platform on BSC. Designed and built the current platform from the ground up: modular monolith backend (Node.js/TypeScript) with event-driven design and async queue processing, plus a Next.js dashboard (&lt; 200ms TTFB). Wrote the on-chain smart contracts on BSC — signature-based withdrawals with cryptographic verification, CREATE2 deterministic deployment, batch operations. Built NestJS services with JWT auth, RBAC, and Redis pub-sub. Integrated debit-card issuance APIs including KYC verification and automated settlement. Partner with the founder on product roadmap, prioritization, and business decisions. Started the engineering team from scratch and recruited all 7 engineers across backend, frontend, and smart contracts, with zero critical post-launch incidents. Platform currently in public beta.
                 </p>
                 <div className="mt-2 flex flex-wrap">
                   <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 mr-1.5 mt-2">
