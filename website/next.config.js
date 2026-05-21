@@ -13,6 +13,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'storage.startsmall.community',
       },
+      {
+        protocol: 'https',
+        hostname: 'storage.iemarjay.com',
+      },
     ],
   },
 };

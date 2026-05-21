@@ -9,6 +9,8 @@ export const metadata = {
   description: "Thoughts on building production systems, web3 development, security, and lessons learned from 8 years in the field.",
 };
 
+export const revalidate = 60;
+
 export default async function PostsPage() {
   const posts = await getPaginatedBlogPosts();
 

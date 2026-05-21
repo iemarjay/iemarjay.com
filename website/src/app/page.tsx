@@ -8,6 +8,8 @@ import Link from "next/link";
 import {Navigation} from "@/app/navigation";
 import JsonLd from "@/app/components/JsonLd";
 
+export const revalidate = 60;
+
 export default async function Page() {
   const posts = await getBlogPostsForHome();
 
