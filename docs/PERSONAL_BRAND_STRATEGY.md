@@ -31,14 +31,15 @@
 
 **Education**: B.Sc. Mathematics and Computer Science, Olabisi Onabanjo University (2012-2016)
 
-| What You Do     | Details                                       |
-| --------------- | --------------------------------------------- |
-| Full-time job   | Pouchfi - DeFi on BSC ($1,500/mo, startup)    |
-| Client work     | ~$20k revenue in 2025 (web2 + web3 projects)  |
-| Team            | Small team of engineers (private, not public) |
-| Product         | Shuttershow - photographer tool (MVP stage)   |
-| Security audits | Proven: 160+ issues found (backend + web3)    |
-| Mentorship      | ADPList mentor - career guidance for devs     |
+| What You Do     | Details                                                                  |
+| --------------- | ------------------------------------------------------------------------ |
+| Full-time role  | Engineering Lead at Pouchfi (stablecoin neobank on BSC, team of 7)       |
+| Client work     | ~$20k revenue in 2025 (web2 + web3 projects)                             |
+| Team            | Small team of engineers (private, not public)                            |
+| Product         | Shuttershow - photographer tool (MVP stage)                              |
+| Open source     | Code Refinery — agentic PR review tool (github.com/iemarjay/code-refinery) |
+| Security audits | Independent Security Auditor (Contract, Jan 2025–). 160+ issues found.   |
+| Mentorship      | ADPList mentor - career guidance for devs                                |
 
 ### Production Experience
 
@@ -62,10 +63,11 @@
 
 **Product (Building):**
 
-| Product     | What It Is                                       | Status                                       |
-| ----------- | ------------------------------------------------ | -------------------------------------------- |
-| Shuttershow | Photographer tool (Pixiesuite competitor)        | MVP - gallery, public page, client selection |
-| Roadmap     | Booking, culling, AI retouching, printer sharing | Planned                                      |
+| Product       | What It Is                                                              | Status                                       |
+| ------------- | ----------------------------------------------------------------------- | -------------------------------------------- |
+| Code Refinery | Open-source agentic PR review using Claude Code CLI (security + quality) | Public on GitHub, in use on this repo        |
+| Shuttershow   | Photographer tool (Pixiesuite competitor)                               | MVP - gallery, public page, client selection |
+| Roadmap       | Booking, culling, AI retouching, printer sharing                        | Planned                                      |
 
 ### The Origin Story
 
@@ -123,19 +125,19 @@ You were building Panelsuite, a payment platform for a client, integrating Korap
 
 ### Core Identity
 
-**Full-stack developer (web2 + web3) who:**
+**Engineering Lead / CTO at pre-seed → Series A startups who:**
 
-- Builds production systems at scale
-- Takes security seriously (learned the hard way)
-- Ships products
-- Has depth and opinions
-- Can do security audits too
+- Architects and ships production systems where money and trust meet code
+- Builds across backend, web3, and security — and now AI-native developer tooling
+- Has founder-adjacent experience: hiring, architecture, fundraising support, product strategy
+- Powered a $400K raise; surfaced 160+ vulnerabilities across audits
+- Open-sources real work (Code Refinery) instead of just talking about it
 
 ### NOT This
 
-- "Security auditor" (too narrow)
+- "Security auditor" (too narrow — it's one pillar)
 - "Web3 enthusiast" (too vague)
-- "AI expert" (not the focus)
+- "AI expert" (positioning is engineering leader who builds AI-native tools, not influencer)
 - Agency or team (personal brand)
 
 ### Public vs Private
@@ -148,10 +150,11 @@ You were building Panelsuite, a payment platform for a client, integrating Korap
 
 ### Key Messages
 
-1. "I build production systems — web2 and web3"
-2. "I learned security the hard way ($10k mistake)"
-3. "I ship products, not just client work"
-4. "8 years of real-world experience"
+1. "I lead engineering at startups where money and trust meet code"
+2. "8+ years at pre-seed → Series A — current Engineering Lead at Pouchfi"
+3. "Powered a $400K raise; surfaced 160+ vulnerabilities across audits"
+4. "Open-sourced Code Refinery — agentic PR review distilled from audit work"
+5. "Learned security the hard way ($10k webhook bug → audit methodology)"
 
 ### Tone & Voice
 
@@ -289,16 +292,16 @@ Instead of chasing opportunities (cold outreach forever), build a presence that 
 | Career/Journey     | 15%   | Reflections, wins, advice                                 |
 | Mentorship         | 10%   | Advice frameworks, mentee wins, career guidance posts     |
 
-### Content Formats (Open to All)
+### Content Formats (Writing-First)
 
-- Twitter threads
-- Blog posts (on your site first)
-- LinkedIn posts
+- **X long-form posts** (leverage Premium for 25k character posts with high dwell time)
+- **Blog posts** (on your site first, 1/week)
+- **LinkedIn posts** (text + PDF carousels, 4-5/week)
+- **Demo videos** (screen recordings of builds, 1/month)
 - GitHub repos / open source
 - Technical tutorials
 - Case studies
 - Hot takes / opinions
-- **YouTube videos** (long-form, high-value, 1 every 2 months)
 
 ### Platform Priority
 
@@ -308,7 +311,7 @@ Instead of chasing opportunities (cold outreach forever), build a presence that 
 | Personal blog     | Primary   | You own it, SEO compounds                 |
 | LinkedIn          | Secondary | Different audience, job visibility        |
 | GitHub            | Secondary | Proof of work                             |
-| YouTube           | Secondary | Long-form depth, evergreen, high value    |
+| Demo videos       | Secondary | Screen recordings of builds, 1/month      |
 | Dev.to / Hashnode | Tertiary  | Syndication for reach                     |
 
 ### Content Pillars
@@ -372,47 +375,32 @@ Instead of chasing opportunities (cold outreach forever), build a presence that 
 - Code examples
 - Honest about limitations
 
-**YouTube:**
+**Demo Videos:**
 
-- Long-form, high-value content (1 video every 2 months)
-- Deep technical walkthroughs
-- Full project builds or case studies
-- "How I built X" or "How I found this bug"
-- Tutor energy — explaining complex things simply
-- Evergreen content that keeps working
+- Screen recordings of real builds (1/month)
+- Short, practical, shows what you shipped
+- Narrated walkthroughs, not polished productions
+- Post on X + LinkedIn natively
 
 ---
 
-### YouTube Strategy
+### Demo Video Strategy
 
-**Cadence**: 1 video every 2 months (6 per year)
+**Cadence**: 1 video per month (12 per year)
 
-**Video Types**:
-- Full project walkthroughs (building something from scratch)
-- Security case studies (analyzing real vulnerabilities)
-- "How I built X" deep dives (architecture, decisions, lessons)
-- Technical tutorials with real code
+**Format**: Screen recordings of things you build for clients or projects. No face-to-camera, no fancy setup. Just show what you built and explain one interesting technical decision.
 
 **Why This Works**:
-- Low frequency = sustainable with 10-15 hrs/week
-- High quality > high quantity for YouTube
-- Videos compound (people find them months/years later)
-- Shows depth that tweets can't
-- Differentiates you from text-only creators
-
-**Video Ideas**:
-1. "How a $10k Bug Taught Me to Build an AI Audit System" (the full story)
-2. "Building a DeFi Withdrawal System with Signature Verification"
-3. "I Found a Critical Bug in My Smart Contract — Here's How"
-4. "Building Shuttershow: From Idea to MVP" (building in public)
-5. "How I Use AI for Smart Contract Security Audits"
-6. "Architecture Decisions for a Real DeFi Protocol"
+- Zero friction — record what you're already doing
+- Doubles as portfolio proof
+- Clients and employers see you actually ship
+- Can be posted as-is on X and LinkedIn
 
 **Production Notes**:
-- Screen recording + voice is enough (no fancy setup needed)
-- OBS or Loom for recording
-- Keep it practical — show real code, real projects
-- 15-30 minutes is fine (don't force length)
+- Screen recording + voice narration (OBS or Loom)
+- Keep under 3 minutes
+- Narrate: what it does, one interesting decision, one lesson
+- Post natively on X + LinkedIn
 
 ---
 
@@ -447,15 +435,15 @@ Instead of chasing opportunities (cold outreach forever), build a presence that 
 
 ### Weekly Schedule (10-15 hours)
 
-| Day       | Task                                    | Time   |
-| --------- | --------------------------------------- | ------ |
-| Sunday    | Batch write 3-5 tweets + plan week      | 2 hr   |
-| Monday    | Post + engage                           | 1 hr   |
-| Tuesday   | Work on longer content (blog/thread)    | 2-3 hr |
-| Wednesday | Post + engage                           | 1 hr   |
-| Thursday  | Outreach / networking                   | 1-2 hr |
-| Friday    | Post + engage                           | 1 hr   |
-| Saturday  | Job applications / Shuttershow / audits | 2-3 hr |
+| Day       | Task                                                    | Time   |
+| --------- | ------------------------------------------------------- | ------ |
+| Sunday    | Batch write 7-10 X posts + 2-3 LinkedIn posts for week  | 2-3 hr |
+| Monday    | Post + engage. Start blog draft.                         | 1 hr   |
+| Tuesday   | Publish blog post. Heavy engagement on all platforms.    | 2 hr   |
+| Wednesday | Post + engage. Outline next blog.                        | 1 hr   |
+| Thursday  | Post + engage. Draft LinkedIn carousel if planned.       | 1-2 hr |
+| Friday    | Post + engage. Light day.                                | 30 min |
+| Saturday  | Research trending topics. Record demo video (last Sat).  | 1-2 hr |
 
 ### AI-Assisted Writing
 
@@ -667,7 +655,7 @@ The yearly plan expands on the 90-day plan below with:
 | Twitter followers    | +300-500                     |
 | LinkedIn connections | +100-200                     |
 | Blog posts           | 3-4                          |
-| YouTube videos       | 1-2 (high-value, long-form)  |
+| Demo videos          | 3 (screen recordings)        |
 | Job applications     | 20-30                        |
 | Interviews           | 5-10                         |
 | Job offers           | 1-2                          |
@@ -682,11 +670,11 @@ The yearly plan expands on the 90-day plan below with:
 ### Twitter Bio
 
 ```
-Emmanuel Joseph | Full-Stack Developer
+Emmanuel Joseph | Engineering Lead / CTO
 
-Building web2 + web3 for 8 years | Shipping @Shuttershow |
-Security-conscious (learned the hard way) |
-Open for opportunities
+Backend · Web3 · Security · AI · 8+ yrs at pre-seed → Series A
+Powered a $400K raise · 160+ vulns surfaced
+Building Code Refinery (open source)
 
 iemarjay.com
 ```
@@ -694,7 +682,7 @@ iemarjay.com
 ### LinkedIn Headline
 
 ```
-Senior Full-Stack Engineer | Web2 + Web3 | 8 Years Production Experience | Building Shuttershow | Open to Opportunities
+CTO & Engineering Lead • Backend / Web3 / Security / Fintech / AI • 8+ yrs at pre-seed → Series A • Powered a $400K raise
 ```
 
 ### Cold Outreach (Job)
@@ -760,7 +748,7 @@ Pick one and fill in:
 | Twitter followers     |     |     |     |
 | LinkedIn connections  |     |     |     |
 | Blog posts published  |     |     |     |
-| YouTube videos        |     |     |     |
+| Demo videos           |     |     |     |
 | Job applications sent |     |     |     |
 | Interviews completed  |     |     |     |
 | Client revenue        |     |     |     |
@@ -798,7 +786,7 @@ Focus on leading indicators early. Results follow effort.
 ### GitHub (40 repos)
 
 - Active, DeFi-focused
-- Action: Add audit framework repo
+- Code Refinery is live and open source: github.com/iemarjay/code-refinery
 
 ### Twitter (@iemarjay)
 
@@ -818,16 +806,17 @@ Focus on leading indicators early. Results follow effort.
 
 ### Content Created
 
-| File                                                     | Purpose              | Status        |
-| -------------------------------------------------------- | -------------------- | ------------- |
-| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog     | Published     |
-| `solana-prediction-market-security-lessons.md`           | Solana audit blog    | Published     |
-| `solana-prediction-market-audit-post.md`               | X post               | Ready to post |
-| `solana-prediction-market-audit.md`                      | LinkedIn post        | Ready to post |
-| `fintech-incident-response-case-study.md`                | Backend case study   | Done          |
-| `solana-prediction-market-audit-case-study.md`           | Solana case study    | Done          |
-| `ADPLIST_MENTORSHIP.md`                                  | Mentorship tracking  | Active        |
-| `SECURITY_AUDIT_EXPERIENCE.md`                           | Audit methodology    | Active        |
+| File                                                     | Purpose                            | Status        |
+| -------------------------------------------------------- | ---------------------------------- | ------------- |
+| `how-a-10k-bug-taught-me-to-build-ai-security-audits.md` | Cornerstone blog                   | Published     |
+| `solana-prediction-market-security-lessons.md`           | Solana audit blog                  | Published     |
+| `solana-prediction-market-audit-post.md`                 | X post                             | Ready to post |
+| `solana-prediction-market-audit.md`                      | LinkedIn post                      | Ready to post |
+| `fintech-incident-response-case-study.md`                | Backend case study                 | Done          |
+| `solana-prediction-market-audit-case-study.md`           | Solana case study                  | Done          |
+| `content/linkedin/profile-rewrite-2026-05.md`            | Canonical headline / About / roles | Active        |
+| `ADPLIST_MENTORSHIP.md`                                  | Mentorship tracking                | Active        |
+| `SECURITY_AUDIT_EXPERIENCE.md`                           | Audit methodology                  | Active        |
 
 ---
 

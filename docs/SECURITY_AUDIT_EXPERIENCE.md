@@ -9,11 +9,17 @@
 
 I have developed and executed comprehensive security audit frameworks for both **backend systems** and **smart contracts**. This document captures the methodology, tooling, and experience gained from real-world audits (client work under NDA).
 
+Listed on LinkedIn as **Independent Security Auditor (Contract)** since Jan 2025. **160+ vulnerabilities surfaced across engagements** spanning Solidity (EVM), Solana/Rust, and Node.js/TypeScript fintech systems.
+
+Methodology and tooling are tailored per project — not a fixed checklist. Distilled into **[Code Refinery](https://github.com/iemarjay/code-refinery)**, an open-source agentic PR review tool that runs dedicated security and code-quality passes using Claude Code CLI in full agentic mode.
+
 ---
 
 ## Audit Experience Summary
 
 ### Backend Security Audit #1 — The $10k Incident (Vulnerability Audit + Forensic Analysis)
+
+> Full case study: [fintech-incident-response-case-study.md](./case-studies/fintech-incident-response-case-study.md)
 
 **Context**: This is the same fintech backend where a webhook replay attack cost my client $10k. I was brought back to conduct a comprehensive security audit AND analyze the production database to quantify the actual damage.
 
@@ -41,7 +47,7 @@ I have developed and executed comprehensive security audit frameworks for both *
 - Pessimistic locking for all concurrent wallet operations
 - Advisory locks for payment webhook coordination
 
-**The Deadlock Incident**: Prior to audit, production experienced database deadlocks. Root cause: HTTP calls to external payment APIs were happening *inside* database transactions while holding advisory locks. Fix: Move all HTTP calls outside transactions, commit DB state first. This pattern was applied across all payment methods.
+**The Deadlock Incident** ([full case study](./case-studies/database-deadlock-incident.md)): Prior to audit, production experienced database deadlocks. Root cause: HTTP calls to external payment APIs were happening *inside* database transactions while holding advisory locks. Fix: Move all HTTP calls outside transactions, commit DB state first. This pattern was applied across all payment methods.
 
 **Key Security Gap Found**: A `testGetAccessToken()` method in auth service could generate valid JWT tokens without password verification — dangerous if exposed in production.
 
@@ -104,6 +110,8 @@ Given production database access, I analyzed the actual attack impact:
 
 ### Backend Security Audit #2
 
+> Audit plan and findings: [creditty-plan.md](./audit-artifacts/creditty-plan.md), [creditty-findings.md](./audit-artifacts/creditty-findings.md)
+
 **Scope**: Full-stack fintech backend (Node.js/NestJS)
 
 | Metric | Value |
@@ -147,6 +155,8 @@ Given production database access, I analyzed the actual attack impact:
 ---
 
 ### Smart Contract Security Audit #2 (Solana/Rust)
+
+> Full case study: [solana-prediction-market-audit-case-study.md](./case-studies/solana-prediction-market-audit-case-study.md)
 
 **Scope**: Prediction market protocol using LMSR (Logarithmic Market Scoring Rule) AMM with USDC settlement
 
@@ -229,6 +239,7 @@ AI-augmented audits with prompts **tailored per project** based on:
 | Secrets | TruffleHog | Secrets in git history |
 | Dependencies | npm audit | Known CVEs |
 | Dependencies | OWASP Dependency-Check | Transitive dependencies |
+| Agentic review | Code Refinery (own) + Claude Code SDK | Two-pass security + quality review |
 
 ### Critical Priority Areas (Run First)
 1. **Financial Logic** - Direct monetary impact
@@ -245,6 +256,10 @@ More standardized than backend audits (Solidity patterns are more consistent), b
 - Upgrade pattern (UUPS, Transparent, immutable)
 - External integrations (oracles, DEXs, bridges)
 - Token standards used
+
+### Smart contract tooling
+
+Foundry and Anchor for test harnesses, Slither for Solidity static analysis, custom semgrep rules for project-specific patterns, and Code Refinery / Claude Code SDK pipelines for full-codebase agentic passes.
 
 ### Core Review Areas
 
@@ -386,6 +401,10 @@ This experience enables:
 - YouTube deep-dives (anonymized examples)
 - Open-source audit prompt frameworks
 - Teaching/mentorship content
+
+### Code Refinery (productized output)
+
+The audit methodology is now packaged as an open-source tool: [github.com/iemarjay/code-refinery](https://github.com/iemarjay/code-refinery). Two-pass review (security + quality) using Claude Code CLI in full agentic mode, multi-provider, JSON-schema-constrained output, branded GitHub App via OIDC, inline diff comments, auto-merge. Use as a portfolio anchor in audit pitches — clients can see the methodology in code instead of marketing.
 
 ---
 
