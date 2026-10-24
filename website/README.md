@@ -7,7 +7,7 @@ Next.js portfolio and blog site.
 - Next.js 13.3.1 (App Router)
 - TypeScript
 - Tailwind CSS
-- PostgreSQL (Neon) + Prisma
+- Blog posts from Cloudflare D1, served by the Worker in `../blog-api`
 
 ## Development
 
@@ -20,11 +20,7 @@ npm run lint     # ESLint
 
 ## Environment Variables
 
-Create `.env` with:
-
-```
-DATABASE_URL=postgresql://...
-```
+None required. Posts come from `https://iemarjay-blog-api.emarjay921.workers.dev` by default; set `BLOG_API_URL` to use another instance (for example `http://localhost:8787` while running `npm run dev` in `../blog-api`).
 
 ## Structure
 
@@ -36,5 +32,5 @@ src/
 │   ├── about/          # About section
 │   └── actions.ts      # Server actions
 ├── components/         # Shared components
-└── prisma.ts           # Database client
+└── blog-api.ts         # Blog API client
 ```
