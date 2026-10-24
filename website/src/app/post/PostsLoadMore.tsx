@@ -1,12 +1,12 @@
 'use client';
 
 import {useState} from "react";
-import {getPaginatedBlogPostsSerialized, SerializedPost} from "@/app/actions";
+import {getPaginatedBlogPostsSerialized, SerializedPostSummary} from "@/app/actions";
 import Link from "next/link";
 import {formatDate} from "@/helpers";
 
 export function PostsLoadMore({page, take}: { page: number, take?: number}) {
-  const [posts, setPosts] = useState<SerializedPost[]>([]);
+  const [posts, setPosts] = useState<SerializedPostSummary[]>([]);
   const [loading, setLoading] = useState(false);
 
   function loadMore() {

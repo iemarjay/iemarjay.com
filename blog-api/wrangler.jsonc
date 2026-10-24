@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "iemarjay-blog-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "iemarjay-blog",
+      "database_id": "611e75d9-28af-4f38-a0b1-b7bb8795884e",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
