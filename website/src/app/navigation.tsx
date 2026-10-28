@@ -22,7 +22,6 @@ export function Navigation({ variant = "light", align = "left" }: NavigationProp
           <nav className={`hidden md:block divide-x ${isDark ? "divide-white/20 text-white" : "divide-current"}`}>
             <Link href="/"><span className={`inline-block pr-3 transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Home</span></Link>
             <Link href="/about"><span className={`inline-block px-3 transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>About</span></Link>
-            <Link href="/services"><span className={`inline-block px-3 transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Services</span></Link>
             <Link href="/post"><span className={`inline-block pl-3 transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Blog</span></Link>
           </nav>
 
@@ -59,7 +58,6 @@ export function Navigation({ variant = "light", align = "left" }: NavigationProp
             <div className="flex flex-col space-y-3">
               <Link href="/" onClick={() => setIsOpen(false)} className={`transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Home</Link>
               <Link href="/about" onClick={() => setIsOpen(false)} className={`transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>About</Link>
-              <Link href="/services" onClick={() => setIsOpen(false)} className={`transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Services</Link>
               <Link href="/post" onClick={() => setIsOpen(false)} className={`transition-colors ${isDark ? "hover:text-[#E6BAFF]" : "hover:text-[#9106dd]"}`}>Blog</Link>
             </div>
           </nav>

@@ -44,10 +44,10 @@ export default async function Page() {
           </h1>
           <div className="text-md text-center md:text-left">
             <h2 className="mb-4 font-gilroy text-lg font-medium tracking-tight text-[#4b1d64]">
-              Engineering Lead at Pouchfi · Ex-Wikipedia — Backend, Web2/3, Security, AI
+              Engineering Lead at Pouchfi · Ex-Wikipedia · Backend, Web2/3, Security, AI
             </h2>
             <p className="max-w-sm mx-auto md:mx-0 mb-4 text-[#1b002a] leading-normal">
-              Currently leading engineering at Pouchfi — a DeFi platform on BSC. 8+ years shipping production systems, from fintech platforms serving thousands to web3 protocols handling user funds. I work across the full stack: <span className="text-[#9106dd]">React, Node, TypeScript, Solidity, Go</span>.
+              Currently leading engineering at Pouchfi, a stablecoin neobank on BNB Smart Chain. 8+ years shipping production systems, from fintech platforms serving thousands to web3 protocols handling user funds. I work across the full stack: <span className="text-[#9106dd]">React, Node, TypeScript, Solidity</span>.
             </p>
             <p className="max-w-md mx-auto md:mx-0 mb-6 text-[#1b002a] leading-normal">
               If you&apos;ve searched on Wikipedia recently, you&apos;ve probably used features I worked on. <span className="text-[#9106dd]">I helped Fitted.ng secure a $50k grant</span> by rebuilding their technical foundation. I take security seriously, a bug I missed once cost a client $10k, and that failure changed how I build.
@@ -145,6 +145,22 @@ export default async function Page() {
               />
             </a>
           </div>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-6 md:px-24 md:pt-6 mb-12" id="built">
+        <h2 className="font-gilroy text-xl font-bold text-[#180622] mb-6">What I&apos;ve built</h2>
+        <div className="md:max-w-xl">
+          <h3 className="font-gilroy text-2xl font-bold text-[#180622] mb-1">
+            <a href="https://github.com/iemarjay/code-refinery" target="_blank">Code Refinery</a>
+          </h3>
+          <p className="text-sm text-gray-700 mb-2 lg:mb-4">Open source · Agentic PR review on Claude Code</p>
+          <p className="text-[#1b002a] leading-normal mb-4 lg:mb-6">
+            Runs a security pass and a code-quality pass on every pull request. The agent reads the whole repo with read-only tools, so it can follow a call into the file where it&apos;s defined instead of guessing from the diff. Findings come back as schema-checked JSON and get posted as inline comments by its own GitHub App. It came out of my audit work.
+          </p>
+          <span className="text-[#4b1d64] underline decoration-2 underline-offset-2">
+            <a href="https://github.com/iemarjay/code-refinery" target="_blank">View on GitHub</a>
+          </span>
         </div>
       </div>
 
